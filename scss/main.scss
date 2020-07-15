@@ -1,1 +1,131 @@
-@import '../node_modules/bootstrap/scss/bootstrap.scss'
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+$sidebar-bg-color: #EBF0F5;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 160px;
+    max-width: 160px;
+    background: $sidebar-bg-color;
+    transition: all 0.3s;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    margin-left: -160px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: $sidebar-bg-color;
+}
+
+#sidebar ul{
+    list-style: none;
+    padding: 16px;
+}
+
+#sidebar ul .block-type{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+#sidebar ul a{
+    padding: 0;
+    margin: 10px 0;
+}
+
+#sidebar ul a.active{
+    border: 2px solid blue;
+}
+
+#sidebar ul a li.block-thumb{
+    width: 100%;
+    padding: 0 20px;
+}
+
+#sidebar ul li.block-thumb img{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+#content section, #content section .tab-content, #content section .tab-pane{
+    min-height: 100vh;
+}
+
+#content section .tab-content{
+    position: relative;
+}
+#content section iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -160px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
