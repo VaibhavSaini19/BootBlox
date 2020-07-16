@@ -18,9 +18,13 @@
 
 </head>
 <body>
+    <div class="overlay"></div>
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
+            </div>
             <ul>
                 <nav class="nav" id="blocks-tab" role="tablist" aria-orientation="vertical">
                     <div class="block-type">Blog</div>
@@ -45,17 +49,16 @@
 
         <!-- Page Content Holder -->
         <div id="content">
-            <nav class="navbar navbar-default">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
-                            <span><i class="fas fa-bars"></i></span>
-                        </button>
-                    </div>
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>BootBlocks</span>
+                    </button>
                 </div>
             </nav>
-            <section class="block-content p-3">
-                <div class="tab-pane fade show active" id="blocks-blog-1">
+            <section class="block-content">
+                <div class="tab-pane fade show active" id="blocks-container">
                     <iframe src="../blocks/blog/blog_1.html" title="W3Schools Free Online Web Tutorials"></iframe>
                 </div>
             </section>
