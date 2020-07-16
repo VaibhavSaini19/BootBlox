@@ -14,6 +14,7 @@ $sidebar-bg-color: #EBF0F5;
     border: none;
     border-radius: 0;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 2;
 }
 
 .navbar-btn {
@@ -38,6 +39,7 @@ $sidebar-bg-color: #EBF0F5;
     background: $sidebar-bg-color;
     transition: all 0.3s;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
 
 #sidebar.active {
@@ -63,6 +65,7 @@ $sidebar-bg-color: #EBF0F5;
 #sidebar ul a{
     padding: 0;
     margin: 10px 0;
+    cursor: pointer;
 }
 
 #sidebar ul a.active{
@@ -102,11 +105,11 @@ a[data-toggle="collapse"] {
     transition: all 0.3s;
 }
 
-#content section, #content section .tab-content, #content section .tab-pane{
+#content section, #content section .tab-pane{
     min-height: 100vh;
 }
 
-#content section .tab-content{
+#content section{
     position: relative;
 }
 #content section iframe{
