@@ -9,6 +9,11 @@ $sidebar-width: 160px;
     box-sizing: border-box;
 }
 
+html, body{
+    height: 100%;
+    width: 100%
+}
+
 .navbar {
     padding: 15px 10px;
     background: #fff;
@@ -95,31 +100,11 @@ $sidebar-width: 160px;
     z-index: 999;
     background: $sidebar-bg-color;
     transition: all 0.3s;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 0 8px rgba(0, 0, 0, 0.1);
     z-index: 3;
 
     &.active {
         left: 0;
-    }
-
-    #dismiss {
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        text-align: center;
-        background: $sidebar-bg-color;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        cursor: pointer;
-        -webkit-transition: all 0.3s;
-        -o-transition: all 0.3s;
-        transition: all 0.3s;
-
-        &:hover {
-            background: #fff;
-            color: #7386D5;
-        }
     }
 
     .sidebar-header {
@@ -138,17 +123,31 @@ $sidebar-width: 160px;
         }
         
         a {
+            position: relative;
             padding: 0;
             margin: 10px 0;
             cursor: pointer;
+            border-radius: 4px;
+            overflow: hidden;
+
+            &.active::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: rgba(0, 217, 255, 0.39);
+                z-index: 2;
+            }
             
-            &.active{
-                border: 2px solid blue;
+            &.active li img{
+                border: 1.6px solid rgb(19, 132, 150);
             }
 
             li.block-thumb{
+                height: 100%;
                 width: 100%;
-                padding: 0 20px;
 
                 img{
                     width: 100%;
