@@ -45,7 +45,7 @@ html, body{
     &.active {
         display: block;
         opacity: 1;
-
+        
         & ~ .wrapper #sidebarCollapse {
             margin-left: $sidebar-width !important;
             transition: all 0.3s;
@@ -71,9 +71,14 @@ html, body{
         width: 100%;
         min-height: 100vh;
         transition: all 0.3s;
+        overflow: hidden;
 
         #sidebarCollapse{
             transition: all 0.3s;
+        }
+        
+        button#code-preview i, button#code-preview span{
+            pointer-events: none;
         }
 
         section.block-content {
