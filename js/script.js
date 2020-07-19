@@ -36,18 +36,39 @@ $(document).ready(function() {
 	function showHideCode(ele){
 		let iframe = $("#blocks-iframe");
 		let codeDiv = $("#blocks-code");
+		let lineCountDisplay = $("#line-count-display");
 		if(ele.hasClass("active")){
 			// let srcCode = iframe.contents()[0];
-			let srcCode = iframe.contents().find("section")[0].outerHTML;
-			srcCode = srcCode.replace(/[\u00A0-\u9999<>\&]/gim, (i) => {
-				return '&#'+i.charCodeAt(0)+';';
+			let srcCode = iframe.contents().find("section").get(0).outerHTML;
+			// console.log(srcCode);
+			var mapObj = {
+				"<":"&lt;",
+				">":"&gt;",
+				"&":"&amp;"
+			 };
+			srcCode = srcCode.replace(/\<|\>|&/gi, function(matched){
+				return mapObj[matched];
 			});
 			// console.log(srcCode);
 			iframe.fadeOut(100, () => {
-				codeDiv.find("code").html(srcCode);
+				codeDiv.find("code").append(srcCode);
 				ele.find("span").html("Preview");
 				ele.find("i.fas").removeClass("fa-code").addClass("fa-eye");
 				codeDiv.fadeIn(100);	
+				document.querySelectorAll('pre code').forEach((block) => {
+					hljs.highlightBlock(block);
+				});
+				let pre = document.getElementsByTagName('pre'),
+					pl = pre.length;
+				for (let i = 0; i < pl; i++) {
+					pre[i].innerHTML = '<span class="line-number"></span>' + pre[i].innerHTML + '<span class="cl"></span>';
+					let num = pre[i].innerHTML.split(/\n/).length;
+					console.log(num);
+					for (let j = 0; j < num; j++) {
+						let line_num = pre[i].getElementsByTagName('span')[0];
+						line_num.innerHTML += '<span>' + (j + 1) + '</span>';
+					}
+				}
 			});
 		}else{
 			codeDiv.fadeOut(100, () => {
