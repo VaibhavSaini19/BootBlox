@@ -29,9 +29,12 @@ $(document).ready(function() {
 	$("#blocks-code").hide();
 	$("#code-preview").on("click", (e) => {
 		let ele = $(e.target);
+		$("#copy-btn").toggleClass("d-none");
 		ele.toggleClass("active");
 		showHideCode(ele);
 	})
+
+	var codeCopytext;
 
 	function showHideCode(ele){
 		let iframe = $("#blocks-iframe");
@@ -40,6 +43,7 @@ $(document).ready(function() {
 		if(ele.hasClass("active")){
 			let srcCode = iframe.contents().find("section").get(0).outerHTML;
 			// console.log(srcCode);
+			codeCopytext = srcCode;
 			var mapObj = {
 				"<":"&lt;",
 				">":"&gt;",
@@ -72,4 +76,18 @@ $(document).ready(function() {
 			});
 		}
 	}
+
+	$("#copy-btn").on("click", (e) => {
+		// console.log(codeCopytext);
+		$("#copy-btn").html("<span>Copied!</span>");
+		let textArea = document.createElement("textarea");
+		textArea.value = codeCopytext;
+		document.body.appendChild(textArea);
+		textArea.select();
+		document.execCommand("Copy");
+		textArea.remove();
+		setTimeout(() => {
+			$("#copy-btn").html('<i class="fas fa-copy"></i>&nbsp; <span>Copy</span>');
+		}, 1000);
+	})
 });

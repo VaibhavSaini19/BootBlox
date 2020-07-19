@@ -51,14 +51,20 @@
         <div id="content">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info ptr-events-none">
                         <i class="fas fa-align-left"></i>
                         <span class="d-none d-md-inline-block">BootBlocks</span>
                     </button>
-                    <button id="code-preview" class="btn btn-info btn-sm rounded-pill">
-                        <i class="fas fa-code"></i>&nbsp;
-                        <span>View Code</span>
-                    </button>
+                    <div class="">
+                        <button id="copy-btn" class="btn btn-info btn-sm ptr-events-none d-none">
+                            <i class="fas fa-copy"></i>&nbsp;
+                            <span>Copy</span>
+                        </button>
+                        <button id="code-preview" class="btn btn-info btn-sm ml-3 rounded-pill ptr-events-none">
+                            <i class="fas fa-code"></i>&nbsp;
+                            <span>View Code</span>
+                        </button>
+                    </div>
                 </div>
             </nav>
             <section class="block-content">

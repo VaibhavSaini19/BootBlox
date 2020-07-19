@@ -77,8 +77,8 @@ body {
 			transition: all 0.3s;
 		}
 
-		button#code-preview i,
-		button#code-preview span {
+		.ptr-events-none i,
+		.ptr-events-none span {
 			pointer-events: none;
 		}
 
