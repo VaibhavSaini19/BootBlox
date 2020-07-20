@@ -90,4 +90,21 @@ $(document).ready(function() {
 			$("#copy-btn").html('<i class="fas fa-copy"></i>&nbsp; <span>Copy</span>');
 		}, 1000);
 	})
+
+	let prevColor = "primary";
+	$(`.btn-theme-sel.btn-${prevColor}`).addClass("active");
+	$(".btn-theme-sel").on("click", (e) => {
+		let newThemeBtn = e.target;
+		$(".btn-theme-sel").not(newThemeBtn).removeClass("active");
+		$(newThemeBtn).addClass("active");
+		let newColor = $(newThemeBtn).attr("data-color");
+		$("iframe").contents().find(`.btn-${prevColor}`).each((idx, ele) => {
+			$(ele).removeClass(`btn-${prevColor}`).addClass(`btn-${newColor}`);
+		})
+		$("iframe").contents().find(`.btn-outline-${prevColor}`).each((idx, ele) => {
+			$(ele).removeClass(`btn-outline-${prevColor}`).addClass(`btn-outline-${newColor}`);
+		})
+		prevColor = newColor;
+	});
+
 });
