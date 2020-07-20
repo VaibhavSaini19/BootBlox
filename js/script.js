@@ -11,6 +11,7 @@ $(document).ready(function() {
 		$('a[aria-expanded=true]').attr('aria-expanded', 'false');
 	});
 
+	// ----------------------------------     Code Preview     -----------------------------------------
 	$("#sidebar .nav .nav-link").on("click", (e) => {
 		let ele = e.target.closest("a");
 		let type = $(ele).attr("data-block-type");
@@ -26,6 +27,7 @@ $(document).ready(function() {
 		showHideCode(previewBtn);
 	})
 
+	
 	$("#blocks-code").hide();
 	$("#code-preview").on("click", (e) => {
 		let ele = $(e.target);
@@ -77,6 +79,7 @@ $(document).ready(function() {
 		}
 	}
 
+	// ----------------------------------     Copy Button     -----------------------------------------	
 	$("#copy-btn").on("click", (e) => {
 		// console.log(codeCopytext);
 		$("#copy-btn").html("<span>Copied!</span>");
@@ -91,6 +94,7 @@ $(document).ready(function() {
 		}, 1000);
 	})
 
+	// ----------------------------------     Theme selector     -----------------------------------------
 	let prevColor = "primary";
 	$(`.btn-theme-sel.btn-${prevColor}`).addClass("active");
 	$(".btn-theme-sel").on("click", (e) => {
@@ -107,4 +111,7 @@ $(document).ready(function() {
 		prevColor = newColor;
 	});
 
+	// ----------------------------------     Device selector     -----------------------------------------
+	let ele = $("[data-device='desktop']");
+	ele.removeClass("text-muted");
 });
