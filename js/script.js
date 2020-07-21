@@ -11,7 +11,7 @@ $(document).ready(function() {
 		$('a[aria-expanded=true]').attr('aria-expanded', 'false');
 	});
 
-	// ----------------------------------     Code Preview     -----------------------------------------
+	// ----------------------------------     Iframe src & Code Preview     -----------------------------------------
 	$("#sidebar .nav .nav-link").on("click", (e) => {
 		let ele = e.target.closest("a");
 		let type = $(ele).attr("data-block-type");
@@ -32,6 +32,7 @@ $(document).ready(function() {
 	$("#code-preview").on("click", (e) => {
 		let ele = $(e.target);
 		$("#copy-btn").toggleClass("d-none");
+		$("#device-sel-container").toggleClass("d-none");
 		ele.toggleClass("active");
 		showHideCode(ele);
 	})
@@ -43,6 +44,7 @@ $(document).ready(function() {
 		let codeDiv = $("#blocks-code");
 		let pre = document.querySelector('pre');
 		if(ele.hasClass("active")){
+			$(`.device-svg`).addClass("d-none");
 			let srcCode = iframe.contents().find("section").get(0).outerHTML;
 			// console.log(srcCode);
 			codeCopytext = srcCode;
@@ -71,6 +73,9 @@ $(document).ready(function() {
 				}
 			});
 		}else{
+			if (targetDevice != "desktop"){
+				$(`#${targetDevice}-svg`).removeClass("d-none");
+			}
 			codeDiv.fadeOut(100, () => {
 				ele.find("span").html("View Code");
 				ele.find("i.fas").removeClass("fa-eye").addClass("fa-code");
@@ -90,7 +95,7 @@ $(document).ready(function() {
 		document.execCommand("Copy");
 		textArea.remove();
 		setTimeout(() => {
-			$("#copy-btn").html('<i class="fas fa-copy"></i>&nbsp; <span>Copy</span>');
+			$("#copy-btn").html('<i class="fas fa-copy"></i>&nbsp; <span>Copy source code</span>');
 		}, 1000);
 	})
 
@@ -112,18 +117,31 @@ $(document).ready(function() {
 	});
 
 	// ----------------------------------     Device selector     -----------------------------------------
+	let targetDevice;
 	let ele = $("[data-device='desktop']");
 	let widthMap = {
 		"desktop" : "1200px",
 		"tablet" : "768px",
 		"mobile" : "375px"
 	}
+	let heightMap = {
+		"tablet" : "1024px",
+		"mobile" : "730px"
+	}
 	ele.removeClass("text-muted");
 	$(".btn-device-sel").on("click", (e) => {
-		let targetDevice = $(e.target).attr("data-device");
+		targetDevice = $(e.target).attr("data-device");
+		if (targetDevice != "desktop"){
+			$(`#${targetDevice}-svg`).removeClass("d-none");
+		}
+		$(`.device-svg:not(#${targetDevice}-svg)`).addClass("d-none");
 		$(`.btn-device-sel:not([data-device='${targetDevice}'])`).addClass("text-muted");
 		$(`.btn-device-sel[data-device='${targetDevice}']`).removeClass("text-muted");
 		let newWidth = widthMap[targetDevice];
-		$("iframe").width(newWidth);
+		let newHeight = heightMap[targetDevice] ? heightMap[targetDevice] : "100%";
+		$("#blocks-iframe").css({
+			"width": newWidth,
+			"height": newHeight
+		});
 	})
 });

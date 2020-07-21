@@ -21,7 +21,7 @@
 
 </head>
 <body>
-    <div class="overlay"></div>
+    <!-- <div class="overlay"></div> -->
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
@@ -57,12 +57,8 @@
                         <i class="fas fa-align-left"></i>
                         <span class="d-none d-md-inline-block">BootBlocks</span>
                     </button>
-                    <div class="d-flex justify-content-center align-items-center">
-                        <button id="copy-btn" class="btn navbar-btn btn-sm ptr-events-none d-none text-white">
-                            <i class="fas fa-copy"></i>&nbsp;
-                            <span>Copy</span>
-                        </button>
-                        <button id="code-preview" class="btn navbar-btn btn-sm ml-3 rounded-pill ptr-events-none d-none d-md-block text-white">
+                    <div id="nav-tools" class="d-flex justify-content-center align-items-center">
+                        <button id="code-preview" class="btn navbar-btn btn-sm rounded-pill ptr-events-none d-none d-md-block text-white">
                             <i class="fas fa-code"></i>&nbsp;
                             <span>View Code</span>
                         </button>
@@ -74,7 +70,11 @@
                             <button data-color="warning" class="btn btn-warning btn-theme-sel ptr-events-none"><i class="fas"></i></button>
                             <button data-color="info" class="btn btn-info btn-theme-sel ptr-events-none"><i class="fas"></i></button>
                         </div>
-                        <div id="device-sel-container" class="d-none d-md-flex justify-content-between align-items-center h-100 ml-3">
+                        <button id="copy-btn" class="btn navbar-btn btn-sm ml-3 ptr-events-none d-none text-white">
+                            <i class="fas fa-copy"></i>&nbsp;
+                            <span>Copy source code</span>
+                        </button>
+                        <div id="device-sel-container" class="justify-content-between align-items-center h-100 ml-3">
                             <button data-device="desktop" class="btn btn-device-sel text-white ptr-events-none text-muted"><i class="fas fa-desktop"></i></button>
                             <button data-device="tablet" class="btn btn-device-sel text-white ptr-events-none text-muted"><i class="fas fa-tablet-alt"></i></button>
                             <button data-device="mobile" class="btn btn-device-sel text-white ptr-events-none text-muted"><i class="fas fa-mobile-alt"></i></button>
@@ -84,7 +84,9 @@
             </nav>
             <section class="block-content">
                 <div class="tab-pane fade show active d-flex" id="blocks-container">
-                    <iframe id="blocks-iframe" class="mx-auto" src="../blocks/blog/blog_1.html" title="W3Schools Free Online Web Tutorials"></iframe>
+                    <img id="tablet-svg" class="device-svg d-none" src="./assests/tablet.svg" alt="">
+                    <img id="mobile-svg" class="device-svg d-none" src="./assests/mobile.svg" alt="">
+                    <iframe id="blocks-iframe" class="mx-auto" src="../blocks/blog/blog_1.html" title="BootBlocks block"></iframe>
                     <div id="blocks-code" class="">
                         <pre><span class="line-number"></span><code class="html"></code><span class="cl"></span></pre>
                     </div>
