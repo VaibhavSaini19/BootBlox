@@ -1,5 +1,8 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+$navbar-bg-color: #20C997;
+$navbar-btn-bg: rgba(100, 245, 202, 0.55);
+
 $sidebar-bg-color: #ebf0f5;
 $sidebar-width: 160px;
 
@@ -13,9 +16,6 @@ $color-light: #F8F9FA;
 $color-dark: #343A40;
 $color-white: #fff;
 
-$theme-text-color: $color-white;
-$theme-bg-color: $color-primary;
-
 * {
 	margin: 0;
 	padding: 0;
@@ -28,13 +28,6 @@ body {
 	width: 100%;
 }
 
-.theme-bg-color{
-	background: $theme-bg-color !important;
-}
-.theme-text-color{
-	color: $theme-text-color !important;
-}
-
 .navbar {
 	padding: 15px 10px;
 	border: none;
@@ -42,12 +35,28 @@ body {
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 	z-index: 2;
 
+	&.navbar-teal{
+		background: $navbar-bg-color;
+
+		.navbar-btn{
+			background: $navbar-btn-bg;
+
+			&:active, &:hover{
+				opacity: 0.75;
+			}
+			&:focus{
+				box-shadow: none;
+			}
+		}
+	}
+
 	.navbar-btn {
 		box-shadow: none;
 		outline: none !important;
 		border: none;
 	}
 }
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
