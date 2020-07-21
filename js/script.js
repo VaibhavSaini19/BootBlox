@@ -113,5 +113,17 @@ $(document).ready(function() {
 
 	// ----------------------------------     Device selector     -----------------------------------------
 	let ele = $("[data-device='desktop']");
+	let widthMap = {
+		"desktop" : "1200px",
+		"tablet" : "768px",
+		"mobile" : "375px"
+	}
 	ele.removeClass("text-muted");
+	$(".btn-device-sel").on("click", (e) => {
+		let targetDevice = $(e.target).attr("data-device");
+		$(`.btn-device-sel:not([data-device='${targetDevice}'])`).addClass("text-muted");
+		$(`.btn-device-sel[data-device='${targetDevice}']`).removeClass("text-muted");
+		let newWidth = widthMap[targetDevice];
+		$("iframe").width(newWidth);
+	})
 });

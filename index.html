@@ -51,7 +51,7 @@
         <div id="content">
             <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-info p-2">
-                <div class="container-fluid">
+                <div class="container-fluid px-0 px-sm-2">
                     <button type="button" id="sidebarCollapse" class="btn btn-info ptr-events-none">
                         <i class="fas fa-align-left"></i>
                         <span class="d-none d-md-inline-block">BootBlocks</span>
@@ -61,7 +61,7 @@
                             <i class="fas fa-copy"></i>&nbsp;
                             <span>Copy</span>
                         </button>
-                        <button id="code-preview" class="btn btn-info btn-sm ml-3 rounded-pill ptr-events-none">
+                        <button id="code-preview" class="btn btn-info btn-sm ml-3 rounded-pill ptr-events-none d-none d-md-block">
                             <i class="fas fa-code"></i>&nbsp;
                             <span>View Code</span>
                         </button>
@@ -73,7 +73,7 @@
                             <button data-color="warning" class="btn btn-warning btn-theme-sel ptr-events-none"><i class="fas"></i></button>
                             <button data-color="info" class="btn btn-info btn-theme-sel ptr-events-none"><i class="fas"></i></button>
                         </div>
-                        <div id="device-sel-container" class="d-flex justify-content-between align-items-center h-100 ml-3">
+                        <div id="device-sel-container" class="d-none d-md-flex justify-content-between align-items-center h-100 ml-3">
                             <button data-device="desktop" class="btn btn-device-sel text-white ptr-events-none text-muted"><i class="fas fa-desktop"></i></button>
                             <button data-device="tablet" class="btn btn-device-sel text-white ptr-events-none text-muted"><i class="fas fa-tablet-alt"></i></button>
                             <button data-device="mobile" class="btn btn-device-sel text-white ptr-events-none text-muted"><i class="fas fa-mobile-alt"></i></button>
@@ -82,8 +82,8 @@
                 </div>
             </nav>
             <section class="block-content">
-                <div class="tab-pane fade show active" id="blocks-container">
-                    <iframe id="blocks-iframe" src="../blocks/blog/blog_1.html" title="W3Schools Free Online Web Tutorials"></iframe>
+                <div class="tab-pane fade show active d-flex" id="blocks-container">
+                    <iframe id="blocks-iframe" class="mx-auto" src="../blocks/blog/blog_1.html" title="W3Schools Free Online Web Tutorials"></iframe>
                     <div id="blocks-code" class="">
                         <pre><span class="line-number"></span><code class="html"></code><span class="cl"></span></pre>
                     </div>

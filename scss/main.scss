@@ -133,6 +133,10 @@ body {
 				padding: 0;
 				font-size: 1.4em;
 				margin: 0 8px;
+
+				&:focus{
+					box-shadow: none;
+				}
 			}
 		}
 
