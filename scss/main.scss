@@ -6,15 +6,113 @@ $navbar-btn-bg: rgba(100, 245, 202, 0.55);
 $sidebar-bg-color: #ebf0f5;
 $sidebar-width: 160px;
 
-$color-primary: #0d6efd;
-$color-secondary: #6c757d;
-$color-success: #28a745;
-$color-danger: #dc3545;
-$color-warning: #ffc107;
-$color-info: #17a2b8;
-$color-light: #f8f9fa;
-$color-dark: #343a40;
-$color-white: #fff;
+
+.blue-100{ background: $blue-100}
+.blue-200{ background: $blue-200}
+.blue-300{ background: $blue-300}
+.blue-400{ background: $blue-400}
+.blue-500{ background: $blue-500}
+.blue-600{ background: $blue-600}
+.blue-700{ background: $blue-700}
+.blue-800{ background: $blue-800}
+.blue-900{ background: $blue-900}
+
+.indigo-100{ background: $indigo-100}
+.indigo-200{ background: $indigo-200}
+.indigo-300{ background: $indigo-300}
+.indigo-400{ background: $indigo-400}
+.indigo-500{ background: $indigo-500}
+.indigo-600{ background: $indigo-600}
+.indigo-700{ background: $indigo-700}
+.indigo-800{ background: $indigo-800}
+.indigo-900{ background: $indigo-900}
+
+.purple-100{ background: $purple-100}
+.purple-200{ background: $purple-200}
+.purple-300{ background: $purple-300}
+.purple-400{ background: $purple-400}
+.purple-500{ background: $purple-500}
+.purple-600{ background: $purple-600}
+.purple-700{ background: $purple-700}
+.purple-800{ background: $purple-800}
+.purple-900{ background: $purple-900}
+
+.pink-100{ background: $pink-100}
+.pink-200{ background: $pink-200}
+.pink-300{ background: $pink-300}
+.pink-400{ background: $pink-400}
+.pink-500{ background: $pink-500}
+.pink-600{ background: $pink-600}
+.pink-700{ background: $pink-700}
+.pink-800{ background: $pink-800}
+.pink-900{ background: $pink-900}
+
+.red-100{ background: $red-100}
+.red-200{ background: $red-200}
+.red-300{ background: $red-300}
+.red-400{ background: $red-400}
+.red-500{ background: $red-500}
+.red-600{ background: $red-600}
+.red-700{ background: $red-700}
+.red-800{ background: $red-800}
+.red-900{ background: $red-900}
+
+.orange-100{ background: $orange-100}
+.orange-200{ background: $orange-200}
+.orange-300{ background: $orange-300}
+.orange-400{ background: $orange-400}
+.orange-500{ background: $orange-500}
+.orange-600{ background: $orange-600}
+.orange-700{ background: $orange-700}
+.orange-800{ background: $orange-800}
+.orange-900{ background: $orange-900}
+
+.yellow-100{ background: $yellow-100}
+.yellow-200{ background: $yellow-200}
+.yellow-300{ background: $yellow-300}
+.yellow-400{ background: $yellow-400}
+.yellow-500{ background: $yellow-500}
+.yellow-600{ background: $yellow-600}
+.yellow-700{ background: $yellow-700}
+.yellow-800{ background: $yellow-800}
+.yellow-900{ background: $yellow-900}
+
+.green-100{ background: $green-100}
+.green-200{ background: $green-200}
+.green-300{ background: $green-300}
+.green-400{ background: $green-400}
+.green-500{ background: $green-500}
+.green-600{ background: $green-600}
+.green-700{ background: $green-700}
+.green-800{ background: $green-800}
+.green-900{ background: $green-900}
+
+.teal-100{ background: $teal-100}
+.teal-200{ background: $teal-200}
+.teal-300{ background: $teal-300}
+.teal-400{ background: $teal-400}
+.teal-500{ background: $teal-500}
+.teal-600{ background: $teal-600}
+.teal-700{ background: $teal-700}
+.teal-800{ background: $teal-800}
+.teal-900{ background: $teal-900}
+
+.cyan-100{ background: $cyan-100}
+.cyan-200{ background: $cyan-200}
+.cyan-300{ background: $cyan-300}
+.cyan-400{ background: $cyan-400}
+.cyan-500{ background: $cyan-500}
+.cyan-600{ background: $cyan-600}
+.cyan-700{ background: $cyan-700}
+.cyan-800{ background: $cyan-800}
+.cyan-900{ background: $cyan-900}
+
+
+
+/* -----------------------------------------------------------------------------------------------
+											CUSTOM CSS
+------------------------------------------------------------------------------------------------- */
+
 
 * {
 	margin: 0;
@@ -50,151 +148,6 @@ body {
 
 
 /* ---------------------------------------------------
-    NAVBAR STYLE
------------------------------------------------------ */
-
-
-.navbar {
-	padding: 15px 10px;
-	border: none;
-	border-radius: 0;
-	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-	z-index: 2;
-
-	&.navbar-teal {
-		background: $navbar-bg-color;
-
-		.navbar-btn {
-			background: $navbar-btn-bg;
-
-			&:active,
-			&:hover {
-				opacity: 0.75;
-			}
-			&:focus {
-				box-shadow: none;
-			}
-		}
-	}
-
-	.navbar-btn {
-		box-shadow: none;
-		outline: none !important;
-		border: none;
-	}
-}
-
-/* ---------------------------------------------------
-    SIDEBAR STYLE
------------------------------------------------------ */
-
-// .overlay {
-// 	display: none;
-// 	position: fixed;
-// 	width: 100vw;
-// 	height: 100vh;
-// 	z-index: 2;
-// 	opacity: 0;
-// 	transition: all 0.5s ease-in-out;
-
-// 	&.active {
-// 		display: block;
-// 		opacity: 1;
-
-// 		& ~ .wrapper #sidebarCollapse {
-// 			margin-left: $sidebar-width !important;
-// 			transition: all 0.3s;
-// 			i:before {
-// 				content: "\f060";
-// 			}
-// 		}
-// 	}
-// }
-
-
-#sidebar {
-	width: $sidebar-width;
-	position: fixed;
-	top: 0;
-	left: -$sidebar-width;
-	height: 100vh;
-	z-index: 999;
-	background: $sidebar-bg-color;
-	transition: all 0.3s;
-	box-shadow: 3px 0 8px rgba(0, 0, 0, 0.1);
-	z-index: 3;
-
-	&.active {
-		left: 0;
-
-		& ~ #content #sidebarCollapse {
-			margin-left: $sidebar-width !important;
-			transition: all 0.3s;
-			i:before {
-				content: "\f060";
-			}
-		}
-	}
-
-	.sidebar-header {
-		padding: 20px;
-		background: $sidebar-bg-color;
-	}
-
-	ul {
-		list-style: none;
-		padding: 16px;
-
-		.block-type {
-			text-transform: uppercase;
-			font-weight: 600;
-			font-size: 0.9rem;
-		}
-
-		a {
-			position: relative;
-			padding: 0;
-			margin: 10px 0;
-			cursor: pointer;
-			border-radius: 4px;
-			overflow: hidden;
-			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-
-			&.active::before {
-				content: "";
-				position: absolute;
-				top: 0;
-				left: 0;
-				height: 100%;
-				width: 100%;
-				background: rgba(0, 217, 255, 0.39);
-				z-index: 2;
-			}
-
-			&.active li img {
-				border: 1.6px solid rgb(19, 132, 150);
-			}
-
-			li.block-thumb {
-				height: 100%;
-				width: 100%;
-
-				img {
-					width: 100%;
-					box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-					border-radius: 4px;
-				}
-			}
-		}
-	}
-}
-
-a[data-toggle="collapse"] {
-	position: relative;
-}
-
-
-/* ---------------------------------------------------
     WRAPPER STYLE
 ----------------------------------------------------- */
 
@@ -203,6 +156,116 @@ a[data-toggle="collapse"] {
 	width: 100%;
 	align-items: stretch;
 
+
+	/* --------- SIDEBAR STYLE --------- */
+/*
+.overlay {
+	display: none;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+
+	&.active {
+		display: block;
+		opacity: 1;
+
+		& ~ .wrapper #sidebarCollapse {
+			margin-left: $sidebar-width !important;
+			transition: all 0.3s;
+			i:before {
+				content: "\f060";
+			}
+		}
+	}
+}
+*/
+
+	#sidebar {
+		width: $sidebar-width;
+		position: fixed;
+		top: 0;
+		left: -$sidebar-width;
+		height: 100vh;
+		z-index: 999;
+		background: $sidebar-bg-color;
+		transition: all 0.3s;
+		box-shadow: 3px 0 8px rgba(0, 0, 0, 0.1);
+		z-index: 3;
+
+		&.active {
+			left: 0;
+
+			& ~ #content #sidebarCollapse {
+				margin-left: $sidebar-width !important;
+				transition: all 0.3s;
+				i:before {
+					content: "\f060";
+				}
+			}
+		}
+
+		.sidebar-header {
+			padding: 20px;
+			background: $sidebar-bg-color;
+		}
+
+		ul {
+			list-style: none;
+			padding: 16px;
+
+			.block-type {
+				text-transform: uppercase;
+				font-weight: 600;
+				font-size: 0.9rem;
+			}
+
+			a {
+				position: relative;
+				padding: 0;
+				margin: 10px 0;
+				cursor: pointer;
+				border-radius: 4px;
+				overflow: hidden;
+				box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+				&.active::before {
+					content: "";
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+					width: 100%;
+					background: rgba(0, 217, 255, 0.39);
+					z-index: 2;
+				}
+
+				&.active li img {
+					border: 1.6px solid rgb(19, 132, 150);
+				}
+
+				li.block-thumb {
+					height: 100%;
+					width: 100%;
+
+					img {
+						width: 100%;
+						box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+						border-radius: 4px;
+					}
+				}
+			}
+		}
+	}
+
+	a[data-toggle="collapse"] {
+		position: relative;
+	}
+
+	/* --------- Content STYLE --------- */
+
 	#content {
 		display: flex;
 		flex-direction: column;
@@ -210,6 +273,38 @@ a[data-toggle="collapse"] {
 		min-height: 100vh;
 		transition: all 0.3s;
 		overflow: hidden;
+
+		/* --------- NAVBAR STYLE --------- */
+
+		.navbar {
+			padding: 15px 10px;
+			border: none;
+			border-radius: 0;
+			box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+			z-index: 2;
+
+			&.navbar-teal {
+				background: $navbar-bg-color;
+
+				.navbar-btn {
+					background: $navbar-btn-bg;
+
+					&:active,
+					&:hover {
+						opacity: 0.75;
+					}
+					&:focus {
+						box-shadow: none;
+					}
+				}
+			}
+
+			.navbar-btn {
+				box-shadow: none;
+				outline: none !important;
+				border: none;
+			}
+		}
 
 		#sidebarCollapse {
 			transition: all 0.3s;
@@ -232,7 +327,7 @@ a[data-toggle="collapse"] {
 				margin: 0 2px;
 				border-radius: 50%;
 
-				&.active i::before {
+				&.active i::before{
 					content: "\f00c";
 					position: absolute;
 					font-size: 0.8em;
@@ -240,6 +335,19 @@ a[data-toggle="collapse"] {
 					left: 0;
 					height: 100%;
 					width: 100%;
+				}
+			}
+			.dropdown{
+				.dropdown-btn i::before {
+					position: absolute;
+					font-size: 0.8em;
+					top: 15%;
+					left: 0;
+					height: 100%;
+					width: 100%;
+				}
+				ul.dropdown-menu{
+					min-width: 16rem;
 				}
 			}
 		}
@@ -282,7 +390,6 @@ a[data-toggle="collapse"] {
 					transform: translate(-50%, 0);
 					width: 100%;
 					height: 100%;
-					z-index: 2;
 				}
 				#blocks-code {
 					position: absolute;

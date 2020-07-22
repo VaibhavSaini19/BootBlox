@@ -116,7 +116,9 @@ $(document).ready(function() {
 		$(newThemeBtn).addClass("active");
 		newColor = $(newThemeBtn).attr("data-color") || newColor;
 		updateTheme();
-		showHideCode(true);
+		$("#copy-btn").addClass("d-none");
+		$("#device-sel-container").removeClass("d-none");
+		showHideCode(reset=true);
 	});
 
 	function updateTheme(){
