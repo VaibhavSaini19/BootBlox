@@ -11,39 +11,45 @@ $(document).ready(function() {
 		$('a[aria-expanded=true]').attr('aria-expanded', 'false');
 	});
 
+
+	let fadeDelay = 200;
+
 	// ----------------------------------     Iframe src & Code Preview     -----------------------------------------
+	let previewBtn = $("#code-preview");
+
 	$("#sidebar .nav .nav-link").on("click", (e) => {
 		let ele = e.target.closest("a");
 		let type = $(ele).attr("data-block-type");
 		let num = $(ele).attr("data-block-num");
 		let newSrc = `../blocks/${type}/${type}_${num}.html`;
 		let iframe = $("#blocks-iframe");
-		iframe.fadeOut(200, () => {
+		iframe.fadeOut(fadeDelay, () => {
 			iframe.attr("src", newSrc);
-			iframe.fadeIn(200);
+			setTimeout(() => {
+				previewBtn.removeClass("active");
+				showHideCode();
+				updateTheme();
+				iframe.fadeIn(fadeDelay);
+			}, 100);
 		});
-		let previewBtn = $("#code-preview");
-		previewBtn.removeClass("active");
-		showHideCode(previewBtn);
 	})
 
 	
 	$("#blocks-code").hide();
 	$("#code-preview").on("click", (e) => {
-		let ele = $(e.target);
 		$("#copy-btn").toggleClass("d-none");
 		$("#device-sel-container").toggleClass("d-none");
-		ele.toggleClass("active");
-		showHideCode(ele);
+		previewBtn.toggleClass("active");
+		showHideCode();
 	})
 
 	var codeCopytext;
 
-	function showHideCode(ele){
+	function showHideCode(reset=false){
 		let iframe = $("#blocks-iframe");
 		let codeDiv = $("#blocks-code");
 		let pre = document.querySelector('pre');
-		if(ele.hasClass("active")){
+		if(previewBtn.hasClass("active") && !reset){
 			$(`.device-svg`).addClass("d-none");
 			let srcCode = iframe.contents().find("section").get(0).outerHTML;
 			// console.log(srcCode);
@@ -59,8 +65,8 @@ $(document).ready(function() {
 			// console.log(srcCode);
 			iframe.fadeOut(100, () => {
 				codeDiv.find("code").html(srcCode);
-				ele.find("span").html("Preview");
-				ele.find("i.fas").removeClass("fa-code").addClass("fa-eye");
+				previewBtn.find("span").html("Preview");
+				previewBtn.find("i.fas").removeClass("fa-code").addClass("fa-eye");
 				codeDiv.fadeIn(100);	
 				document.querySelectorAll('pre code').forEach((block) => {
 					hljs.highlightBlock(block);
@@ -76,9 +82,10 @@ $(document).ready(function() {
 			if (targetDevice != "desktop"){
 				$(`#${targetDevice}-svg`).removeClass("d-none");
 			}
+			previewBtn.removeClass("active")
 			codeDiv.fadeOut(100, () => {
-				ele.find("span").html("View Code");
-				ele.find("i.fas").removeClass("fa-eye").addClass("fa-code");
+				previewBtn.find("span").html("View Code");
+				previewBtn.find("i.fas").removeClass("fa-eye").addClass("fa-code");
 				iframe.fadeIn(100);
 			});
 		}
@@ -100,21 +107,24 @@ $(document).ready(function() {
 	})
 
 	// ----------------------------------     Theme selector     -----------------------------------------
-	let prevColor = "primary";
+	let baseColor = "primary", prevColor = "primary", newColor = "primary";
+	let newThemeBtn;
 	$(`.btn-theme-sel.btn-${prevColor}`).addClass("active");
 	$(".btn-theme-sel").on("click", (e) => {
-		let newThemeBtn = e.target;
+		newThemeBtn = e.target;
 		$(".btn-theme-sel").not(newThemeBtn).removeClass("active");
 		$(newThemeBtn).addClass("active");
-		let newColor = $(newThemeBtn).attr("data-color");
-		$("iframe").contents().find(`.btn-${prevColor}`).each((idx, ele) => {
-			$(ele).removeClass(`btn-${prevColor}`).addClass(`btn-${newColor}`);
-		})
-		$("iframe").contents().find(`.btn-outline-${prevColor}`).each((idx, ele) => {
-			$(ele).removeClass(`btn-outline-${prevColor}`).addClass(`btn-outline-${newColor}`);
+		newColor = $(newThemeBtn).attr("data-color") || newColor;
+		updateTheme();
+		showHideCode(true);
+	});
+
+	function updateTheme(){
+		$("#blocks-iframe").contents().find(`.btn-${prevColor}, .btn-${baseColor}`).each((idx, ele) => {
+			$(ele).removeClass(`btn-${prevColor} btn-primary`).addClass(`btn-${newColor}`);
 		})
 		prevColor = newColor;
-	});
+	}
 
 	// ----------------------------------     Device selector     -----------------------------------------
 	let targetDevice;
