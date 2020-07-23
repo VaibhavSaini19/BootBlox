@@ -108,6 +108,7 @@ $(document).ready(function() {
 
 	// ----------------------------------     Theme selector     -----------------------------------------
 	let baseColor = "primary", prevColor = "primary", newColor = "primary";
+	let defaultColors = ["primary", "secondary", "success", "danger", "warning", "info"]
 	let newThemeBtn;
 	$(`.btn-theme-sel.btn-${prevColor}`).addClass("active");
 	$(".btn-theme-sel").on("click", (e) => {
@@ -122,8 +123,13 @@ $(document).ready(function() {
 	});
 
 	function updateTheme(){
-		$("#blocks-iframe").contents().find(`.btn-${prevColor}, .btn-${baseColor}`).each((idx, ele) => {
-			$(ele).removeClass(`btn-${prevColor} btn-primary`).addClass(`btn-${newColor}`);
+		$("#blocks-iframe").contents().find(`.btn-${prevColor}, .btn-${baseColor}, .${prevColor}`).each((idx, ele) => {
+			$(ele).removeClass(`btn-${prevColor} btn-primary ${prevColor}`);
+			if (defaultColors.includes(newColor)){
+				$(ele).addClass(`btn-${newColor}`);
+			}else{
+				$(ele).addClass(`${newColor}`);
+			}
 		})
 		prevColor = newColor;
 	}
