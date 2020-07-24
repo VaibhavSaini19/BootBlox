@@ -18,8 +18,8 @@ It is assumed that your project is up and running Bootstrap v5. If not, [Get it 
 4. Paste it in your project
 5. 🎉
 
-**Note:** To use the advanced color palette, you need to include the code in `helper/bs_v5_compiled_colors.scss` in your main scss file, 
-or just download the `helper/b5_v5_compiled_colors.css` file and link it in your project
+**Note:** To use the advanced color palette, you need to include the code in `extras/bs_v5_compiled_colors.scss` in your main scss file, 
+or just download the `extras/b5_v5_compiled_colors.css` file and link it in your project
 
 ## Contribute
 - Fork the repo
