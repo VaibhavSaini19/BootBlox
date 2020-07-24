@@ -30,6 +30,6 @@ or just download the `helper/b5_v5_compiled_colors.css` file and link it in your
 - After you are done creating the template block, make a pull request, and we will handle it from there to include it in the main page
 
 
-Thanks for taking your time to contribute 
+Thanks for taking your time to contribute 😊
 
 Star the repo and share it if you like it ✨

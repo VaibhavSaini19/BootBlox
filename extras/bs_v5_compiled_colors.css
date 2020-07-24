@@ -1,0 +1,453 @@
+/* 
+    Just link this css file in your project
+*/
+
+.blue-100 {
+	background: #a8cbfe;
+	color: black
+}
+
+.blue-200 {
+	background: #81b4fe;
+	color: black
+}
+
+.blue-300 {
+	background: #5a9cfe;
+	color: black
+}
+
+.blue-400 {
+	background: #3485fd;
+	color: white
+}
+
+.blue-500 {
+	background: #0d6efd;
+	color: white
+}
+
+.blue-600 {
+	background: #0b5cd5;
+	color: white
+}
+
+.blue-700 {
+	background: #094bac;
+	color: white
+}
+
+.blue-800 {
+	background: #073984;
+	color: white
+}
+
+.blue-900 {
+	background: #05285b;
+	color: white
+}
+
+.indigo-100 {
+	background: #c8a9fa;
+	color: black
+}
+
+.indigo-200 {
+	background: #af83f8;
+	color: black
+}
+
+.indigo-300 {
+	background: #975cf6;
+	color: white
+}
+
+.indigo-400 {
+	background: #7e36f4;
+	color: white
+}
+
+.indigo-500 {
+	background: #6610f2;
+	color: white
+}
+
+.indigo-600 {
+	background: #560dcb;
+	color: white
+}
+
+.indigo-700 {
+	background: #450ba5;
+	color: white
+}
+
+.indigo-800 {
+	background: #35087e;
+	color: white
+}
+
+.indigo-900 {
+	background: #250657;
+	color: white
+}
+
+.purple-100 {
+	background: #cbbbe9;
+	color: black
+}
+
+.purple-200 {
+	background: #b49ddf;
+	color: black
+}
+
+.purple-300 {
+	background: #9d7ed5;
+	color: white
+}
+
+.purple-400 {
+	background: #8660cb;
+	color: white
+}
+
+.purple-500 {
+	background: #6f42c1;
+	color: white
+}
+
+.purple-600 {
+	background: #5d37a2;
+	color: white
+}
+
+.purple-700 {
+	background: #4b2d83;
+	color: white
+}
+
+.purple-800 {
+	background: #3a2264;
+	color: white
+}
+
+.purple-900 {
+	background: #281845;
+	color: white
+}
+
+.pink-100 {
+	background: #f0b6d3;
+	color: black
+}
+
+.pink-200 {
+	background: #ea95bf;
+	color: black
+}
+
+.pink-300 {
+	background: #e374ab;
+	color: black
+}
+
+.pink-400 {
+	background: #dd5498;
+	color: white
+}
+
+.pink-500 {
+	background: #d63384;
+	color: white
+}
+
+.pink-600 {
+	background: #b42b6f;
+	color: white
+}
+
+.pink-700 {
+	background: #92235a;
+	color: white
+}
+
+.pink-800 {
+	background: #6f1b45;
+	color: white
+}
+
+.pink-900 {
+	background: #4d1230;
+	color: white
+}
+
+.red-100 {
+	background: #f2b6bc;
+	color: black
+}
+
+.red-200 {
+	background: #ed969e;
+	color: black
+}
+
+.red-300 {
+	background: #e77681;
+	color: black
+}
+
+.red-400 {
+	background: #e25563;
+	color: white
+}
+
+.red-500 {
+	background: #dc3545;
+	color: white
+}
+
+.red-600 {
+	background: #b92d3a;
+	color: white
+}
+
+.red-700 {
+	background: #96242f;
+	color: white
+}
+
+.red-800 {
+	background: #721c24;
+	color: white
+}
+
+.red-900 {
+	background: #4f1319;
+	color: white
+}
+
+.orange-100 {
+	background: #fed1aa;
+	color: black
+}
+
+.orange-200 {
+	background: #febc85;
+	color: black
+}
+
+.orange-300 {
+	background: #fea75f;
+	color: black
+}
+
+.orange-400 {
+	background: #fd933a;
+	color: black
+}
+
+.orange-500 {
+	background: #fd7e14;
+	color: black
+}
+
+.orange-600 {
+	background: #d56a11;
+	color: white
+}
+
+.orange-700 {
+	background: #ac560e;
+	color: white
+}
+
+.orange-800 {
+	background: #84420a;
+	color: white
+}
+
+.orange-900 {
+	background: #5b2d07;
+	color: white
+}
+
+.yellow-100 {
+	background: #ffe9a6;
+	color: black
+}
+
+.yellow-200 {
+	background: #ffdf7e;
+	color: black
+}
+
+.yellow-300 {
+	background: #ffd556;
+	color: black
+}
+
+.yellow-400 {
+	background: #ffcb2f;
+	color: black
+}
+
+.yellow-500 {
+	background: #ffc107;
+	color: black
+}
+
+.yellow-600 {
+	background: #d6a206;
+	color: black
+}
+
+.yellow-700 {
+	background: #ad8305;
+	color: white
+}
+
+.yellow-800 {
+	background: #856404;
+	color: white
+}
+
+.yellow-900 {
+	background: #5c4503;
+	color: white
+}
+
+.green-100 {
+	background: #b2dfbc;
+	color: black
+}
+
+.green-200 {
+	background: #8fd19e;
+	color: black
+}
+
+.green-300 {
+	background: #6dc381;
+	color: black
+}
+
+.green-400 {
+	background: #4ab563;
+	color: black
+}
+
+.green-500 {
+	background: #28a745;
+	color: white
+}
+
+.green-600 {
+	background: #228c3a;
+	color: white
+}
+
+.green-700 {
+	background: #1b722f;
+	color: white
+}
+
+.green-800 {
+	background: #155724;
+	color: white
+}
+
+.green-900 {
+	background: #0e3c19;
+	color: white
+}
+
+.teal-100 {
+	background: #afecda;
+	color: black
+}
+
+.teal-200 {
+	background: #8be3c9;
+	color: black
+}
+
+.teal-300 {
+	background: #67dab8;
+	color: black
+}
+
+.teal-400 {
+	background: #44d2a8;
+	color: black
+}
+
+.teal-500 {
+	background: #20c997;
+	color: black
+}
+
+.teal-600 {
+	background: #1ba97f;
+	color: black
+}
+
+.teal-700 {
+	background: #168967;
+	color: white
+}
+
+.teal-800 {
+	background: #11694f;
+	color: white
+}
+
+.teal-900 {
+	background: #0c4836;
+	color: white
+}
+
+.cyan-100 {
+	background: #abdee5;
+	color: black
+}
+
+.cyan-200 {
+	background: #86cfda;
+	color: black
+}
+
+.cyan-300 {
+	background: #61c0cf;
+	color: black
+}
+
+.cyan-400 {
+	background: #3cb1c3;
+	color: black
+}
+
+.cyan-500 {
+	background: #17a2b8;
+	color: white
+}
+
+.cyan-600 {
+	background: #13889b;
+	color: white
+}
+
+.cyan-700 {
+	background: #106e7d;
+	color: white
+}
+
+.cyan-800 {
+	background: #0c5460;
+	color: white
+}
+
+.cyan-900 {
+	background: #083a42;
+	color: white
+}
