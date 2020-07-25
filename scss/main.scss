@@ -5,6 +5,7 @@ $navbar-btn-bg: rgba(100, 245, 202, 0.55);
 
 $sidebar-bg-color: #ebf0f5;
 $sidebar-width: 160px;
+$transition-delay: 0.3s;
 
 
 .blue-100{ background: $blue-100; color: black;}
@@ -174,7 +175,7 @@ body {
 
 		& ~ .wrapper #sidebarCollapse {
 			margin-left: $sidebar-width !important;
-			transition: all 0.3s;
+			transition: all $transition-delay;
 			i:before {
 				content: "\f060";
 			}
@@ -191,7 +192,7 @@ body {
 		height: 100vh;
 		z-index: 999;
 		background: $sidebar-bg-color;
-		transition: all 0.3s;
+		transition: all $transition-delay;
 		box-shadow: 3px 0 8px rgba(0, 0, 0, 0.1);
 		z-index: 3;
 
@@ -200,10 +201,14 @@ body {
 
 			& ~ #content #sidebarCollapse {
 				margin-left: $sidebar-width !important;
-				transition: all 0.3s;
+				transition: all $transition-delay;
 				i:before {
 					content: "\f060";
 				}
+			}
+			& ~ #content #blocks-code {
+				margin-left: $sidebar-width;
+				transition: all $transition-delay;
 			}
 		}
 
@@ -271,7 +276,7 @@ body {
 		flex-direction: column;
 		width: 100%;
 		min-height: 100vh;
-		transition: all 0.3s;
+		transition: all $transition-delay;
 		overflow: hidden;
 
 		/* --------- NAVBAR STYLE --------- */
@@ -307,7 +312,7 @@ body {
 		}
 
 		#sidebarCollapse {
-			transition: all 0.3s;
+			transition: all $transition-delay;
 		}
 
 		.ptr-events-none i,
@@ -381,11 +386,14 @@ body {
 					top: 0;
 					left: 50%;
 					transform: translate(-50%, 0);
+
+					&:not(.d-none) ~ #blocks-iframe{
+						top: 56px;
+					}
 				}
 
 				#blocks-iframe {
 					position: absolute;
-					top: 56px;
 					left: 50%;
 					transform: translate(-50%, 0);
 					width: 100%;
@@ -395,6 +403,7 @@ body {
 					position: absolute;
 					height: 100%;
 					width: 100%;
+					transition: all $transition-delay;
 					pre {
 						background: rgba(245, 245, 245, 0.822);
 						overflow: auto;
