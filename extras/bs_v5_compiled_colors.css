@@ -2,452 +2,1262 @@
     Just link this css file in your project
 */
 
-.blue-100 {
+.bg-blue-100 {
 	background: #a8cbfe;
 	color: black
 }
 
-.blue-200 {
+.bg-blue-200 {
 	background: #81b4fe;
 	color: black
 }
 
-.blue-300 {
+.bg-blue-300 {
 	background: #5a9cfe;
 	color: black
 }
 
-.blue-400 {
+.bg-blue-400 {
 	background: #3485fd;
 	color: white
 }
 
-.blue-500 {
+.bg-blue-500 {
 	background: #0d6efd;
 	color: white
 }
 
-.blue-600 {
+.bg-blue-600 {
 	background: #0b5cd5;
 	color: white
 }
 
-.blue-700 {
+.bg-blue-700 {
 	background: #094bac;
 	color: white
 }
 
-.blue-800 {
+.bg-blue-800 {
 	background: #073984;
 	color: white
 }
 
-.blue-900 {
+.bg-blue-900 {
 	background: #05285b;
 	color: white
 }
 
-.indigo-100 {
+.bg-indigo-100 {
 	background: #c8a9fa;
 	color: black
 }
 
-.indigo-200 {
+.bg-indigo-200 {
 	background: #af83f8;
 	color: black
 }
 
-.indigo-300 {
+.bg-indigo-300 {
 	background: #975cf6;
 	color: white
 }
 
-.indigo-400 {
+.bg-indigo-400 {
 	background: #7e36f4;
 	color: white
 }
 
-.indigo-500 {
+.bg-indigo-500 {
 	background: #6610f2;
 	color: white
 }
 
-.indigo-600 {
+.bg-indigo-600 {
 	background: #560dcb;
 	color: white
 }
 
-.indigo-700 {
+.bg-indigo-700 {
 	background: #450ba5;
 	color: white
 }
 
-.indigo-800 {
+.bg-indigo-800 {
 	background: #35087e;
 	color: white
 }
 
-.indigo-900 {
+.bg-indigo-900 {
 	background: #250657;
 	color: white
 }
 
-.purple-100 {
+.bg-purple-100 {
 	background: #cbbbe9;
 	color: black
 }
 
-.purple-200 {
+.bg-purple-200 {
 	background: #b49ddf;
 	color: black
 }
 
-.purple-300 {
+.bg-purple-300 {
 	background: #9d7ed5;
 	color: white
 }
 
-.purple-400 {
+.bg-purple-400 {
 	background: #8660cb;
 	color: white
 }
 
-.purple-500 {
+.bg-purple-500 {
 	background: #6f42c1;
 	color: white
 }
 
-.purple-600 {
+.bg-purple-600 {
 	background: #5d37a2;
 	color: white
 }
 
-.purple-700 {
+.bg-purple-700 {
 	background: #4b2d83;
 	color: white
 }
 
-.purple-800 {
+.bg-purple-800 {
 	background: #3a2264;
 	color: white
 }
 
-.purple-900 {
+.bg-purple-900 {
 	background: #281845;
 	color: white
 }
 
-.pink-100 {
+.bg-pink-100 {
 	background: #f0b6d3;
 	color: black
 }
 
-.pink-200 {
+.bg-pink-200 {
 	background: #ea95bf;
 	color: black
 }
 
-.pink-300 {
+.bg-pink-300 {
 	background: #e374ab;
 	color: black
 }
 
-.pink-400 {
+.bg-pink-400 {
 	background: #dd5498;
 	color: white
 }
 
-.pink-500 {
+.bg-pink-500 {
 	background: #d63384;
 	color: white
 }
 
-.pink-600 {
+.bg-pink-600 {
 	background: #b42b6f;
 	color: white
 }
 
-.pink-700 {
+.bg-pink-700 {
 	background: #92235a;
 	color: white
 }
 
-.pink-800 {
+.bg-pink-800 {
 	background: #6f1b45;
 	color: white
 }
 
-.pink-900 {
+.bg-pink-900 {
 	background: #4d1230;
 	color: white
 }
 
-.red-100 {
+.bg-red-100 {
 	background: #f2b6bc;
 	color: black
 }
 
-.red-200 {
+.bg-red-200 {
 	background: #ed969e;
 	color: black
 }
 
-.red-300 {
+.bg-red-300 {
 	background: #e77681;
 	color: black
 }
 
-.red-400 {
+.bg-red-400 {
 	background: #e25563;
 	color: white
 }
 
-.red-500 {
+.bg-red-500 {
 	background: #dc3545;
 	color: white
 }
 
-.red-600 {
+.bg-red-600 {
 	background: #b92d3a;
 	color: white
 }
 
-.red-700 {
+.bg-red-700 {
 	background: #96242f;
 	color: white
 }
 
-.red-800 {
+.bg-red-800 {
 	background: #721c24;
 	color: white
 }
 
-.red-900 {
+.bg-red-900 {
 	background: #4f1319;
 	color: white
 }
 
-.orange-100 {
+.bg-orange-100 {
 	background: #fed1aa;
 	color: black
 }
 
-.orange-200 {
+.bg-orange-200 {
 	background: #febc85;
 	color: black
 }
 
-.orange-300 {
+.bg-orange-300 {
 	background: #fea75f;
 	color: black
 }
 
-.orange-400 {
+.bg-orange-400 {
 	background: #fd933a;
 	color: black
 }
 
-.orange-500 {
+.bg-orange-500 {
 	background: #fd7e14;
 	color: black
 }
 
-.orange-600 {
+.bg-orange-600 {
 	background: #d56a11;
 	color: white
 }
 
-.orange-700 {
+.bg-orange-700 {
 	background: #ac560e;
 	color: white
 }
 
-.orange-800 {
+.bg-orange-800 {
 	background: #84420a;
 	color: white
 }
 
-.orange-900 {
+.bg-orange-900 {
 	background: #5b2d07;
 	color: white
 }
 
-.yellow-100 {
+.bg-yellow-100 {
 	background: #ffe9a6;
 	color: black
 }
 
-.yellow-200 {
+.bg-yellow-200 {
 	background: #ffdf7e;
 	color: black
 }
 
-.yellow-300 {
+.bg-yellow-300 {
 	background: #ffd556;
 	color: black
 }
 
-.yellow-400 {
+.bg-yellow-400 {
 	background: #ffcb2f;
 	color: black
 }
 
-.yellow-500 {
+.bg-yellow-500 {
 	background: #ffc107;
 	color: black
 }
 
-.yellow-600 {
+.bg-yellow-600 {
 	background: #d6a206;
 	color: black
 }
 
-.yellow-700 {
+.bg-yellow-700 {
 	background: #ad8305;
 	color: white
 }
 
-.yellow-800 {
+.bg-yellow-800 {
 	background: #856404;
 	color: white
 }
 
-.yellow-900 {
+.bg-yellow-900 {
 	background: #5c4503;
 	color: white
 }
 
-.green-100 {
+.bg-green-100 {
 	background: #b2dfbc;
 	color: black
 }
 
-.green-200 {
+.bg-green-200 {
 	background: #8fd19e;
 	color: black
 }
 
-.green-300 {
+.bg-green-300 {
 	background: #6dc381;
 	color: black
 }
 
-.green-400 {
+.bg-green-400 {
 	background: #4ab563;
 	color: black
 }
 
-.green-500 {
+.bg-green-500 {
 	background: #28a745;
 	color: white
 }
 
-.green-600 {
+.bg-green-600 {
 	background: #228c3a;
 	color: white
 }
 
-.green-700 {
+.bg-green-700 {
 	background: #1b722f;
 	color: white
 }
 
-.green-800 {
+.bg-green-800 {
 	background: #155724;
 	color: white
 }
 
-.green-900 {
+.bg-green-900 {
 	background: #0e3c19;
 	color: white
 }
 
-.teal-100 {
+.bg-teal-100 {
 	background: #afecda;
 	color: black
 }
 
-.teal-200 {
+.bg-teal-200 {
 	background: #8be3c9;
 	color: black
 }
 
-.teal-300 {
+.bg-teal-300 {
 	background: #67dab8;
 	color: black
 }
 
-.teal-400 {
+.bg-teal-400 {
 	background: #44d2a8;
 	color: black
 }
 
-.teal-500 {
+.bg-teal-500 {
 	background: #20c997;
 	color: black
 }
 
-.teal-600 {
+.bg-teal-600 {
 	background: #1ba97f;
 	color: black
 }
 
-.teal-700 {
+.bg-teal-700 {
 	background: #168967;
 	color: white
 }
 
-.teal-800 {
+.bg-teal-800 {
 	background: #11694f;
 	color: white
 }
 
-.teal-900 {
+.bg-teal-900 {
 	background: #0c4836;
 	color: white
 }
 
-.cyan-100 {
+.bg-cyan-100 {
 	background: #abdee5;
 	color: black
 }
 
-.cyan-200 {
+.bg-cyan-200 {
 	background: #86cfda;
 	color: black
 }
 
-.cyan-300 {
+.bg-cyan-300 {
 	background: #61c0cf;
 	color: black
 }
 
-.cyan-400 {
+.bg-cyan-400 {
 	background: #3cb1c3;
 	color: black
 }
 
-.cyan-500 {
+.bg-cyan-500 {
 	background: #17a2b8;
 	color: white
 }
 
-.cyan-600 {
+.bg-cyan-600 {
 	background: #13889b;
 	color: white
 }
 
-.cyan-700 {
+.bg-cyan-700 {
 	background: #106e7d;
 	color: white
 }
 
-.cyan-800 {
+.bg-cyan-800 {
 	background: #0c5460;
 	color: white
 }
 
-.cyan-900 {
+.bg-cyan-900 {
 	background: #083a42;
 	color: white
+}
+
+.btn-blue-100 {
+	background: #a8cbfe;
+	color: black
+}
+
+.btn-blue-200 {
+	background: #81b4fe;
+	color: black
+}
+
+.btn-blue-300 {
+	background: #5a9cfe;
+	color: black
+}
+
+.btn-blue-400 {
+	background: #3485fd;
+	color: white
+}
+
+.btn-blue-500 {
+	background: #0d6efd;
+	color: white
+}
+
+.btn-blue-600 {
+	background: #0b5cd5;
+	color: white
+}
+
+.btn-blue-700 {
+	background: #094bac;
+	color: white
+}
+
+.btn-blue-800 {
+	background: #073984;
+	color: white
+}
+
+.btn-blue-900 {
+	background: #05285b;
+	color: white
+}
+
+.btn-indigo-100 {
+	background: #c8a9fa;
+	color: black
+}
+
+.btn-indigo-200 {
+	background: #af83f8;
+	color: black
+}
+
+.btn-indigo-300 {
+	background: #975cf6;
+	color: white
+}
+
+.btn-indigo-400 {
+	background: #7e36f4;
+	color: white
+}
+
+.btn-indigo-500 {
+	background: #6610f2;
+	color: white
+}
+
+.btn-indigo-600 {
+	background: #560dcb;
+	color: white
+}
+
+.btn-indigo-700 {
+	background: #450ba5;
+	color: white
+}
+
+.btn-indigo-800 {
+	background: #35087e;
+	color: white
+}
+
+.btn-indigo-900 {
+	background: #250657;
+	color: white
+}
+
+.btn-purple-100 {
+	background: #cbbbe9;
+	color: black
+}
+
+.btn-purple-200 {
+	background: #b49ddf;
+	color: black
+}
+
+.btn-purple-300 {
+	background: #9d7ed5;
+	color: white
+}
+
+.btn-purple-400 {
+	background: #8660cb;
+	color: white
+}
+
+.btn-purple-500 {
+	background: #6f42c1;
+	color: white
+}
+
+.btn-purple-600 {
+	background: #5d37a2;
+	color: white
+}
+
+.btn-purple-700 {
+	background: #4b2d83;
+	color: white
+}
+
+.btn-purple-800 {
+	background: #3a2264;
+	color: white
+}
+
+.btn-purple-900 {
+	background: #281845;
+	color: white
+}
+
+.btn-pink-100 {
+	background: #f0b6d3;
+	color: black
+}
+
+.btn-pink-200 {
+	background: #ea95bf;
+	color: black
+}
+
+.btn-pink-300 {
+	background: #e374ab;
+	color: black
+}
+
+.btn-pink-400 {
+	background: #dd5498;
+	color: white
+}
+
+.btn-pink-500 {
+	background: #d63384;
+	color: white
+}
+
+.btn-pink-600 {
+	background: #b42b6f;
+	color: white
+}
+
+.btn-pink-700 {
+	background: #92235a;
+	color: white
+}
+
+.btn-pink-800 {
+	background: #6f1b45;
+	color: white
+}
+
+.btn-pink-900 {
+	background: #4d1230;
+	color: white
+}
+
+.btn-red-100 {
+	background: #f2b6bc;
+	color: black
+}
+
+.btn-red-200 {
+	background: #ed969e;
+	color: black
+}
+
+.btn-red-300 {
+	background: #e77681;
+	color: black
+}
+
+.btn-red-400 {
+	background: #e25563;
+	color: white
+}
+
+.btn-red-500 {
+	background: #dc3545;
+	color: white
+}
+
+.btn-red-600 {
+	background: #b92d3a;
+	color: white
+}
+
+.btn-red-700 {
+	background: #96242f;
+	color: white
+}
+
+.btn-red-800 {
+	background: #721c24;
+	color: white
+}
+
+.btn-red-900 {
+	background: #4f1319;
+	color: white
+}
+
+.btn-orange-100 {
+	background: #fed1aa;
+	color: black
+}
+
+.btn-orange-200 {
+	background: #febc85;
+	color: black
+}
+
+.btn-orange-300 {
+	background: #fea75f;
+	color: black
+}
+
+.btn-orange-400 {
+	background: #fd933a;
+	color: black
+}
+
+.btn-orange-500 {
+	background: #fd7e14;
+	color: black
+}
+
+.btn-orange-600 {
+	background: #d56a11;
+	color: white
+}
+
+.btn-orange-700 {
+	background: #ac560e;
+	color: white
+}
+
+.btn-orange-800 {
+	background: #84420a;
+	color: white
+}
+
+.btn-orange-900 {
+	background: #5b2d07;
+	color: white
+}
+
+.btn-yellow-100 {
+	background: #ffe9a6;
+	color: black
+}
+
+.btn-yellow-200 {
+	background: #ffdf7e;
+	color: black
+}
+
+.btn-yellow-300 {
+	background: #ffd556;
+	color: black
+}
+
+.btn-yellow-400 {
+	background: #ffcb2f;
+	color: black
+}
+
+.btn-yellow-500 {
+	background: #ffc107;
+	color: black
+}
+
+.btn-yellow-600 {
+	background: #d6a206;
+	color: black
+}
+
+.btn-yellow-700 {
+	background: #ad8305;
+	color: white
+}
+
+.btn-yellow-800 {
+	background: #856404;
+	color: white
+}
+
+.btn-yellow-900 {
+	background: #5c4503;
+	color: white
+}
+
+.btn-green-100 {
+	background: #b2dfbc;
+	color: black
+}
+
+.btn-green-200 {
+	background: #8fd19e;
+	color: black
+}
+
+.btn-green-300 {
+	background: #6dc381;
+	color: black
+}
+
+.btn-green-400 {
+	background: #4ab563;
+	color: black
+}
+
+.btn-green-500 {
+	background: #28a745;
+	color: white
+}
+
+.btn-green-600 {
+	background: #228c3a;
+	color: white
+}
+
+.btn-green-700 {
+	background: #1b722f;
+	color: white
+}
+
+.btn-green-800 {
+	background: #155724;
+	color: white
+}
+
+.btn-green-900 {
+	background: #0e3c19;
+	color: white
+}
+
+.btn-teal-100 {
+	background: #afecda;
+	color: black
+}
+
+.btn-teal-200 {
+	background: #8be3c9;
+	color: black
+}
+
+.btn-teal-300 {
+	background: #67dab8;
+	color: black
+}
+
+.btn-teal-400 {
+	background: #44d2a8;
+	color: black
+}
+
+.btn-teal-500 {
+	background: #20c997;
+	color: black
+}
+
+.btn-teal-600 {
+	background: #1ba97f;
+	color: black
+}
+
+.btn-teal-700 {
+	background: #168967;
+	color: white
+}
+
+.btn-teal-800 {
+	background: #11694f;
+	color: white
+}
+
+.btn-teal-900 {
+	background: #0c4836;
+	color: white
+}
+
+.btn-cyan-100 {
+	background: #abdee5;
+	color: black
+}
+
+.btn-cyan-200 {
+	background: #86cfda;
+	color: black
+}
+
+.btn-cyan-300 {
+	background: #61c0cf;
+	color: black
+}
+
+.btn-cyan-400 {
+	background: #3cb1c3;
+	color: black
+}
+
+.btn-cyan-500 {
+	background: #17a2b8;
+	color: white
+}
+
+.btn-cyan-600 {
+	background: #13889b;
+	color: white
+}
+
+.btn-cyan-700 {
+	background: #106e7d;
+	color: white
+}
+
+.btn-cyan-800 {
+	background: #0c5460;
+	color: white
+}
+
+.btn-cyan-900 {
+	background: #083a42;
+	color: white
+}
+
+.text-blue-100 {
+	color: #a8cbfe
+}
+
+.text-blue-200 {
+	color: #81b4fe
+}
+
+.text-blue-300 {
+	color: #5a9cfe
+}
+
+.text-blue-400 {
+	color: #3485fd
+}
+
+.text-blue-500 {
+	color: #0d6efd
+}
+
+.text-blue-600 {
+	color: #0b5cd5
+}
+
+.text-blue-700 {
+	color: #094bac
+}
+
+.text-blue-800 {
+	color: #073984
+}
+
+.text-blue-900 {
+	color: #05285b
+}
+
+.text-indigo-100 {
+	color: #c8a9fa
+}
+
+.text-indigo-200 {
+	color: #af83f8
+}
+
+.text-indigo-300 {
+	color: #975cf6
+}
+
+.text-indigo-400 {
+	color: #7e36f4
+}
+
+.text-indigo-500 {
+	color: #6610f2
+}
+
+.text-indigo-600 {
+	color: #560dcb
+}
+
+.text-indigo-700 {
+	color: #450ba5
+}
+
+.text-indigo-800 {
+	color: #35087e
+}
+
+.text-indigo-900 {
+	color: #250657
+}
+
+.text-purple-100 {
+	color: #cbbbe9
+}
+
+.text-purple-200 {
+	color: #b49ddf
+}
+
+.text-purple-300 {
+	color: #9d7ed5
+}
+
+.text-purple-400 {
+	color: #8660cb
+}
+
+.text-purple-500 {
+	color: #6f42c1
+}
+
+.text-purple-600 {
+	color: #5d37a2
+}
+
+.text-purple-700 {
+	color: #4b2d83
+}
+
+.text-purple-800 {
+	color: #3a2264
+}
+
+.text-purple-900 {
+	color: #281845
+}
+
+.text-pink-100 {
+	color: #f0b6d3
+}
+
+.text-pink-200 {
+	color: #ea95bf
+}
+
+.text-pink-300 {
+	color: #e374ab
+}
+
+.text-pink-400 {
+	color: #dd5498
+}
+
+.text-pink-500 {
+	color: #d63384
+}
+
+.text-pink-600 {
+	color: #b42b6f
+}
+
+.text-pink-700 {
+	color: #92235a
+}
+
+.text-pink-800 {
+	color: #6f1b45
+}
+
+.text-pink-900 {
+	color: #4d1230
+}
+
+.text-red-100 {
+	color: #f2b6bc
+}
+
+.text-red-200 {
+	color: #ed969e
+}
+
+.text-red-300 {
+	color: #e77681
+}
+
+.text-red-400 {
+	color: #e25563
+}
+
+.text-red-500 {
+	color: #dc3545
+}
+
+.text-red-600 {
+	color: #b92d3a
+}
+
+.text-red-700 {
+	color: #96242f
+}
+
+.text-red-800 {
+	color: #721c24
+}
+
+.text-red-900 {
+	color: #4f1319
+}
+
+.text-orange-100 {
+	color: #fed1aa
+}
+
+.text-orange-200 {
+	color: #febc85
+}
+
+.text-orange-300 {
+	color: #fea75f
+}
+
+.text-orange-400 {
+	color: #fd933a
+}
+
+.text-orange-500 {
+	color: #fd7e14
+}
+
+.text-orange-600 {
+	color: #d56a11
+}
+
+.text-orange-700 {
+	color: #ac560e
+}
+
+.text-orange-800 {
+	color: #84420a
+}
+
+.text-orange-900 {
+	color: #5b2d07
+}
+
+.text-yellow-100 {
+	color: #ffe9a6
+}
+
+.text-yellow-200 {
+	color: #ffdf7e
+}
+
+.text-yellow-300 {
+	color: #ffd556
+}
+
+.text-yellow-400 {
+	color: #ffcb2f
+}
+
+.text-yellow-500 {
+	color: #ffc107
+}
+
+.text-yellow-600 {
+	color: #d6a206
+}
+
+.text-yellow-700 {
+	color: #ad8305
+}
+
+.text-yellow-800 {
+	color: #856404
+}
+
+.text-yellow-900 {
+	color: #5c4503
+}
+
+.text-green-100 {
+	color: #b2dfbc
+}
+
+.text-green-200 {
+	color: #8fd19e
+}
+
+.text-green-300 {
+	color: #6dc381
+}
+
+.text-green-400 {
+	color: #4ab563
+}
+
+.text-green-500 {
+	color: #28a745
+}
+
+.text-green-600 {
+	color: #228c3a
+}
+
+.text-green-700 {
+	color: #1b722f
+}
+
+.text-green-800 {
+	color: #155724
+}
+
+.text-green-900 {
+	color: #0e3c19
+}
+
+.text-teal-100 {
+	color: #afecda
+}
+
+.text-teal-200 {
+	color: #8be3c9
+}
+
+.text-teal-300 {
+	color: #67dab8
+}
+
+.text-teal-400 {
+	color: #44d2a8
+}
+
+.text-teal-500 {
+	color: #20c997
+}
+
+.text-teal-600 {
+	color: #1ba97f
+}
+
+.text-teal-700 {
+	color: #168967
+}
+
+.text-teal-800 {
+	color: #11694f
+}
+
+.text-teal-900 {
+	color: #0c4836
+}
+
+.text-cyan-100 {
+	color: #abdee5
+}
+
+.text-cyan-200 {
+	color: #86cfda
+}
+
+.text-cyan-300 {
+	color: #61c0cf
+}
+
+.text-cyan-400 {
+	color: #3cb1c3
+}
+
+.text-cyan-500 {
+	color: #17a2b8
+}
+
+.text-cyan-600 {
+	color: #13889b
+}
+
+.text-cyan-700 {
+	color: #106e7d
+}
+
+.text-cyan-800 {
+	color: #0c5460
+}
+
+.text-cyan-900 {
+	color: #083a42
 }

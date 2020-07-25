@@ -123,14 +123,32 @@ $(document).ready(function() {
 	});
 
 	function updateTheme(){
-		$("#blocks-iframe").contents().find(`.btn-${prevColor}, .btn-${baseColor}, .${prevColor}`).each((idx, ele) => {
-			$(ele).removeClass(`btn-${prevColor} btn-primary ${prevColor}`);
-			if (defaultColors.includes(newColor)){
-				$(ele).addClass(`btn-${newColor}`);
-			}else{
-				$(ele).addClass(`${newColor}`);
+		// $("#blocks-iframe").contents().find(`.btn-${prevColor}, .btn-${baseColor}, .${prevColor}`).each((idx, ele) => {
+		// 	$(ele).removeClass(`btn-${prevColor} btn-primary ${prevColor}`);
+		// 	if (defaultColors.includes(newColor)){
+		// 		$(ele).addClass(`btn-${newColor}`);
+		// 	}else{
+		// 		$(ele).addClass(`${newColor}`);
+		// 	}
+		// })
+		$("#blocks-iframe").contents().find(
+				`.btn-${prevColor}, .btn-${baseColor}, .bg-${prevColor},
+				.text-${prevColor}, .text-${baseColor}`
+			).each((idx, tag) => {
+				let ele = $(tag);
+				if (ele.hasClass(`btn-${prevColor}`) || ele.hasClass(`btn-${baseColor}`)){
+					ele.removeClass(`btn-${prevColor} btn-${baseColor}`);
+					console.log(`btn-${newColor}`);
+					ele.addClass(`btn-${newColor}`);
+				}else if (ele.hasClass(`bg-${prevColor}`)){
+					ele.removeClass(`bg-${prevColor} bg-${baseColor}`)
+					ele.addClass(`bg-${newColor}`);
+				}else{
+					ele.removeClass(`text-${prevColor} text-${baseColor}`)
+					ele.addClass(`text-${newColor}`);
+				}
 			}
-		})
+		)
 		prevColor = newColor;
 	}
 

@@ -8,105 +8,307 @@ $sidebar-width: 160px;
 $transition-delay: 0.3s;
 
 
-.blue-100{ background: $blue-100; color: black;}
-.blue-200{ background: $blue-200; color: black;}
-.blue-300{ background: $blue-300; color: black;}
-.blue-400{ background: $blue-400; color: white;}
-.blue-500{ background: $blue-500; color: white;}
-.blue-600{ background: $blue-600; color: white;}
-.blue-700{ background: $blue-700; color: white;}
-.blue-800{ background: $blue-800; color: white;}
-.blue-900{ background: $blue-900; color: white;}
+.bg-blue-100{ background: $blue-100; color: black;}
+.bg-blue-200{ background: $blue-200; color: black;}
+.bg-blue-300{ background: $blue-300; color: black;}
+.bg-blue-400{ background: $blue-400; color: white;}
+.bg-blue-500{ background: $blue-500; color: white;}
+.bg-blue-600{ background: $blue-600; color: white;}
+.bg-blue-700{ background: $blue-700; color: white;}
+.bg-blue-800{ background: $blue-800; color: white;}
+.bg-blue-900{ background: $blue-900; color: white;}
 
-.indigo-100{ background: $indigo-100; color: black;}
-.indigo-200{ background: $indigo-200; color: black;}
-.indigo-300{ background: $indigo-300; color: white;}
-.indigo-400{ background: $indigo-400; color: white;}
-.indigo-500{ background: $indigo-500; color: white;}
-.indigo-600{ background: $indigo-600; color: white;}
-.indigo-700{ background: $indigo-700; color: white;}
-.indigo-800{ background: $indigo-800; color: white;}
-.indigo-900{ background: $indigo-900; color: white;}
+.bg-indigo-100{ background: $indigo-100; color: black;}
+.bg-indigo-200{ background: $indigo-200; color: black;}
+.bg-indigo-300{ background: $indigo-300; color: white;}
+.bg-indigo-400{ background: $indigo-400; color: white;}
+.bg-indigo-500{ background: $indigo-500; color: white;}
+.bg-indigo-600{ background: $indigo-600; color: white;}
+.bg-indigo-700{ background: $indigo-700; color: white;}
+.bg-indigo-800{ background: $indigo-800; color: white;}
+.bg-indigo-900{ background: $indigo-900; color: white;}
 
-.purple-100{ background: $purple-100; color: black;}
-.purple-200{ background: $purple-200; color: black;}
-.purple-300{ background: $purple-300; color: white;}
-.purple-400{ background: $purple-400; color: white;}
-.purple-500{ background: $purple-500; color: white;}
-.purple-600{ background: $purple-600; color: white;}
-.purple-700{ background: $purple-700; color: white;}
-.purple-800{ background: $purple-800; color: white;}
-.purple-900{ background: $purple-900; color: white;}
+.bg-purple-100{ background: $purple-100; color: black;}
+.bg-purple-200{ background: $purple-200; color: black;}
+.bg-purple-300{ background: $purple-300; color: white;}
+.bg-purple-400{ background: $purple-400; color: white;}
+.bg-purple-500{ background: $purple-500; color: white;}
+.bg-purple-600{ background: $purple-600; color: white;}
+.bg-purple-700{ background: $purple-700; color: white;}
+.bg-purple-800{ background: $purple-800; color: white;}
+.bg-purple-900{ background: $purple-900; color: white;}
 
-.pink-100{ background: $pink-100; color: black;}
-.pink-200{ background: $pink-200; color: black;}
-.pink-300{ background: $pink-300; color: black;}
-.pink-400{ background: $pink-400; color: white;}
-.pink-500{ background: $pink-500; color: white;}
-.pink-600{ background: $pink-600; color: white;}
-.pink-700{ background: $pink-700; color: white;}
-.pink-800{ background: $pink-800; color: white;}
-.pink-900{ background: $pink-900; color: white;}
+.bg-pink-100{ background: $pink-100; color: black;}
+.bg-pink-200{ background: $pink-200; color: black;}
+.bg-pink-300{ background: $pink-300; color: black;}
+.bg-pink-400{ background: $pink-400; color: white;}
+.bg-pink-500{ background: $pink-500; color: white;}
+.bg-pink-600{ background: $pink-600; color: white;}
+.bg-pink-700{ background: $pink-700; color: white;}
+.bg-pink-800{ background: $pink-800; color: white;}
+.bg-pink-900{ background: $pink-900; color: white;}
 
-.red-100{ background: $red-100; color: black;}
-.red-200{ background: $red-200; color: black;}
-.red-300{ background: $red-300; color: black;}
-.red-400{ background: $red-400; color: white;}
-.red-500{ background: $red-500; color: white;}
-.red-600{ background: $red-600; color: white;}
-.red-700{ background: $red-700; color: white;}
-.red-800{ background: $red-800; color: white;}
-.red-900{ background: $red-900; color: white;}
+.bg-red-100{ background: $red-100; color: black;}
+.bg-red-200{ background: $red-200; color: black;}
+.bg-red-300{ background: $red-300; color: black;}
+.bg-red-400{ background: $red-400; color: white;}
+.bg-red-500{ background: $red-500; color: white;}
+.bg-red-600{ background: $red-600; color: white;}
+.bg-red-700{ background: $red-700; color: white;}
+.bg-red-800{ background: $red-800; color: white;}
+.bg-red-900{ background: $red-900; color: white;}
 
-.orange-100{ background: $orange-100; color: black;}
-.orange-200{ background: $orange-200; color: black;}
-.orange-300{ background: $orange-300; color: black;}
-.orange-400{ background: $orange-400; color: black;}
-.orange-500{ background: $orange-500; color: black;}
-.orange-600{ background: $orange-600; color: white;}
-.orange-700{ background: $orange-700; color: white;}
-.orange-800{ background: $orange-800; color: white;}
-.orange-900{ background: $orange-900; color: white;}
+.bg-orange-100{ background: $orange-100; color: black;}
+.bg-orange-200{ background: $orange-200; color: black;}
+.bg-orange-300{ background: $orange-300; color: black;}
+.bg-orange-400{ background: $orange-400; color: black;}
+.bg-orange-500{ background: $orange-500; color: black;}
+.bg-orange-600{ background: $orange-600; color: white;}
+.bg-orange-700{ background: $orange-700; color: white;}
+.bg-orange-800{ background: $orange-800; color: white;}
+.bg-orange-900{ background: $orange-900; color: white;}
 
-.yellow-100{ background: $yellow-100; color: black;}
-.yellow-200{ background: $yellow-200; color: black;}
-.yellow-300{ background: $yellow-300; color: black;}
-.yellow-400{ background: $yellow-400; color: black;}
-.yellow-500{ background: $yellow-500; color: black;}
-.yellow-600{ background: $yellow-600; color: black;}
-.yellow-700{ background: $yellow-700; color: white;}
-.yellow-800{ background: $yellow-800; color: white;}
-.yellow-900{ background: $yellow-900; color: white;}
+.bg-yellow-100{ background: $yellow-100; color: black;}
+.bg-yellow-200{ background: $yellow-200; color: black;}
+.bg-yellow-300{ background: $yellow-300; color: black;}
+.bg-yellow-400{ background: $yellow-400; color: black;}
+.bg-yellow-500{ background: $yellow-500; color: black;}
+.bg-yellow-600{ background: $yellow-600; color: black;}
+.bg-yellow-700{ background: $yellow-700; color: white;}
+.bg-yellow-800{ background: $yellow-800; color: white;}
+.bg-yellow-900{ background: $yellow-900; color: white;}
 
-.green-100{ background: $green-100; color: black;}
-.green-200{ background: $green-200; color: black;}
-.green-300{ background: $green-300; color: black;}
-.green-400{ background: $green-400; color: black;}
-.green-500{ background: $green-500; color: white;}
-.green-600{ background: $green-600; color: white;}
-.green-700{ background: $green-700; color: white;}
-.green-800{ background: $green-800; color: white;}
-.green-900{ background: $green-900; color: white;}
+.bg-green-100{ background: $green-100; color: black;}
+.bg-green-200{ background: $green-200; color: black;}
+.bg-green-300{ background: $green-300; color: black;}
+.bg-green-400{ background: $green-400; color: black;}
+.bg-green-500{ background: $green-500; color: white;}
+.bg-green-600{ background: $green-600; color: white;}
+.bg-green-700{ background: $green-700; color: white;}
+.bg-green-800{ background: $green-800; color: white;}
+.bg-green-900{ background: $green-900; color: white;}
 
-.teal-100{ background: $teal-100; color: black;}
-.teal-200{ background: $teal-200; color: black;}
-.teal-300{ background: $teal-300; color: black;}
-.teal-400{ background: $teal-400; color: black;}
-.teal-500{ background: $teal-500; color: black;}
-.teal-600{ background: $teal-600; color: black;}
-.teal-700{ background: $teal-700; color: white;}
-.teal-800{ background: $teal-800; color: white;}
-.teal-900{ background: $teal-900; color: white;}
+.bg-teal-100{ background: $teal-100; color: black;}
+.bg-teal-200{ background: $teal-200; color: black;}
+.bg-teal-300{ background: $teal-300; color: black;}
+.bg-teal-400{ background: $teal-400; color: black;}
+.bg-teal-500{ background: $teal-500; color: black;}
+.bg-teal-600{ background: $teal-600; color: black;}
+.bg-teal-700{ background: $teal-700; color: white;}
+.bg-teal-800{ background: $teal-800; color: white;}
+.bg-teal-900{ background: $teal-900; color: white;}
 
-.cyan-100{ background: $cyan-100; color: black;}
-.cyan-200{ background: $cyan-200; color: black;}
-.cyan-300{ background: $cyan-300; color: black;}
-.cyan-400{ background: $cyan-400; color: black;}
-.cyan-500{ background: $cyan-500; color: white;}
-.cyan-600{ background: $cyan-600; color: white;}
-.cyan-700{ background: $cyan-700; color: white;}
-.cyan-800{ background: $cyan-800; color: white;}
-.cyan-900{ background: $cyan-900; color: white;}
+.bg-cyan-100{ background: $cyan-100; color: black;}
+.bg-cyan-200{ background: $cyan-200; color: black;}
+.bg-cyan-300{ background: $cyan-300; color: black;}
+.bg-cyan-400{ background: $cyan-400; color: black;}
+.bg-cyan-500{ background: $cyan-500; color: white;}
+.bg-cyan-600{ background: $cyan-600; color: white;}
+.bg-cyan-700{ background: $cyan-700; color: white;}
+.bg-cyan-800{ background: $cyan-800; color: white;}
+.bg-cyan-900{ background: $cyan-900; color: white;}
+
+
+.btn-blue-100{ background: $blue-100; color: black;}
+.btn-blue-200{ background: $blue-200; color: black;}
+.btn-blue-300{ background: $blue-300; color: black;}
+.btn-blue-400{ background: $blue-400; color: white;}
+.btn-blue-500{ background: $blue-500; color: white;}
+.btn-blue-600{ background: $blue-600; color: white;}
+.btn-blue-700{ background: $blue-700; color: white;}
+.btn-blue-800{ background: $blue-800; color: white;}
+.btn-blue-900{ background: $blue-900; color: white;}
+
+.btn-indigo-100{ background: $indigo-100; color: black;}
+.btn-indigo-200{ background: $indigo-200; color: black;}
+.btn-indigo-300{ background: $indigo-300; color: white;}
+.btn-indigo-400{ background: $indigo-400; color: white;}
+.btn-indigo-500{ background: $indigo-500; color: white;}
+.btn-indigo-600{ background: $indigo-600; color: white;}
+.btn-indigo-700{ background: $indigo-700; color: white;}
+.btn-indigo-800{ background: $indigo-800; color: white;}
+.btn-indigo-900{ background: $indigo-900; color: white;}
+
+.btn-purple-100{ background: $purple-100; color: black;}
+.btn-purple-200{ background: $purple-200; color: black;}
+.btn-purple-300{ background: $purple-300; color: white;}
+.btn-purple-400{ background: $purple-400; color: white;}
+.btn-purple-500{ background: $purple-500; color: white;}
+.btn-purple-600{ background: $purple-600; color: white;}
+.btn-purple-700{ background: $purple-700; color: white;}
+.btn-purple-800{ background: $purple-800; color: white;}
+.btn-purple-900{ background: $purple-900; color: white;}
+
+.btn-pink-100{ background: $pink-100; color: black;}
+.btn-pink-200{ background: $pink-200; color: black;}
+.btn-pink-300{ background: $pink-300; color: black;}
+.btn-pink-400{ background: $pink-400; color: white;}
+.btn-pink-500{ background: $pink-500; color: white;}
+.btn-pink-600{ background: $pink-600; color: white;}
+.btn-pink-700{ background: $pink-700; color: white;}
+.btn-pink-800{ background: $pink-800; color: white;}
+.btn-pink-900{ background: $pink-900; color: white;}
+
+.btn-red-100{ background: $red-100; color: black;}
+.btn-red-200{ background: $red-200; color: black;}
+.btn-red-300{ background: $red-300; color: black;}
+.btn-red-400{ background: $red-400; color: white;}
+.btn-red-500{ background: $red-500; color: white;}
+.btn-red-600{ background: $red-600; color: white;}
+.btn-red-700{ background: $red-700; color: white;}
+.btn-red-800{ background: $red-800; color: white;}
+.btn-red-900{ background: $red-900; color: white;}
+
+.btn-orange-100{ background: $orange-100; color: black;}
+.btn-orange-200{ background: $orange-200; color: black;}
+.btn-orange-300{ background: $orange-300; color: black;}
+.btn-orange-400{ background: $orange-400; color: black;}
+.btn-orange-500{ background: $orange-500; color: black;}
+.btn-orange-600{ background: $orange-600; color: white;}
+.btn-orange-700{ background: $orange-700; color: white;}
+.btn-orange-800{ background: $orange-800; color: white;}
+.btn-orange-900{ background: $orange-900; color: white;}
+
+.btn-yellow-100{ background: $yellow-100; color: black;}
+.btn-yellow-200{ background: $yellow-200; color: black;}
+.btn-yellow-300{ background: $yellow-300; color: black;}
+.btn-yellow-400{ background: $yellow-400; color: black;}
+.btn-yellow-500{ background: $yellow-500; color: black;}
+.btn-yellow-600{ background: $yellow-600; color: black;}
+.btn-yellow-700{ background: $yellow-700; color: white;}
+.btn-yellow-800{ background: $yellow-800; color: white;}
+.btn-yellow-900{ background: $yellow-900; color: white;}
+
+.btn-green-100{ background: $green-100; color: black;}
+.btn-green-200{ background: $green-200; color: black;}
+.btn-green-300{ background: $green-300; color: black;}
+.btn-green-400{ background: $green-400; color: black;}
+.btn-green-500{ background: $green-500; color: white;}
+.btn-green-600{ background: $green-600; color: white;}
+.btn-green-700{ background: $green-700; color: white;}
+.btn-green-800{ background: $green-800; color: white;}
+.btn-green-900{ background: $green-900; color: white;}
+
+.btn-teal-100{ background: $teal-100; color: black;}
+.btn-teal-200{ background: $teal-200; color: black;}
+.btn-teal-300{ background: $teal-300; color: black;}
+.btn-teal-400{ background: $teal-400; color: black;}
+.btn-teal-500{ background: $teal-500; color: black;}
+.btn-teal-600{ background: $teal-600; color: black;}
+.btn-teal-700{ background: $teal-700; color: white;}
+.btn-teal-800{ background: $teal-800; color: white;}
+.btn-teal-900{ background: $teal-900; color: white;}
+
+.btn-cyan-100{ background: $cyan-100; color: black;}
+.btn-cyan-200{ background: $cyan-200; color: black;}
+.btn-cyan-300{ background: $cyan-300; color: black;}
+.btn-cyan-400{ background: $cyan-400; color: black;}
+.btn-cyan-500{ background: $cyan-500; color: white;}
+.btn-cyan-600{ background: $cyan-600; color: white;}
+.btn-cyan-700{ background: $cyan-700; color: white;}
+.btn-cyan-800{ background: $cyan-800; color: white;}
+.btn-cyan-900{ background: $cyan-900; color: white;}
+
+
+.text-blue-100{ color: $blue-100; }
+.text-blue-200{ color: $blue-200; }
+.text-blue-300{ color: $blue-300; }
+.text-blue-400{ color: $blue-400; }
+.text-blue-500{ color: $blue-500; }
+.text-blue-600{ color: $blue-600; }
+.text-blue-700{ color: $blue-700; }
+.text-blue-800{ color: $blue-800; }
+.text-blue-900{ color: $blue-900; }
+
+.text-indigo-100{ color: $indigo-100; }
+.text-indigo-200{ color: $indigo-200; }
+.text-indigo-300{ color: $indigo-300; }
+.text-indigo-400{ color: $indigo-400; }
+.text-indigo-500{ color: $indigo-500; }
+.text-indigo-600{ color: $indigo-600; }
+.text-indigo-700{ color: $indigo-700; }
+.text-indigo-800{ color: $indigo-800; }
+.text-indigo-900{ color: $indigo-900; }
+
+.text-purple-100{ color: $purple-100; }
+.text-purple-200{ color: $purple-200; }
+.text-purple-300{ color: $purple-300; }
+.text-purple-400{ color: $purple-400; }
+.text-purple-500{ color: $purple-500; }
+.text-purple-600{ color: $purple-600; }
+.text-purple-700{ color: $purple-700; }
+.text-purple-800{ color: $purple-800; }
+.text-purple-900{ color: $purple-900; }
+
+.text-pink-100{ color: $pink-100; }
+.text-pink-200{ color: $pink-200; }
+.text-pink-300{ color: $pink-300; }
+.text-pink-400{ color: $pink-400; }
+.text-pink-500{ color: $pink-500; }
+.text-pink-600{ color: $pink-600; }
+.text-pink-700{ color: $pink-700; }
+.text-pink-800{ color: $pink-800; }
+.text-pink-900{ color: $pink-900; }
+
+.text-red-100{ color: $red-100; }
+.text-red-200{ color: $red-200; }
+.text-red-300{ color: $red-300; }
+.text-red-400{ color: $red-400; }
+.text-red-500{ color: $red-500; }
+.text-red-600{ color: $red-600; }
+.text-red-700{ color: $red-700; }
+.text-red-800{ color: $red-800; }
+.text-red-900{ color: $red-900; }
+
+.text-orange-100{ color: $orange-100; }
+.text-orange-200{ color: $orange-200; }
+.text-orange-300{ color: $orange-300; }
+.text-orange-400{ color: $orange-400; }
+.text-orange-500{ color: $orange-500; }
+.text-orange-600{ color: $orange-600; }
+.text-orange-700{ color: $orange-700; }
+.text-orange-800{ color: $orange-800; }
+.text-orange-900{ color: $orange-900; }
+
+.text-yellow-100{ color: $yellow-100; }
+.text-yellow-200{ color: $yellow-200; }
+.text-yellow-300{ color: $yellow-300; }
+.text-yellow-400{ color: $yellow-400; }
+.text-yellow-500{ color: $yellow-500; }
+.text-yellow-600{ color: $yellow-600; }
+.text-yellow-700{ color: $yellow-700; }
+.text-yellow-800{ color: $yellow-800; }
+.text-yellow-900{ color: $yellow-900; }
+
+.text-green-100{ color: $green-100; }
+.text-green-200{ color: $green-200; }
+.text-green-300{ color: $green-300; }
+.text-green-400{ color: $green-400; }
+.text-green-500{ color: $green-500; }
+.text-green-600{ color: $green-600; }
+.text-green-700{ color: $green-700; }
+.text-green-800{ color: $green-800; }
+.text-green-900{ color: $green-900; }
+
+.text-teal-100{ color: $teal-100; }
+.text-teal-200{ color: $teal-200; }
+.text-teal-300{ color: $teal-300; }
+.text-teal-400{ color: $teal-400; }
+.text-teal-500{ color: $teal-500; }
+.text-teal-600{ color: $teal-600; }
+.text-teal-700{ color: $teal-700; }
+.text-teal-800{ color: $teal-800; }
+.text-teal-900{ color: $teal-900; }
+
+.text-cyan-100{ color: $cyan-100; }
+.text-cyan-200{ color: $cyan-200; }
+.text-cyan-300{ color: $cyan-300; }
+.text-cyan-400{ color: $cyan-400; }
+.text-cyan-500{ color: $cyan-500; }
+.text-cyan-600{ color: $cyan-600; }
+.text-cyan-700{ color: $cyan-700; }
+.text-cyan-800{ color: $cyan-800; }
+.text-cyan-900{ color: $cyan-900; }
 
 
 
