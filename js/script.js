@@ -131,24 +131,27 @@ $(document).ready(function() {
 		// 		$(ele).addClass(`${newColor}`);
 		// 	}
 		// })
+		
 		$("#blocks-iframe").contents().find(
-				`.btn-${prevColor}, .btn-${baseColor}, .bg-${prevColor},
-				.text-${prevColor}, .text-${baseColor}`
-			).each((idx, tag) => {
-				let ele = $(tag);
-				if (ele.hasClass(`btn-${prevColor}`) || ele.hasClass(`btn-${baseColor}`)){
-					ele.removeClass(`btn-${prevColor} btn-${baseColor}`);
-					console.log(`btn-${newColor}`);
-					ele.addClass(`btn-${newColor}`);
-				}else if (ele.hasClass(`bg-${prevColor}`)){
-					ele.removeClass(`bg-${prevColor} bg-${baseColor}`)
-					ele.addClass(`bg-${newColor}`);
-				}else{
-					ele.removeClass(`text-${prevColor} text-${baseColor}`)
-					ele.addClass(`text-${newColor}`);
-				}
+			`.btn-${prevColor}, .btn-${baseColor}, .btn-outline-${prevColor}, .btn-outline-${baseColor},
+			.bg-${prevColor},
+			.text-${prevColor}, .text-${baseColor}`
+		).each((idx, tag) => {
+			let ele = $(tag);
+			if (ele.hasClass(`btn-${prevColor}`) || ele.hasClass(`btn-${baseColor}`)){
+				ele.removeClass(`btn-${prevColor} btn-${baseColor}`);
+				ele.addClass(`btn-${newColor}`);
+			}else if (ele.hasClass(`btn-outline-${prevColor}`) || ele.hasClass(`btn-outline-${baseColor}`)){
+				ele.removeClass(`btn-outline-${prevColor} btn-outline-${baseColor}`);
+				ele.addClass(`btn-outline-${newColor}`);
+			}else if (ele.hasClass(`bg-${prevColor}`)){
+				ele.removeClass(`bg-${prevColor} bg-${baseColor}`)
+				ele.addClass(`bg-${newColor}`);
+			}else{
+				ele.removeClass(`text-${prevColor} text-${baseColor}`)
+				ele.addClass(`text-${newColor}`);
 			}
-		)
+		})
 		prevColor = newColor;
 	}
 
