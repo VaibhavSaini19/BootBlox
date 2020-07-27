@@ -119,6 +119,10 @@ body {
 			list-style: none;
 			padding: 16px;
 
+			&::-webkit-scrollbar {
+				display: none;
+			  }
+
 			.block-type {
 				text-transform: uppercase;
 				font-weight: 600;
