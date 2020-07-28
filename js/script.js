@@ -122,19 +122,10 @@ $(document).ready(function() {
 		showHideCode(reset=true);
 	});
 
-	function updateTheme(){
-		// $("#blocks-iframe").contents().find(`.btn-${prevColor}, .btn-${baseColor}, .${prevColor}`).each((idx, ele) => {
-		// 	$(ele).removeClass(`btn-${prevColor} btn-primary ${prevColor}`);
-		// 	if (defaultColors.includes(newColor)){
-		// 		$(ele).addClass(`btn-${newColor}`);
-		// 	}else{
-		// 		$(ele).addClass(`${newColor}`);
-		// 	}
-		// })
-		
+	function updateTheme(){		
 		$("#blocks-iframe").contents().find(
 			`.btn-${prevColor}, .btn-${baseColor}, .btn-outline-${prevColor}, .btn-outline-${baseColor},
-			.bg-${prevColor},
+			.bg-${prevColor}, .bg-${baseColor},
 			.text-${prevColor}, .text-${baseColor}`
 		).each((idx, tag) => {
 			let ele = $(tag);
@@ -144,7 +135,7 @@ $(document).ready(function() {
 			}else if (ele.hasClass(`btn-outline-${prevColor}`) || ele.hasClass(`btn-outline-${baseColor}`)){
 				ele.removeClass(`btn-outline-${prevColor} btn-outline-${baseColor}`);
 				ele.addClass(`btn-outline-${newColor}`);
-			}else if (ele.hasClass(`bg-${prevColor}`)){
+			}else if (ele.hasClass(`bg-${prevColor}`) || ele.hasClass(`bg-${baseColor}`)){
 				ele.removeClass(`bg-${prevColor} bg-${baseColor}`)
 				ele.addClass(`bg-${newColor}`);
 			}else{
