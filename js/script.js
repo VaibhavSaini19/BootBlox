@@ -159,7 +159,7 @@ $(document).ready(function() {
 	let targetDevice;
 	let ele = $("[data-device='desktop']");
 	let widthMap = {
-		"desktop" : "1200px",
+		"desktop" : "100%",
 		"tablet" : "768px",
 		"mobile" : "375px"
 	}
