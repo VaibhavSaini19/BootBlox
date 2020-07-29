@@ -23,15 +23,15 @@ $(document).ready(function() {
 		let num = $(ele).attr("data-block-num");
 		let newSrc = `./blocks/${type}/${type}_${num}.html`;
 		let iframe = $("#blocks-iframe");
-		iframe.fadeOut(fadeDelay, () => {
+		iframe.animate({opacity: 0}, fadeDelay, () => {
 			iframe.attr("src", newSrc);
 			setTimeout(() => {
 				previewBtn.removeClass("active");
 				showHideCode();
 				updateTheme();
-				iframe.fadeIn(fadeDelay);
+				iframe.animate({opacity: 1}, fadeDelay);
 			}, 100);
-		});
+		})
 	})
 
 	
