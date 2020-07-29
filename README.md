@@ -29,7 +29,7 @@ or just download the `extras/b5_v5_compiled_colors.css` file and link it in your
 - Type `npm install` and hit enter to install Bootstrap v5 and bootstrap-icons
 - Go to a category folder of your choice under `blocks` folder, or if you would like to add a new `block` category, create an issue,  and it will be assigned to you
 - Create a new `<block_category_num>.html` file. For eg. the `Blog` already contains 3 templates, so the next one would be `blog_4.html` (You can use the HTML boilerplate provided in `blocks/boilerplate/boilerplate.html`)
-- To maek components follow the theme colors from the advanced color palette, use class `btn-primary`, `bg-primary`, `text-primary` for buttons, background and text color respectively. The theme will be applied automatically upon choosing by the user
+- To make components follow the theme colors from the advanced color palette, use class `btn-primary`, `bg-primary`, `text-primary` for buttons, background and text color respectively. The theme will be applied automatically upon choosing by the user
 - After you are done creating the template block, create a SVG thumbnail and add it in the `assets/thumbs`, and then make a pull request. We will handle it from there to include it in the main page
 
 
