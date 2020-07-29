@@ -21,7 +21,7 @@ $(document).ready(function() {
 		let ele = e.target.closest("a");
 		let type = $(ele).attr("data-block-type");
 		let num = $(ele).attr("data-block-num");
-		let newSrc = `../blocks/${type}/${type}_${num}.html`;
+		let newSrc = `./blocks/${type}/${type}_${num}.html`;
 		let iframe = $("#blocks-iframe");
 		iframe.fadeOut(fadeDelay, () => {
 			iframe.attr("src", newSrc);
