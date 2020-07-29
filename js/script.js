@@ -12,9 +12,10 @@ $(document).ready(function() {
 	});
 
 
-	let fadeDelay = 200;
-
+	
 	// ----------------------------------     Iframe src & Code Preview     -----------------------------------------
+
+	let fadeDelay = 200;
 	let previewBtn = $("#code-preview");
 
 	$("#sidebar .nav .nav-link").on("click", (e) => {
@@ -26,13 +27,13 @@ $(document).ready(function() {
 		iframe.animate({opacity: 0}, fadeDelay, () => {
 			iframe.attr("src", newSrc);
 			setTimeout(() => {
-				previewBtn.removeClass("active");
 				showHideCode();
 				updateTheme();
+				previewBtn.removeClass("active");
 				setTimeout(() => {
 					iframe.animate({opacity: 1}, fadeDelay);
-				}, fadeDelay*1.5);
-			}, fadeDelay);
+				}, fadeDelay);
+			}, fadeDelay*2);
 		})
 	})
 
