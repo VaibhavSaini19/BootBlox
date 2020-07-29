@@ -31,8 +31,8 @@ $(document).ready(function() {
 				updateTheme();
 				setTimeout(() => {
 					iframe.animate({opacity: 1}, fadeDelay);
-				}, 100);
-			}, 100);
+				}, fadeDelay);
+			}, fadeDelay*1.5);
 		})
 	})
 
