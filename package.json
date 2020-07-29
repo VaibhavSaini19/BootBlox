@@ -1,5 +1,5 @@
 {
-  "name": "BootBlocks",
+  "name": "BootBlox",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VaibhavSaini19/BootBlocks.git"
+    "url": "git+https://github.com/VaibhavSaini19/BootBlox.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VaibhavSaini19/BootBlocks/issues"
+    "url": "https://github.com/VaibhavSaini19/BootBlox/issues"
   },
-  "homepage": "https://github.com/VaibhavSaini19/BootBlocks#readme",
+  "homepage": "https://github.com/VaibhavSaini19/BootBlox#readme",
   "dependencies": {
     "bootstrap": "^5.0.0-alpha1",
     "bootstrap-icons": "^1.0.0-alpha5"
