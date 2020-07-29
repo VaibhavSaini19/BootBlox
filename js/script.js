@@ -29,7 +29,9 @@ $(document).ready(function() {
 				previewBtn.removeClass("active");
 				showHideCode();
 				updateTheme();
-				iframe.animate({opacity: 1}, fadeDelay);
+				setTimeout(() => {
+					iframe.animate({opacity: 1}, fadeDelay);
+				}, 100);
 			}, 100);
 		})
 	})
