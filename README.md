@@ -8,13 +8,15 @@
     <img src="https://img.shields.io/github/license/VaibhavSaini19/BootBlox?style=flat-square&logo=appveyor&color=teal">
 </p>
 
-<p align="center">Head over to https://vaibhavsaini19.github.io/BootBlox/ now.</p>
+<p align="center">Head over to [BootBlox](https://vaibhavsaini19.github.io/BootBlox/) now.</p>
 
 ## Features
 - Uses Bootstrap v5
 - Fully responsive
 - 90+ color schemes
 - Multiple categories
+
+<p id="usage"></p>
 
 ## Usage
 It is assumed that your project is up and running Bootstrap v5. If not, [Get it here now](https://v5.getbootstrap.com/)

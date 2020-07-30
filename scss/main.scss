@@ -341,6 +341,21 @@ body {
 				}
 			}
 		}
+		#github-link{
+			position: absolute;
+			right: 20px;
+			bottom: 10px;
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+			background: black;
+			color: white;
+			text-decoration: none;
+			padding: 5px 10px;
+			border-radius: 20px;
+			transition: all $transition-delay;
+			&:hover{
+				transform: scale(1.05);
+			}
+		}
 	}
 }
 
@@ -354,6 +369,14 @@ body {
 	}
 	#sidebar.active {
 		margin-left: 0;
+
+		& ~ #content #theme-sel-container{
+			display: none !important;
+			transition: all $transition-delay;
+		}
+	}
+	section.block-content{
+		overflow-y: visible !important;
 	}
 	#device-sel-container{
 		display: none !important;
