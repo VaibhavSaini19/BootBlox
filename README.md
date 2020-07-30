@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/github/license/VaibhavSaini19/BootBlox?style=flat-square&logo=appveyor&color=teal">
 </p>
 
-<p align="center">Head over to [BootBlox](https://vaibhavsaini19.github.io/BootBlox/) now.</p>
+<p align="center">Head over to https://vaibhavsaini19.github.io/BootBlox/ now.</p>
 
 ## Features
 - Uses Bootstrap v5
