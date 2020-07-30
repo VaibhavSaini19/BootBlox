@@ -1,10 +1,14 @@
-# BootBlox
-Ready-to-use Bootstrap CSS blocks
+<h1 align="center">BootBlox</h1>
+<p align="center">Ready-to-use Bootstrap CSS blocks</p>
 
-Made with Bootstrap, for Bootstrap 💙
+<p align="center">
+    <img src="https://img.shields.io/github/issues/VaibhavSaini19/BootBlox?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/VaibhavSaini19/BootBlox?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/VaibhavSaini19/BootBlox?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/VaibhavSaini19/BootBlox?style=flat-square&logo=appveyor&color=teal">
+</p>
 
-Head over to: 
-[BootBlox](https://vaibhavsaini19.github.io/BootBlox/)
+<p align="center">Head over to https://vaibhavsaini19.github.io/BootBlox/ now.</p>
 
 ## Features
 - Uses Bootstrap v5
