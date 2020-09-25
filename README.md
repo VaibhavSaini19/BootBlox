@@ -31,3 +31,9 @@ or just download the `extras/b5_v5_compiled_colors.css` file and link it in your
 
 
 Star the repo and share it if you like it ✨
+
+## Preview
+
+![](https://github.com/VaibhavSaini19/BootBlox/blob/master/Screenshots/Screenshot%201%20(Hero).png)
+
+![](https://github.com/VaibhavSaini19/BootBlox/blob/master/Screenshots/Screenshot%202%20(Contact).png)
