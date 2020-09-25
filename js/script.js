@@ -1,4 +1,33 @@
 $(() => {
+
+	// ----------------------------------     Create Sidebar links     -----------------------------------------
+	blocks = {
+		'Blog': 3,
+		'Contact': 2,
+		'Feature': 1,
+		'Footer': 1,
+		'Gallery': 1,
+		'Header': 1,
+		'Hero': 2
+	}
+
+	let content = '';
+	Object.entries(blocks).forEach(([block, types], index) => {
+		content += `<div class="block-type ${index?'mt-3':''}">${block}</div>`;
+		for (let num=1; num<=types; num++){
+			content += `
+			<a class="nav-link ${(!index&&num==1)?'active':''}" id="blocks-${block.toLowerCase()}-${num}-link" data-block-type="${block.toLowerCase()}" data-block-num="${num}" data-toggle="pill" role="tab">
+				<li class="block-thumb">
+					<img src="./assets/thumbs/thumb_temp.PNG" alt="">
+				</li>
+			</a>
+			`;
+		}
+	});
+	// console.log(content);
+	$('#blocks-tab').html(content);
+
+
 	// ----------------------------------     Sidebar collapse     -----------------------------------------
 
 	$('#sidebarCollapse').on('click', function () {
