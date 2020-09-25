@@ -1,8 +1,5 @@
-$(document).ready(function() {
-	$('.overlay').on('click', function () {
-		$('#sidebar').removeClass('active');
-		$('.overlay').removeClass('active');
-	});
+$(() => {
+	// ----------------------------------     Sidebar collapse     -----------------------------------------
 
 	$('#sidebarCollapse').on('click', function () {
 		$('#sidebar').toggleClass('active');
@@ -95,6 +92,7 @@ $(document).ready(function() {
 	}
 
 	// ----------------------------------     Copy Button     -----------------------------------------	
+
 	$("#copy-btn").on("click", (e) => {
 		// console.log(codeCopytext);
 		$("#copy-btn").html("<span>Copied!</span>");
@@ -110,6 +108,7 @@ $(document).ready(function() {
 	})
 
 	// ----------------------------------     Theme selector     -----------------------------------------
+
 	let baseColor = "primary", prevColor = "primary", newColor = "primary";
 	let defaultColors = ["primary", "secondary", "success", "danger", "warning", "info"]
 	let newThemeBtn;
@@ -150,6 +149,7 @@ $(document).ready(function() {
 	}
 
 	// ----------------------------------     Device selector     -----------------------------------------
+
 	let targetDevice;
 	let ele = $("[data-device='desktop']");
 	let widthMap = {
