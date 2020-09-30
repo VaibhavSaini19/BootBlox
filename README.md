@@ -29,6 +29,8 @@ It is assumed that your project is up and running Bootstrap v5. If not, [Get it 
 **Note:** To use the advanced color palette, you need to include the code in `extras/bs_v5_compiled_colors.scss` in your main scss file, 
 or just download the `extras/b5_v5_compiled_colors.css` file and link it in your project
 
+## How to contribute
+Check out the [CONTRIBUTING.md](https://github.com/VaibhavSaini19/BootBlox/blob/master/CONTRIBUTING.md)
 
 Star the repo and share it if you like it ✨
 
