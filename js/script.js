@@ -8,6 +8,7 @@ $(() => {
 		Gallery: 1,
 		Header: 1,
 		Hero: 2,
+		Pricing:2
 	};
 
 	let navContent = "";
