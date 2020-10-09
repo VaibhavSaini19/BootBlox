@@ -9,8 +9,8 @@ Date: 2020-04-06
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #1C1B19;
-  color: #FCE8C3;
+  background: #1c1b19;
+  color: #fce8c3;
 }
 
 .hljs-strong,
@@ -24,12 +24,12 @@ Date: 2020-04-06
 .hljs-number,
 .hljs-regexp,
 .hljs-literal {
-  color: #FF5C8F;
+  color: #ff5c8f;
 }
 
 .hljs-code,
 .hljs-selector-class {
-  color: #68A8E4
+  color: #68a8e4;
 }
 
 .hljs-emphasis {
@@ -41,21 +41,21 @@ Date: 2020-04-06
 .hljs-section,
 .hljs-attribute,
 .hljs-variable {
-  color: #EF2F27;
+  color: #ef2f27;
 }
 
 .hljs-name,
 .hljs-title {
-  color: #FBB829;
+  color: #fbb829;
 }
 
 .hljs-type,
 .hljs-params {
-  color: #0AAEB3;
+  color: #0aaeb3;
 }
 
 .hljs-string {
-  color: #98BC37;
+  color: #98bc37;
 }
 
 .hljs-subst,
@@ -68,7 +68,7 @@ Date: 2020-04-06
 .hljs-template-tag,
 .hljs-template-variable,
 .hljs-addition {
-  color: #C07ABE;
+  color: #c07abe;
 }
 
 .hljs-comment,

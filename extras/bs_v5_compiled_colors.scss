@@ -6,665 +6,1832 @@
 
 // @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-
-.bg-blue-100{ background: $blue-100; color: black;}
-.bg-blue-200{ background: $blue-200; color: black;}
-.bg-blue-300{ background: $blue-300; color: black;}
-.bg-blue-400{ background: $blue-400; color: white;}
-.bg-blue-500{ background: $blue-500; color: white;}
-.bg-blue-600{ background: $blue-600; color: white;}
-.bg-blue-700{ background: $blue-700; color: white;}
-.bg-blue-800{ background: $blue-800; color: white;}
-.bg-blue-900{ background: $blue-900; color: white;}
-
-.bg-indigo-100{ background: $indigo-100; color: black;}
-.bg-indigo-200{ background: $indigo-200; color: black;}
-.bg-indigo-300{ background: $indigo-300; color: white;}
-.bg-indigo-400{ background: $indigo-400; color: white;}
-.bg-indigo-500{ background: $indigo-500; color: white;}
-.bg-indigo-600{ background: $indigo-600; color: white;}
-.bg-indigo-700{ background: $indigo-700; color: white;}
-.bg-indigo-800{ background: $indigo-800; color: white;}
-.bg-indigo-900{ background: $indigo-900; color: white;}
-
-.bg-purple-100{ background: $purple-100; color: black;}
-.bg-purple-200{ background: $purple-200; color: black;}
-.bg-purple-300{ background: $purple-300; color: white;}
-.bg-purple-400{ background: $purple-400; color: white;}
-.bg-purple-500{ background: $purple-500; color: white;}
-.bg-purple-600{ background: $purple-600; color: white;}
-.bg-purple-700{ background: $purple-700; color: white;}
-.bg-purple-800{ background: $purple-800; color: white;}
-.bg-purple-900{ background: $purple-900; color: white;}
-
-.bg-pink-100{ background: $pink-100; color: black;}
-.bg-pink-200{ background: $pink-200; color: black;}
-.bg-pink-300{ background: $pink-300; color: black;}
-.bg-pink-400{ background: $pink-400; color: white;}
-.bg-pink-500{ background: $pink-500; color: white;}
-.bg-pink-600{ background: $pink-600; color: white;}
-.bg-pink-700{ background: $pink-700; color: white;}
-.bg-pink-800{ background: $pink-800; color: white;}
-.bg-pink-900{ background: $pink-900; color: white;}
-
-.bg-red-100{ background: $red-100; color: black;}
-.bg-red-200{ background: $red-200; color: black;}
-.bg-red-300{ background: $red-300; color: black;}
-.bg-red-400{ background: $red-400; color: white;}
-.bg-red-500{ background: $red-500; color: white;}
-.bg-red-600{ background: $red-600; color: white;}
-.bg-red-700{ background: $red-700; color: white;}
-.bg-red-800{ background: $red-800; color: white;}
-.bg-red-900{ background: $red-900; color: white;}
-
-.bg-orange-100{ background: $orange-100; color: black;}
-.bg-orange-200{ background: $orange-200; color: black;}
-.bg-orange-300{ background: $orange-300; color: black;}
-.bg-orange-400{ background: $orange-400; color: black;}
-.bg-orange-500{ background: $orange-500; color: black;}
-.bg-orange-600{ background: $orange-600; color: white;}
-.bg-orange-700{ background: $orange-700; color: white;}
-.bg-orange-800{ background: $orange-800; color: white;}
-.bg-orange-900{ background: $orange-900; color: white;}
-
-.bg-yellow-100{ background: $yellow-100; color: black;}
-.bg-yellow-200{ background: $yellow-200; color: black;}
-.bg-yellow-300{ background: $yellow-300; color: black;}
-.bg-yellow-400{ background: $yellow-400; color: black;}
-.bg-yellow-500{ background: $yellow-500; color: black;}
-.bg-yellow-600{ background: $yellow-600; color: black;}
-.bg-yellow-700{ background: $yellow-700; color: white;}
-.bg-yellow-800{ background: $yellow-800; color: white;}
-.bg-yellow-900{ background: $yellow-900; color: white;}
-
-.bg-green-100{ background: $green-100; color: black;}
-.bg-green-200{ background: $green-200; color: black;}
-.bg-green-300{ background: $green-300; color: black;}
-.bg-green-400{ background: $green-400; color: black;}
-.bg-green-500{ background: $green-500; color: white;}
-.bg-green-600{ background: $green-600; color: white;}
-.bg-green-700{ background: $green-700; color: white;}
-.bg-green-800{ background: $green-800; color: white;}
-.bg-green-900{ background: $green-900; color: white;}
-
-.bg-teal-100{ background: $teal-100; color: black;}
-.bg-teal-200{ background: $teal-200; color: black;}
-.bg-teal-300{ background: $teal-300; color: black;}
-.bg-teal-400{ background: $teal-400; color: black;}
-.bg-teal-500{ background: $teal-500; color: black;}
-.bg-teal-600{ background: $teal-600; color: black;}
-.bg-teal-700{ background: $teal-700; color: white;}
-.bg-teal-800{ background: $teal-800; color: white;}
-.bg-teal-900{ background: $teal-900; color: white;}
-
-.bg-cyan-100{ background: $cyan-100; color: black;}
-.bg-cyan-200{ background: $cyan-200; color: black;}
-.bg-cyan-300{ background: $cyan-300; color: black;}
-.bg-cyan-400{ background: $cyan-400; color: black;}
-.bg-cyan-500{ background: $cyan-500; color: white;}
-.bg-cyan-600{ background: $cyan-600; color: white;}
-.bg-cyan-700{ background: $cyan-700; color: white;}
-.bg-cyan-800{ background: $cyan-800; color: white;}
-.bg-cyan-900{ background: $cyan-900; color: white;}
-
-
-.btn-blue-100{ background: $blue-100; color: black;}
-.btn-outline-blue-100{ 
-	color: $blue-100; border-color: $blue-100;
-	&:active, &:hover{ color: black; background-color: $blue-100; }
+.bg-blue-100 {
+  background: $blue-100;
+  color: black;
 }
-.btn-blue-200{ background: $blue-200; color: black;}
-.btn-outline-blue-200{ 
-	color: $blue-200; border-color: $blue-200;
-	&:active, &:hover{ color: black; background-color: $blue-200; }
+.bg-blue-200 {
+  background: $blue-200;
+  color: black;
 }
-.btn-blue-300{ background: $blue-300; color: black;}
-.btn-outline-blue-300{ 
-	color: $blue-300; border-color: $blue-300;
-	&:active, &:hover{ color: black; background-color: $blue-300; }
+.bg-blue-300 {
+  background: $blue-300;
+  color: black;
 }
-.btn-blue-400{ background: $blue-400; color: white;}
-.btn-outline-blue-400{ 
-	color: $blue-400; border-color: $blue-400;
-	&:active, &:hover{ color: white; background-color: $blue-400; }
+.bg-blue-400 {
+  background: $blue-400;
+  color: white;
 }
-.btn-blue-500{ background: $blue-500; color: white;}
-.btn-outline-blue-500{ 
-	color: $blue-500; border-color: $blue-500;
-	&:active, &:hover{ color: white; background-color: $blue-500; }
+.bg-blue-500 {
+  background: $blue-500;
+  color: white;
 }
-.btn-blue-600{ background: $blue-600; color: white;}
-.btn-outline-blue-600{ 
-	color: $blue-600; border-color: $blue-600;
-	&:active, &:hover{ color: white; background-color: $blue-600; }
+.bg-blue-600 {
+  background: $blue-600;
+  color: white;
 }
-.btn-blue-700{ background: $blue-700; color: white;}
-.btn-outline-blue-700{ 
-	color: $blue-700; border-color: $blue-700;
-	&:active, &:hover{ color: white; background-color: $blue-700; }
+.bg-blue-700 {
+  background: $blue-700;
+  color: white;
 }
-.btn-blue-800{ background: $blue-800; color: white;}
-.btn-outline-blue-800{ 
-	color: $blue-800; border-color: $blue-800;
-	&:active, &:hover{ color: white; background-color: $blue-800; }
+.bg-blue-800 {
+  background: $blue-800;
+  color: white;
 }
-.btn-blue-900{ background: $blue-900; color: white;}
-.btn-outline-blue-900{ 
-	color: $blue-900; border-color: $blue-900;
-	&:active, &:hover{ color: white; background-color: $blue-900; }
+.bg-blue-900 {
+  background: $blue-900;
+  color: white;
 }
 
-.btn-indigo-100{ background: $indigo-100; color: black;}
-.btn-outline-indigo-100{ 
-	color: $indigo-100; border-color: $indigo-100;
-	&:active, &:hover{ color: black; background-color: $indigo-100; }
+.bg-indigo-100 {
+  background: $indigo-100;
+  color: black;
 }
-.btn-indigo-200{ background: $indigo-200; color: black;}
-.btn-outline-indigo-200{ 
-	color: $indigo-200; border-color: $indigo-200;
-	&:active, &:hover{ color: black; background-color: $indigo-200; }
+.bg-indigo-200 {
+  background: $indigo-200;
+  color: black;
 }
-.btn-indigo-300{ background: $indigo-300; color: white;}
-.btn-outline-indigo-300{ 
-	color: $indigo-300; border-color: $indigo-300;
-	&:active, &:hover{ color: white; background-color: $indigo-300; }
+.bg-indigo-300 {
+  background: $indigo-300;
+  color: white;
 }
-.btn-indigo-400{ background: $indigo-400; color: white;}
-.btn-outline-indigo-400{ 
-	color: $indigo-400; border-color: $indigo-400;
-	&:active, &:hover{ color: white; background-color: $indigo-400; }
+.bg-indigo-400 {
+  background: $indigo-400;
+  color: white;
 }
-.btn-indigo-500{ background: $indigo-500; color: white;}
-.btn-outline-indigo-500{ 
-	color: $indigo-500; border-color: $indigo-500;
-	&:active, &:hover{ color: white; background-color: $indigo-500; }
+.bg-indigo-500 {
+  background: $indigo-500;
+  color: white;
 }
-.btn-indigo-600{ background: $indigo-600; color: white;}
-.btn-outline-indigo-600{ 
-	color: $indigo-600; border-color: $indigo-600;
-	&:active, &:hover{ color: white; background-color: $indigo-600; }
+.bg-indigo-600 {
+  background: $indigo-600;
+  color: white;
 }
-.btn-indigo-700{ background: $indigo-700; color: white;}
-.btn-outline-indigo-700{ 
-	color: $indigo-700; border-color: $indigo-700;
-	&:active, &:hover{ color: white; background-color: $indigo-700; }
+.bg-indigo-700 {
+  background: $indigo-700;
+  color: white;
 }
-.btn-indigo-800{ background: $indigo-800; color: white;}
-.btn-outline-indigo-800{ 
-	color: $indigo-800; border-color: $indigo-800;
-	&:active, &:hover{ color: white; background-color: $indigo-800; }
+.bg-indigo-800 {
+  background: $indigo-800;
+  color: white;
 }
-.btn-indigo-900{ background: $indigo-900; color: white;}
-.btn-outline-indigo-900{ 
-	color: $indigo-900; border-color: $indigo-900;
-	&:active, &:hover{ color: white; background-color: $indigo-900; }
+.bg-indigo-900 {
+  background: $indigo-900;
+  color: white;
 }
 
-.btn-purple-100{ background: $purple-100; color: black;}
-.btn-outline-purple-100{ 
-	color: $purple-100; border-color: $purple-100;
-	&:active, &:hover{ color: black; background-color: $purple-100; }
+.bg-purple-100 {
+  background: $purple-100;
+  color: black;
 }
-.btn-purple-200{ background: $purple-200; color: black;}
-.btn-outline-purple-200{ 
-	color: $purple-200; border-color: $purple-200;
-	&:active, &:hover{ color: black; background-color: $purple-200; }
+.bg-purple-200 {
+  background: $purple-200;
+  color: black;
 }
-.btn-purple-300{ background: $purple-300; color: white;}
-.btn-outline-purple-300{ 
-	color: $purple-300; border-color: $purple-300;
-	&:active, &:hover{ color: white; background-color: $purple-300; }
+.bg-purple-300 {
+  background: $purple-300;
+  color: white;
 }
-.btn-purple-400{ background: $purple-400; color: white;}
-.btn-outline-purple-400{ 
-	color: $purple-400; border-color: $purple-400;
-	&:active, &:hover{ color: white; background-color: $purple-400; }
+.bg-purple-400 {
+  background: $purple-400;
+  color: white;
 }
-.btn-purple-500{ background: $purple-500; color: white;}
-.btn-outline-purple-500{ 
-	color: $purple-500; border-color: $purple-500;
-	&:active, &:hover{ color: white; background-color: $purple-500; }
+.bg-purple-500 {
+  background: $purple-500;
+  color: white;
 }
-.btn-purple-600{ background: $purple-600; color: white;}
-.btn-outline-purple-600{ 
-	color: $purple-600; border-color: $purple-600;
-	&:active, &:hover{ color: white; background-color: $purple-600; }
+.bg-purple-600 {
+  background: $purple-600;
+  color: white;
 }
-.btn-purple-700{ background: $purple-700; color: white;}
-.btn-outline-purple-700{ 
-	color: $purple-700; border-color: $purple-700;
-	&:active, &:hover{ color: white; background-color: $purple-700; }
+.bg-purple-700 {
+  background: $purple-700;
+  color: white;
 }
-.btn-purple-800{ background: $purple-800; color: white;}
-.btn-outline-purple-800{ 
-	color: $purple-800; border-color: $purple-800;
-	&:active, &:hover{ color: white; background-color: $purple-800; }
+.bg-purple-800 {
+  background: $purple-800;
+  color: white;
 }
-.btn-purple-900{ background: $purple-900; color: white;}
-.btn-outline-purple-900{ 
-	color: $purple-900; border-color: $purple-900;
-	&:active, &:hover{ color: white; background-color: $purple-900; }
+.bg-purple-900 {
+  background: $purple-900;
+  color: white;
 }
 
-.btn-pink-100{ background: $pink-100; color: black;}
-.btn-outline-pink-100{ 
-	color: $pink-100; border-color: $pink-100;
-	&:active, &:hover{ color: black; background-color: $pink-100; }
+.bg-pink-100 {
+  background: $pink-100;
+  color: black;
 }
-.btn-pink-200{ background: $pink-200; color: black;}
-.btn-outline-pink-200{ 
-	color: $pink-200; border-color: $pink-200;
-	&:active, &:hover{ color: black; background-color: $pink-200; }
+.bg-pink-200 {
+  background: $pink-200;
+  color: black;
 }
-.btn-pink-300{ background: $pink-300; color: black;}
-.btn-outline-pink-300{ 
-	color: $pink-300; border-color: $pink-300;
-	&:active, &:hover{ color: black; background-color: $pink-300; }
+.bg-pink-300 {
+  background: $pink-300;
+  color: black;
 }
-.btn-pink-400{ background: $pink-400; color: white;}
-.btn-outline-pink-400{ 
-	color: $pink-400; border-color: $pink-400;
-	&:active, &:hover{ color: white; background-color: $pink-400; }
+.bg-pink-400 {
+  background: $pink-400;
+  color: white;
 }
-.btn-pink-500{ background: $pink-500; color: white;}
-.btn-outline-pink-500{ 
-	color: $pink-500; border-color: $pink-500;
-	&:active, &:hover{ color: white; background-color: $pink-500; }
+.bg-pink-500 {
+  background: $pink-500;
+  color: white;
 }
-.btn-pink-600{ background: $pink-600; color: white;}
-.btn-outline-pink-600{ 
-	color: $pink-600; border-color: $pink-600;
-	&:active, &:hover{ color: white; background-color: $pink-600; }
+.bg-pink-600 {
+  background: $pink-600;
+  color: white;
 }
-.btn-pink-700{ background: $pink-700; color: white;}
-.btn-outline-pink-700{ 
-	color: $pink-700; border-color: $pink-700;
-	&:active, &:hover{ color: white; background-color: $pink-700; }
+.bg-pink-700 {
+  background: $pink-700;
+  color: white;
 }
-.btn-pink-800{ background: $pink-800; color: white;}
-.btn-outline-pink-800{ 
-	color: $pink-800; border-color: $pink-800;
-	&:active, &:hover{ color: white; background-color: $pink-800; }
+.bg-pink-800 {
+  background: $pink-800;
+  color: white;
 }
-.btn-pink-900{ background: $pink-900; color: white;}
-.btn-outline-pink-900{ 
-	color: $pink-900; border-color: $pink-900;
-	&:active, &:hover{ color: white; background-color: $pink-900; }
+.bg-pink-900 {
+  background: $pink-900;
+  color: white;
 }
 
-.btn-red-100{ background: $red-100; color: black;}
-.btn-outline-red-100{ 
-	color: $red-100; border-color: $red-100;
-	&:active, &:hover{ color: black; background-color: $red-100; }
+.bg-red-100 {
+  background: $red-100;
+  color: black;
 }
-.btn-red-200{ background: $red-200; color: black;}
-.btn-outline-red-200{ 
-	color: $red-200; border-color: $red-200;
-	&:active, &:hover{ color: black; background-color: $red-200; }
+.bg-red-200 {
+  background: $red-200;
+  color: black;
 }
-.btn-red-300{ background: $red-300; color: black;}
-.btn-outline-red-300{ 
-	color: $red-300; border-color: $red-300;
-	&:active, &:hover{ color: black; background-color: $red-300; }
+.bg-red-300 {
+  background: $red-300;
+  color: black;
 }
-.btn-red-400{ background: $red-400; color: white;}
-.btn-outline-red-400{ 
-	color: $red-400; border-color: $red-400;
-	&:active, &:hover{ color: white; background-color: $red-400; }
+.bg-red-400 {
+  background: $red-400;
+  color: white;
 }
-.btn-red-500{ background: $red-500; color: white;}
-.btn-outline-red-500{ 
-	color: $red-500; border-color: $red-500;
-	&:active, &:hover{ color: white; background-color: $red-500; }
+.bg-red-500 {
+  background: $red-500;
+  color: white;
 }
-.btn-red-600{ background: $red-600; color: white;}
-.btn-outline-red-600{ 
-	color: $red-600; border-color: $red-600;
-	&:active, &:hover{ color: white; background-color: $red-600; }
+.bg-red-600 {
+  background: $red-600;
+  color: white;
 }
-.btn-red-700{ background: $red-700; color: white;}
-.btn-outline-red-700{ 
-	color: $red-700; border-color: $red-700;
-	&:active, &:hover{ color: white; background-color: $red-700; }
+.bg-red-700 {
+  background: $red-700;
+  color: white;
 }
-.btn-red-800{ background: $red-800; color: white;}
-.btn-outline-red-800{ 
-	color: $red-800; border-color: $red-800;
-	&:active, &:hover{ color: white; background-color: $red-800; }
+.bg-red-800 {
+  background: $red-800;
+  color: white;
 }
-.btn-red-900{ background: $red-900; color: white;}
-.btn-outline-red-900{ 
-	color: $red-900; border-color: $red-900;
-	&:active, &:hover{ color: white; background-color: $red-900; }
+.bg-red-900 {
+  background: $red-900;
+  color: white;
 }
 
-.btn-orange-100{ background: $orange-100; color: black;}
-.btn-outline-orange-100{ 
-	color: $orange-100; border-color: $orange-100;
-	&:active, &:hover{ color: black; background-color: $orange-100; }
+.bg-orange-100 {
+  background: $orange-100;
+  color: black;
 }
-.btn-orange-200{ background: $orange-200; color: black;}
-.btn-outline-orange-200{ 
-	color: $orange-200; border-color: $orange-200;
-	&:active, &:hover{ color: black; background-color: $orange-200; }
+.bg-orange-200 {
+  background: $orange-200;
+  color: black;
 }
-.btn-orange-300{ background: $orange-300; color: black;}
-.btn-outline-orange-300{ 
-	color: $orange-300; border-color: $orange-300;
-	&:active, &:hover{ color: black; background-color: $orange-300; }
+.bg-orange-300 {
+  background: $orange-300;
+  color: black;
 }
-.btn-orange-400{ background: $orange-400; color: black;}
-.btn-outline-orange-400{ 
-	color: $orange-400; border-color: $orange-400;
-	&:active, &:hover{ color: black; background-color: $orange-400; }
+.bg-orange-400 {
+  background: $orange-400;
+  color: black;
 }
-.btn-orange-500{ background: $orange-500; color: black;}
-.btn-outline-orange-500{ 
-	color: $orange-500; border-color: $orange-500;
-	&:active, &:hover{ color: black; background-color: $orange-500; }
+.bg-orange-500 {
+  background: $orange-500;
+  color: black;
 }
-.btn-orange-600{ background: $orange-600; color: white;}
-.btn-outline-orange-600{ 
-	color: $orange-600; border-color: $orange-600;
-	&:active, &:hover{ color: white; background-color: $orange-600; }
+.bg-orange-600 {
+  background: $orange-600;
+  color: white;
 }
-.btn-orange-700{ background: $orange-700; color: white;}
-.btn-outline-orange-700{ 
-	color: $orange-700; border-color: $orange-700;
-	&:active, &:hover{ color: white; background-color: $orange-700; }
+.bg-orange-700 {
+  background: $orange-700;
+  color: white;
 }
-.btn-orange-800{ background: $orange-800; color: white;}
-.btn-outline-orange-800{ 
-	color: $orange-800; border-color: $orange-800;
-	&:active, &:hover{ color: white; background-color: $orange-800; }
+.bg-orange-800 {
+  background: $orange-800;
+  color: white;
 }
-.btn-orange-900{ background: $orange-900; color: white;}
-.btn-outline-orange-900{ 
-	color: $orange-900; border-color: $orange-900;
-	&:active, &:hover{ color: white; background-color: $orange-900; }
+.bg-orange-900 {
+  background: $orange-900;
+  color: white;
 }
 
-.btn-yellow-100{ background: $yellow-100; color: black;}
-.btn-outline-yellow-100{ 
-	color: $yellow-100; border-color: $yellow-100;
-	&:active, &:hover{ color: black; background-color: $yellow-100; }
+.bg-yellow-100 {
+  background: $yellow-100;
+  color: black;
 }
-.btn-yellow-200{ background: $yellow-200; color: black;}
-.btn-outline-yellow-200{ 
-	color: $yellow-200; border-color: $yellow-200;
-	&:active, &:hover{ color: black; background-color: $yellow-200; }
+.bg-yellow-200 {
+  background: $yellow-200;
+  color: black;
 }
-.btn-yellow-300{ background: $yellow-300; color: black;}
-.btn-outline-yellow-300{ 
-	color: $yellow-300; border-color: $yellow-300;
-	&:active, &:hover{ color: black; background-color: $yellow-300; }
+.bg-yellow-300 {
+  background: $yellow-300;
+  color: black;
 }
-.btn-yellow-400{ background: $yellow-400; color: black;}
-.btn-outline-yellow-400{ 
-	color: $yellow-400; border-color: $yellow-400;
-	&:active, &:hover{ color: black; background-color: $yellow-400; }
+.bg-yellow-400 {
+  background: $yellow-400;
+  color: black;
 }
-.btn-yellow-500{ background: $yellow-500; color: black;}
-.btn-outline-yellow-500{ 
-	color: $yellow-500; border-color: $yellow-500;
-	&:active, &:hover{ color: black; background-color: $yellow-500; }
+.bg-yellow-500 {
+  background: $yellow-500;
+  color: black;
 }
-.btn-yellow-600{ background: $yellow-600; color: black;}
-.btn-outline-yellow-600{ 
-	color: $yellow-600; border-color: $yellow-600;
-	&:active, &:hover{ color: black; background-color: $yellow-600; }
+.bg-yellow-600 {
+  background: $yellow-600;
+  color: black;
 }
-.btn-yellow-700{ background: $yellow-700; color: white;}
-.btn-outline-yellow-700{ 
-	color: $yellow-700; border-color: $yellow-700;
-	&:active, &:hover{ color: white; background-color: $yellow-700; }
+.bg-yellow-700 {
+  background: $yellow-700;
+  color: white;
 }
-.btn-yellow-800{ background: $yellow-800; color: white;}
-.btn-outline-yellow-800{ 
-	color: $yellow-800; border-color: $yellow-800;
-	&:active, &:hover{ color: white; background-color: $yellow-800; }
+.bg-yellow-800 {
+  background: $yellow-800;
+  color: white;
 }
-.btn-yellow-900{ background: $yellow-900; color: white;}
-.btn-outline-yellow-900{ 
-	color: $yellow-900; border-color: $yellow-900;
-	&:active, &:hover{ color: white; background-color: $yellow-900; }
+.bg-yellow-900 {
+  background: $yellow-900;
+  color: white;
 }
 
-.btn-green-100{ background: $green-100; color: black;}
-.btn-outline-green-100{ 
-	color: $green-100; border-color: $green-100;
-	&:active, &:hover{ color: black; background-color: $green-100; }
+.bg-green-100 {
+  background: $green-100;
+  color: black;
 }
-.btn-green-200{ background: $green-200; color: black;}
-.btn-outline-green-200{ 
-	color: $green-200; border-color: $green-200;
-	&:active, &:hover{ color: black; background-color: $green-200; }
+.bg-green-200 {
+  background: $green-200;
+  color: black;
 }
-.btn-green-300{ background: $green-300; color: black;}
-.btn-outline-green-300{ 
-	color: $green-300; border-color: $green-300;
-	&:active, &:hover{ color: black; background-color: $green-300; }
+.bg-green-300 {
+  background: $green-300;
+  color: black;
 }
-.btn-green-400{ background: $green-400; color: black;}
-.btn-outline-green-400{ 
-	color: $green-400; border-color: $green-400;
-	&:active, &:hover{ color: black; background-color: $green-400; }
+.bg-green-400 {
+  background: $green-400;
+  color: black;
 }
-.btn-green-500{ background: $green-500; color: white;}
-.btn-outline-green-500{ 
-	color: $green-500; border-color: $green-500;
-	&:active, &:hover{ color: white; background-color: $green-500; }
+.bg-green-500 {
+  background: $green-500;
+  color: white;
 }
-.btn-green-600{ background: $green-600; color: white;}
-.btn-outline-green-600{ 
-	color: $green-600; border-color: $green-600;
-	&:active, &:hover{ color: white; background-color: $green-600; }
+.bg-green-600 {
+  background: $green-600;
+  color: white;
 }
-.btn-green-700{ background: $green-700; color: white;}
-.btn-outline-green-700{ 
-	color: $green-700; border-color: $green-700;
-	&:active, &:hover{ color: white; background-color: $green-700; }
+.bg-green-700 {
+  background: $green-700;
+  color: white;
 }
-.btn-green-800{ background: $green-800; color: white;}
-.btn-outline-green-800{ 
-	color: $green-800; border-color: $green-800;
-	&:active, &:hover{ color: white; background-color: $green-800; }
+.bg-green-800 {
+  background: $green-800;
+  color: white;
 }
-.btn-green-900{ background: $green-900; color: white;}
-.btn-outline-green-900{ 
-	color: $green-900; border-color: $green-900;
-	&:active, &:hover{ color: white; background-color: $green-900; }
+.bg-green-900 {
+  background: $green-900;
+  color: white;
 }
 
-.btn-teal-100{ background: $teal-100; color: black;}
-.btn-outline-teal-100{ 
-	color: $teal-100; border-color: $teal-100;
-	&:active, &:hover{ color: black; background-color: $teal-100; }
+.bg-teal-100 {
+  background: $teal-100;
+  color: black;
 }
-.btn-teal-200{ background: $teal-200; color: black;}
-.btn-outline-teal-200{ 
-	color: $teal-200; border-color: $teal-200;
-	&:active, &:hover{ color: black; background-color: $teal-200; }
+.bg-teal-200 {
+  background: $teal-200;
+  color: black;
 }
-.btn-teal-300{ background: $teal-300; color: black;}
-.btn-outline-teal-300{ 
-	color: $teal-300; border-color: $teal-300;
-	&:active, &:hover{ color: black; background-color: $teal-300; }
+.bg-teal-300 {
+  background: $teal-300;
+  color: black;
 }
-.btn-teal-400{ background: $teal-400; color: black;}
-.btn-outline-teal-400{ 
-	color: $teal-400; border-color: $teal-400;
-	&:active, &:hover{ color: black; background-color: $teal-400; }
+.bg-teal-400 {
+  background: $teal-400;
+  color: black;
 }
-.btn-teal-500{ background: $teal-500; color: black;}
-.btn-outline-teal-500{ 
-	color: $teal-500; border-color: $teal-500;
-	&:active, &:hover{ color: black; background-color: $teal-500; }
+.bg-teal-500 {
+  background: $teal-500;
+  color: black;
 }
-.btn-teal-600{ background: $teal-600; color: black;}
-.btn-outline-teal-600{ 
-	color: $teal-600; border-color: $teal-600;
-	&:active, &:hover{ color: black; background-color: $teal-600; }
+.bg-teal-600 {
+  background: $teal-600;
+  color: black;
 }
-.btn-teal-700{ background: $teal-700; color: white;}
-.btn-outline-teal-700{ 
-	color: $teal-700; border-color: $teal-700;
-	&:active, &:hover{ color: white; background-color: $teal-700; }
+.bg-teal-700 {
+  background: $teal-700;
+  color: white;
 }
-.btn-teal-800{ background: $teal-800; color: white;}
-.btn-outline-teal-800{ 
-	color: $teal-800; border-color: $teal-800;
-	&:active, &:hover{ color: white; background-color: $teal-800; }
+.bg-teal-800 {
+  background: $teal-800;
+  color: white;
 }
-.btn-teal-900{ background: $teal-900; color: white;}
-.btn-outline-teal-900{ 
-	color: $teal-900; border-color: $teal-900;
-	&:active, &:hover{ color: white; background-color: $teal-900; }
+.bg-teal-900 {
+  background: $teal-900;
+  color: white;
 }
 
-.btn-cyan-100{ background: $cyan-100; color: black;}
-.btn-outline-cyan-100{ 
-	color: $cyan-100; border-color: $cyan-100;
-	&:active, &:hover{ color: black; background-color: $cyan-100; }
+.bg-cyan-100 {
+  background: $cyan-100;
+  color: black;
 }
-.btn-cyan-200{ background: $cyan-200; color: black;}
-.btn-outline-cyan-200{ 
-	color: $cyan-200; border-color: $cyan-200;
-	&:active, &:hover{ color: black; background-color: $cyan-200; }
+.bg-cyan-200 {
+  background: $cyan-200;
+  color: black;
 }
-.btn-cyan-300{ background: $cyan-300; color: black;}
-.btn-outline-cyan-300{ 
-	color: $cyan-300; border-color: $cyan-300;
-	&:active, &:hover{ color: black; background-color: $cyan-300; }
+.bg-cyan-300 {
+  background: $cyan-300;
+  color: black;
 }
-.btn-cyan-400{ background: $cyan-400; color: black;}
-.btn-outline-cyan-400{ 
-	color: $cyan-400; border-color: $cyan-400;
-	&:active, &:hover{ color: black; background-color: $cyan-400; }
+.bg-cyan-400 {
+  background: $cyan-400;
+  color: black;
 }
-.btn-cyan-500{ background: $cyan-500; color: white;}
-.btn-outline-cyan-500{ 
-	color: $cyan-500; border-color: $cyan-500;
-	&:active, &:hover{ color: white; background-color: $cyan-500; }
+.bg-cyan-500 {
+  background: $cyan-500;
+  color: white;
 }
-.btn-cyan-600{ background: $cyan-600; color: white;}
-.btn-outline-cyan-600{ 
-	color: $cyan-600; border-color: $cyan-600;
-	&:active, &:hover{ color: white; background-color: $cyan-600; }
+.bg-cyan-600 {
+  background: $cyan-600;
+  color: white;
 }
-.btn-cyan-700{ background: $cyan-700; color: white;}
-.btn-outline-cyan-700{ 
-	color: $cyan-700; border-color: $cyan-700;
-	&:active, &:hover{ color: white; background-color: $cyan-700; }
+.bg-cyan-700 {
+  background: $cyan-700;
+  color: white;
 }
-.btn-cyan-800{ background: $cyan-800; color: white;}
-.btn-outline-cyan-800{ 
-	color: $cyan-800; border-color: $cyan-800;
-	&:active, &:hover{ color: white; background-color: $cyan-800; }
+.bg-cyan-800 {
+  background: $cyan-800;
+  color: white;
 }
-.btn-cyan-900{ background: $cyan-900; color: white;}
-.btn-outline-cyan-900{ 
-	color: $cyan-900; border-color: $cyan-900;
-	&:active, &:hover{ color: white; background-color: $cyan-900; }
+.bg-cyan-900 {
+  background: $cyan-900;
+  color: white;
 }
 
+.btn-blue-100 {
+  background: $blue-100;
+  color: black;
+}
+.btn-outline-blue-100 {
+  color: $blue-100;
+  border-color: $blue-100;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $blue-100;
+  }
+}
+.btn-blue-200 {
+  background: $blue-200;
+  color: black;
+}
+.btn-outline-blue-200 {
+  color: $blue-200;
+  border-color: $blue-200;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $blue-200;
+  }
+}
+.btn-blue-300 {
+  background: $blue-300;
+  color: black;
+}
+.btn-outline-blue-300 {
+  color: $blue-300;
+  border-color: $blue-300;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $blue-300;
+  }
+}
+.btn-blue-400 {
+  background: $blue-400;
+  color: white;
+}
+.btn-outline-blue-400 {
+  color: $blue-400;
+  border-color: $blue-400;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $blue-400;
+  }
+}
+.btn-blue-500 {
+  background: $blue-500;
+  color: white;
+}
+.btn-outline-blue-500 {
+  color: $blue-500;
+  border-color: $blue-500;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $blue-500;
+  }
+}
+.btn-blue-600 {
+  background: $blue-600;
+  color: white;
+}
+.btn-outline-blue-600 {
+  color: $blue-600;
+  border-color: $blue-600;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $blue-600;
+  }
+}
+.btn-blue-700 {
+  background: $blue-700;
+  color: white;
+}
+.btn-outline-blue-700 {
+  color: $blue-700;
+  border-color: $blue-700;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $blue-700;
+  }
+}
+.btn-blue-800 {
+  background: $blue-800;
+  color: white;
+}
+.btn-outline-blue-800 {
+  color: $blue-800;
+  border-color: $blue-800;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $blue-800;
+  }
+}
+.btn-blue-900 {
+  background: $blue-900;
+  color: white;
+}
+.btn-outline-blue-900 {
+  color: $blue-900;
+  border-color: $blue-900;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $blue-900;
+  }
+}
 
-.text-blue-100{ color: $blue-100; }
-.text-blue-200{ color: $blue-200; }
-.text-blue-300{ color: $blue-300; }
-.text-blue-400{ color: $blue-400; }
-.text-blue-500{ color: $blue-500; }
-.text-blue-600{ color: $blue-600; }
-.text-blue-700{ color: $blue-700; }
-.text-blue-800{ color: $blue-800; }
-.text-blue-900{ color: $blue-900; }
+.btn-indigo-100 {
+  background: $indigo-100;
+  color: black;
+}
+.btn-outline-indigo-100 {
+  color: $indigo-100;
+  border-color: $indigo-100;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $indigo-100;
+  }
+}
+.btn-indigo-200 {
+  background: $indigo-200;
+  color: black;
+}
+.btn-outline-indigo-200 {
+  color: $indigo-200;
+  border-color: $indigo-200;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $indigo-200;
+  }
+}
+.btn-indigo-300 {
+  background: $indigo-300;
+  color: white;
+}
+.btn-outline-indigo-300 {
+  color: $indigo-300;
+  border-color: $indigo-300;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $indigo-300;
+  }
+}
+.btn-indigo-400 {
+  background: $indigo-400;
+  color: white;
+}
+.btn-outline-indigo-400 {
+  color: $indigo-400;
+  border-color: $indigo-400;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $indigo-400;
+  }
+}
+.btn-indigo-500 {
+  background: $indigo-500;
+  color: white;
+}
+.btn-outline-indigo-500 {
+  color: $indigo-500;
+  border-color: $indigo-500;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $indigo-500;
+  }
+}
+.btn-indigo-600 {
+  background: $indigo-600;
+  color: white;
+}
+.btn-outline-indigo-600 {
+  color: $indigo-600;
+  border-color: $indigo-600;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $indigo-600;
+  }
+}
+.btn-indigo-700 {
+  background: $indigo-700;
+  color: white;
+}
+.btn-outline-indigo-700 {
+  color: $indigo-700;
+  border-color: $indigo-700;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $indigo-700;
+  }
+}
+.btn-indigo-800 {
+  background: $indigo-800;
+  color: white;
+}
+.btn-outline-indigo-800 {
+  color: $indigo-800;
+  border-color: $indigo-800;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $indigo-800;
+  }
+}
+.btn-indigo-900 {
+  background: $indigo-900;
+  color: white;
+}
+.btn-outline-indigo-900 {
+  color: $indigo-900;
+  border-color: $indigo-900;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $indigo-900;
+  }
+}
 
-.text-indigo-100{ color: $indigo-100; }
-.text-indigo-200{ color: $indigo-200; }
-.text-indigo-300{ color: $indigo-300; }
-.text-indigo-400{ color: $indigo-400; }
-.text-indigo-500{ color: $indigo-500; }
-.text-indigo-600{ color: $indigo-600; }
-.text-indigo-700{ color: $indigo-700; }
-.text-indigo-800{ color: $indigo-800; }
-.text-indigo-900{ color: $indigo-900; }
+.btn-purple-100 {
+  background: $purple-100;
+  color: black;
+}
+.btn-outline-purple-100 {
+  color: $purple-100;
+  border-color: $purple-100;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $purple-100;
+  }
+}
+.btn-purple-200 {
+  background: $purple-200;
+  color: black;
+}
+.btn-outline-purple-200 {
+  color: $purple-200;
+  border-color: $purple-200;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $purple-200;
+  }
+}
+.btn-purple-300 {
+  background: $purple-300;
+  color: white;
+}
+.btn-outline-purple-300 {
+  color: $purple-300;
+  border-color: $purple-300;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $purple-300;
+  }
+}
+.btn-purple-400 {
+  background: $purple-400;
+  color: white;
+}
+.btn-outline-purple-400 {
+  color: $purple-400;
+  border-color: $purple-400;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $purple-400;
+  }
+}
+.btn-purple-500 {
+  background: $purple-500;
+  color: white;
+}
+.btn-outline-purple-500 {
+  color: $purple-500;
+  border-color: $purple-500;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $purple-500;
+  }
+}
+.btn-purple-600 {
+  background: $purple-600;
+  color: white;
+}
+.btn-outline-purple-600 {
+  color: $purple-600;
+  border-color: $purple-600;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $purple-600;
+  }
+}
+.btn-purple-700 {
+  background: $purple-700;
+  color: white;
+}
+.btn-outline-purple-700 {
+  color: $purple-700;
+  border-color: $purple-700;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $purple-700;
+  }
+}
+.btn-purple-800 {
+  background: $purple-800;
+  color: white;
+}
+.btn-outline-purple-800 {
+  color: $purple-800;
+  border-color: $purple-800;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $purple-800;
+  }
+}
+.btn-purple-900 {
+  background: $purple-900;
+  color: white;
+}
+.btn-outline-purple-900 {
+  color: $purple-900;
+  border-color: $purple-900;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $purple-900;
+  }
+}
 
-.text-purple-100{ color: $purple-100; }
-.text-purple-200{ color: $purple-200; }
-.text-purple-300{ color: $purple-300; }
-.text-purple-400{ color: $purple-400; }
-.text-purple-500{ color: $purple-500; }
-.text-purple-600{ color: $purple-600; }
-.text-purple-700{ color: $purple-700; }
-.text-purple-800{ color: $purple-800; }
-.text-purple-900{ color: $purple-900; }
+.btn-pink-100 {
+  background: $pink-100;
+  color: black;
+}
+.btn-outline-pink-100 {
+  color: $pink-100;
+  border-color: $pink-100;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $pink-100;
+  }
+}
+.btn-pink-200 {
+  background: $pink-200;
+  color: black;
+}
+.btn-outline-pink-200 {
+  color: $pink-200;
+  border-color: $pink-200;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $pink-200;
+  }
+}
+.btn-pink-300 {
+  background: $pink-300;
+  color: black;
+}
+.btn-outline-pink-300 {
+  color: $pink-300;
+  border-color: $pink-300;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $pink-300;
+  }
+}
+.btn-pink-400 {
+  background: $pink-400;
+  color: white;
+}
+.btn-outline-pink-400 {
+  color: $pink-400;
+  border-color: $pink-400;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $pink-400;
+  }
+}
+.btn-pink-500 {
+  background: $pink-500;
+  color: white;
+}
+.btn-outline-pink-500 {
+  color: $pink-500;
+  border-color: $pink-500;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $pink-500;
+  }
+}
+.btn-pink-600 {
+  background: $pink-600;
+  color: white;
+}
+.btn-outline-pink-600 {
+  color: $pink-600;
+  border-color: $pink-600;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $pink-600;
+  }
+}
+.btn-pink-700 {
+  background: $pink-700;
+  color: white;
+}
+.btn-outline-pink-700 {
+  color: $pink-700;
+  border-color: $pink-700;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $pink-700;
+  }
+}
+.btn-pink-800 {
+  background: $pink-800;
+  color: white;
+}
+.btn-outline-pink-800 {
+  color: $pink-800;
+  border-color: $pink-800;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $pink-800;
+  }
+}
+.btn-pink-900 {
+  background: $pink-900;
+  color: white;
+}
+.btn-outline-pink-900 {
+  color: $pink-900;
+  border-color: $pink-900;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $pink-900;
+  }
+}
 
-.text-pink-100{ color: $pink-100; }
-.text-pink-200{ color: $pink-200; }
-.text-pink-300{ color: $pink-300; }
-.text-pink-400{ color: $pink-400; }
-.text-pink-500{ color: $pink-500; }
-.text-pink-600{ color: $pink-600; }
-.text-pink-700{ color: $pink-700; }
-.text-pink-800{ color: $pink-800; }
-.text-pink-900{ color: $pink-900; }
+.btn-red-100 {
+  background: $red-100;
+  color: black;
+}
+.btn-outline-red-100 {
+  color: $red-100;
+  border-color: $red-100;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $red-100;
+  }
+}
+.btn-red-200 {
+  background: $red-200;
+  color: black;
+}
+.btn-outline-red-200 {
+  color: $red-200;
+  border-color: $red-200;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $red-200;
+  }
+}
+.btn-red-300 {
+  background: $red-300;
+  color: black;
+}
+.btn-outline-red-300 {
+  color: $red-300;
+  border-color: $red-300;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $red-300;
+  }
+}
+.btn-red-400 {
+  background: $red-400;
+  color: white;
+}
+.btn-outline-red-400 {
+  color: $red-400;
+  border-color: $red-400;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $red-400;
+  }
+}
+.btn-red-500 {
+  background: $red-500;
+  color: white;
+}
+.btn-outline-red-500 {
+  color: $red-500;
+  border-color: $red-500;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $red-500;
+  }
+}
+.btn-red-600 {
+  background: $red-600;
+  color: white;
+}
+.btn-outline-red-600 {
+  color: $red-600;
+  border-color: $red-600;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $red-600;
+  }
+}
+.btn-red-700 {
+  background: $red-700;
+  color: white;
+}
+.btn-outline-red-700 {
+  color: $red-700;
+  border-color: $red-700;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $red-700;
+  }
+}
+.btn-red-800 {
+  background: $red-800;
+  color: white;
+}
+.btn-outline-red-800 {
+  color: $red-800;
+  border-color: $red-800;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $red-800;
+  }
+}
+.btn-red-900 {
+  background: $red-900;
+  color: white;
+}
+.btn-outline-red-900 {
+  color: $red-900;
+  border-color: $red-900;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $red-900;
+  }
+}
 
-.text-red-100{ color: $red-100; }
-.text-red-200{ color: $red-200; }
-.text-red-300{ color: $red-300; }
-.text-red-400{ color: $red-400; }
-.text-red-500{ color: $red-500; }
-.text-red-600{ color: $red-600; }
-.text-red-700{ color: $red-700; }
-.text-red-800{ color: $red-800; }
-.text-red-900{ color: $red-900; }
+.btn-orange-100 {
+  background: $orange-100;
+  color: black;
+}
+.btn-outline-orange-100 {
+  color: $orange-100;
+  border-color: $orange-100;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $orange-100;
+  }
+}
+.btn-orange-200 {
+  background: $orange-200;
+  color: black;
+}
+.btn-outline-orange-200 {
+  color: $orange-200;
+  border-color: $orange-200;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $orange-200;
+  }
+}
+.btn-orange-300 {
+  background: $orange-300;
+  color: black;
+}
+.btn-outline-orange-300 {
+  color: $orange-300;
+  border-color: $orange-300;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $orange-300;
+  }
+}
+.btn-orange-400 {
+  background: $orange-400;
+  color: black;
+}
+.btn-outline-orange-400 {
+  color: $orange-400;
+  border-color: $orange-400;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $orange-400;
+  }
+}
+.btn-orange-500 {
+  background: $orange-500;
+  color: black;
+}
+.btn-outline-orange-500 {
+  color: $orange-500;
+  border-color: $orange-500;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $orange-500;
+  }
+}
+.btn-orange-600 {
+  background: $orange-600;
+  color: white;
+}
+.btn-outline-orange-600 {
+  color: $orange-600;
+  border-color: $orange-600;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $orange-600;
+  }
+}
+.btn-orange-700 {
+  background: $orange-700;
+  color: white;
+}
+.btn-outline-orange-700 {
+  color: $orange-700;
+  border-color: $orange-700;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $orange-700;
+  }
+}
+.btn-orange-800 {
+  background: $orange-800;
+  color: white;
+}
+.btn-outline-orange-800 {
+  color: $orange-800;
+  border-color: $orange-800;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $orange-800;
+  }
+}
+.btn-orange-900 {
+  background: $orange-900;
+  color: white;
+}
+.btn-outline-orange-900 {
+  color: $orange-900;
+  border-color: $orange-900;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $orange-900;
+  }
+}
 
-.text-orange-100{ color: $orange-100; }
-.text-orange-200{ color: $orange-200; }
-.text-orange-300{ color: $orange-300; }
-.text-orange-400{ color: $orange-400; }
-.text-orange-500{ color: $orange-500; }
-.text-orange-600{ color: $orange-600; }
-.text-orange-700{ color: $orange-700; }
-.text-orange-800{ color: $orange-800; }
-.text-orange-900{ color: $orange-900; }
+.btn-yellow-100 {
+  background: $yellow-100;
+  color: black;
+}
+.btn-outline-yellow-100 {
+  color: $yellow-100;
+  border-color: $yellow-100;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $yellow-100;
+  }
+}
+.btn-yellow-200 {
+  background: $yellow-200;
+  color: black;
+}
+.btn-outline-yellow-200 {
+  color: $yellow-200;
+  border-color: $yellow-200;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $yellow-200;
+  }
+}
+.btn-yellow-300 {
+  background: $yellow-300;
+  color: black;
+}
+.btn-outline-yellow-300 {
+  color: $yellow-300;
+  border-color: $yellow-300;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $yellow-300;
+  }
+}
+.btn-yellow-400 {
+  background: $yellow-400;
+  color: black;
+}
+.btn-outline-yellow-400 {
+  color: $yellow-400;
+  border-color: $yellow-400;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $yellow-400;
+  }
+}
+.btn-yellow-500 {
+  background: $yellow-500;
+  color: black;
+}
+.btn-outline-yellow-500 {
+  color: $yellow-500;
+  border-color: $yellow-500;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $yellow-500;
+  }
+}
+.btn-yellow-600 {
+  background: $yellow-600;
+  color: black;
+}
+.btn-outline-yellow-600 {
+  color: $yellow-600;
+  border-color: $yellow-600;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $yellow-600;
+  }
+}
+.btn-yellow-700 {
+  background: $yellow-700;
+  color: white;
+}
+.btn-outline-yellow-700 {
+  color: $yellow-700;
+  border-color: $yellow-700;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $yellow-700;
+  }
+}
+.btn-yellow-800 {
+  background: $yellow-800;
+  color: white;
+}
+.btn-outline-yellow-800 {
+  color: $yellow-800;
+  border-color: $yellow-800;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $yellow-800;
+  }
+}
+.btn-yellow-900 {
+  background: $yellow-900;
+  color: white;
+}
+.btn-outline-yellow-900 {
+  color: $yellow-900;
+  border-color: $yellow-900;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $yellow-900;
+  }
+}
 
-.text-yellow-100{ color: $yellow-100; }
-.text-yellow-200{ color: $yellow-200; }
-.text-yellow-300{ color: $yellow-300; }
-.text-yellow-400{ color: $yellow-400; }
-.text-yellow-500{ color: $yellow-500; }
-.text-yellow-600{ color: $yellow-600; }
-.text-yellow-700{ color: $yellow-700; }
-.text-yellow-800{ color: $yellow-800; }
-.text-yellow-900{ color: $yellow-900; }
+.btn-green-100 {
+  background: $green-100;
+  color: black;
+}
+.btn-outline-green-100 {
+  color: $green-100;
+  border-color: $green-100;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $green-100;
+  }
+}
+.btn-green-200 {
+  background: $green-200;
+  color: black;
+}
+.btn-outline-green-200 {
+  color: $green-200;
+  border-color: $green-200;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $green-200;
+  }
+}
+.btn-green-300 {
+  background: $green-300;
+  color: black;
+}
+.btn-outline-green-300 {
+  color: $green-300;
+  border-color: $green-300;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $green-300;
+  }
+}
+.btn-green-400 {
+  background: $green-400;
+  color: black;
+}
+.btn-outline-green-400 {
+  color: $green-400;
+  border-color: $green-400;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $green-400;
+  }
+}
+.btn-green-500 {
+  background: $green-500;
+  color: white;
+}
+.btn-outline-green-500 {
+  color: $green-500;
+  border-color: $green-500;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $green-500;
+  }
+}
+.btn-green-600 {
+  background: $green-600;
+  color: white;
+}
+.btn-outline-green-600 {
+  color: $green-600;
+  border-color: $green-600;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $green-600;
+  }
+}
+.btn-green-700 {
+  background: $green-700;
+  color: white;
+}
+.btn-outline-green-700 {
+  color: $green-700;
+  border-color: $green-700;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $green-700;
+  }
+}
+.btn-green-800 {
+  background: $green-800;
+  color: white;
+}
+.btn-outline-green-800 {
+  color: $green-800;
+  border-color: $green-800;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $green-800;
+  }
+}
+.btn-green-900 {
+  background: $green-900;
+  color: white;
+}
+.btn-outline-green-900 {
+  color: $green-900;
+  border-color: $green-900;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $green-900;
+  }
+}
 
-.text-green-100{ color: $green-100; }
-.text-green-200{ color: $green-200; }
-.text-green-300{ color: $green-300; }
-.text-green-400{ color: $green-400; }
-.text-green-500{ color: $green-500; }
-.text-green-600{ color: $green-600; }
-.text-green-700{ color: $green-700; }
-.text-green-800{ color: $green-800; }
-.text-green-900{ color: $green-900; }
+.btn-teal-100 {
+  background: $teal-100;
+  color: black;
+}
+.btn-outline-teal-100 {
+  color: $teal-100;
+  border-color: $teal-100;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $teal-100;
+  }
+}
+.btn-teal-200 {
+  background: $teal-200;
+  color: black;
+}
+.btn-outline-teal-200 {
+  color: $teal-200;
+  border-color: $teal-200;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $teal-200;
+  }
+}
+.btn-teal-300 {
+  background: $teal-300;
+  color: black;
+}
+.btn-outline-teal-300 {
+  color: $teal-300;
+  border-color: $teal-300;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $teal-300;
+  }
+}
+.btn-teal-400 {
+  background: $teal-400;
+  color: black;
+}
+.btn-outline-teal-400 {
+  color: $teal-400;
+  border-color: $teal-400;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $teal-400;
+  }
+}
+.btn-teal-500 {
+  background: $teal-500;
+  color: black;
+}
+.btn-outline-teal-500 {
+  color: $teal-500;
+  border-color: $teal-500;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $teal-500;
+  }
+}
+.btn-teal-600 {
+  background: $teal-600;
+  color: black;
+}
+.btn-outline-teal-600 {
+  color: $teal-600;
+  border-color: $teal-600;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $teal-600;
+  }
+}
+.btn-teal-700 {
+  background: $teal-700;
+  color: white;
+}
+.btn-outline-teal-700 {
+  color: $teal-700;
+  border-color: $teal-700;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $teal-700;
+  }
+}
+.btn-teal-800 {
+  background: $teal-800;
+  color: white;
+}
+.btn-outline-teal-800 {
+  color: $teal-800;
+  border-color: $teal-800;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $teal-800;
+  }
+}
+.btn-teal-900 {
+  background: $teal-900;
+  color: white;
+}
+.btn-outline-teal-900 {
+  color: $teal-900;
+  border-color: $teal-900;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $teal-900;
+  }
+}
 
-.text-teal-100{ color: $teal-100; }
-.text-teal-200{ color: $teal-200; }
-.text-teal-300{ color: $teal-300; }
-.text-teal-400{ color: $teal-400; }
-.text-teal-500{ color: $teal-500; }
-.text-teal-600{ color: $teal-600; }
-.text-teal-700{ color: $teal-700; }
-.text-teal-800{ color: $teal-800; }
-.text-teal-900{ color: $teal-900; }
+.btn-cyan-100 {
+  background: $cyan-100;
+  color: black;
+}
+.btn-outline-cyan-100 {
+  color: $cyan-100;
+  border-color: $cyan-100;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $cyan-100;
+  }
+}
+.btn-cyan-200 {
+  background: $cyan-200;
+  color: black;
+}
+.btn-outline-cyan-200 {
+  color: $cyan-200;
+  border-color: $cyan-200;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $cyan-200;
+  }
+}
+.btn-cyan-300 {
+  background: $cyan-300;
+  color: black;
+}
+.btn-outline-cyan-300 {
+  color: $cyan-300;
+  border-color: $cyan-300;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $cyan-300;
+  }
+}
+.btn-cyan-400 {
+  background: $cyan-400;
+  color: black;
+}
+.btn-outline-cyan-400 {
+  color: $cyan-400;
+  border-color: $cyan-400;
+  &:active,
+  &:hover {
+    color: black;
+    background-color: $cyan-400;
+  }
+}
+.btn-cyan-500 {
+  background: $cyan-500;
+  color: white;
+}
+.btn-outline-cyan-500 {
+  color: $cyan-500;
+  border-color: $cyan-500;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $cyan-500;
+  }
+}
+.btn-cyan-600 {
+  background: $cyan-600;
+  color: white;
+}
+.btn-outline-cyan-600 {
+  color: $cyan-600;
+  border-color: $cyan-600;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $cyan-600;
+  }
+}
+.btn-cyan-700 {
+  background: $cyan-700;
+  color: white;
+}
+.btn-outline-cyan-700 {
+  color: $cyan-700;
+  border-color: $cyan-700;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $cyan-700;
+  }
+}
+.btn-cyan-800 {
+  background: $cyan-800;
+  color: white;
+}
+.btn-outline-cyan-800 {
+  color: $cyan-800;
+  border-color: $cyan-800;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $cyan-800;
+  }
+}
+.btn-cyan-900 {
+  background: $cyan-900;
+  color: white;
+}
+.btn-outline-cyan-900 {
+  color: $cyan-900;
+  border-color: $cyan-900;
+  &:active,
+  &:hover {
+    color: white;
+    background-color: $cyan-900;
+  }
+}
 
-.text-cyan-100{ color: $cyan-100; }
-.text-cyan-200{ color: $cyan-200; }
-.text-cyan-300{ color: $cyan-300; }
-.text-cyan-400{ color: $cyan-400; }
-.text-cyan-500{ color: $cyan-500; }
-.text-cyan-600{ color: $cyan-600; }
-.text-cyan-700{ color: $cyan-700; }
-.text-cyan-800{ color: $cyan-800; }
-.text-cyan-900{ color: $cyan-900; }
+.text-blue-100 {
+  color: $blue-100;
+}
+.text-blue-200 {
+  color: $blue-200;
+}
+.text-blue-300 {
+  color: $blue-300;
+}
+.text-blue-400 {
+  color: $blue-400;
+}
+.text-blue-500 {
+  color: $blue-500;
+}
+.text-blue-600 {
+  color: $blue-600;
+}
+.text-blue-700 {
+  color: $blue-700;
+}
+.text-blue-800 {
+  color: $blue-800;
+}
+.text-blue-900 {
+  color: $blue-900;
+}
+
+.text-indigo-100 {
+  color: $indigo-100;
+}
+.text-indigo-200 {
+  color: $indigo-200;
+}
+.text-indigo-300 {
+  color: $indigo-300;
+}
+.text-indigo-400 {
+  color: $indigo-400;
+}
+.text-indigo-500 {
+  color: $indigo-500;
+}
+.text-indigo-600 {
+  color: $indigo-600;
+}
+.text-indigo-700 {
+  color: $indigo-700;
+}
+.text-indigo-800 {
+  color: $indigo-800;
+}
+.text-indigo-900 {
+  color: $indigo-900;
+}
+
+.text-purple-100 {
+  color: $purple-100;
+}
+.text-purple-200 {
+  color: $purple-200;
+}
+.text-purple-300 {
+  color: $purple-300;
+}
+.text-purple-400 {
+  color: $purple-400;
+}
+.text-purple-500 {
+  color: $purple-500;
+}
+.text-purple-600 {
+  color: $purple-600;
+}
+.text-purple-700 {
+  color: $purple-700;
+}
+.text-purple-800 {
+  color: $purple-800;
+}
+.text-purple-900 {
+  color: $purple-900;
+}
+
+.text-pink-100 {
+  color: $pink-100;
+}
+.text-pink-200 {
+  color: $pink-200;
+}
+.text-pink-300 {
+  color: $pink-300;
+}
+.text-pink-400 {
+  color: $pink-400;
+}
+.text-pink-500 {
+  color: $pink-500;
+}
+.text-pink-600 {
+  color: $pink-600;
+}
+.text-pink-700 {
+  color: $pink-700;
+}
+.text-pink-800 {
+  color: $pink-800;
+}
+.text-pink-900 {
+  color: $pink-900;
+}
+
+.text-red-100 {
+  color: $red-100;
+}
+.text-red-200 {
+  color: $red-200;
+}
+.text-red-300 {
+  color: $red-300;
+}
+.text-red-400 {
+  color: $red-400;
+}
+.text-red-500 {
+  color: $red-500;
+}
+.text-red-600 {
+  color: $red-600;
+}
+.text-red-700 {
+  color: $red-700;
+}
+.text-red-800 {
+  color: $red-800;
+}
+.text-red-900 {
+  color: $red-900;
+}
+
+.text-orange-100 {
+  color: $orange-100;
+}
+.text-orange-200 {
+  color: $orange-200;
+}
+.text-orange-300 {
+  color: $orange-300;
+}
+.text-orange-400 {
+  color: $orange-400;
+}
+.text-orange-500 {
+  color: $orange-500;
+}
+.text-orange-600 {
+  color: $orange-600;
+}
+.text-orange-700 {
+  color: $orange-700;
+}
+.text-orange-800 {
+  color: $orange-800;
+}
+.text-orange-900 {
+  color: $orange-900;
+}
+
+.text-yellow-100 {
+  color: $yellow-100;
+}
+.text-yellow-200 {
+  color: $yellow-200;
+}
+.text-yellow-300 {
+  color: $yellow-300;
+}
+.text-yellow-400 {
+  color: $yellow-400;
+}
+.text-yellow-500 {
+  color: $yellow-500;
+}
+.text-yellow-600 {
+  color: $yellow-600;
+}
+.text-yellow-700 {
+  color: $yellow-700;
+}
+.text-yellow-800 {
+  color: $yellow-800;
+}
+.text-yellow-900 {
+  color: $yellow-900;
+}
+
+.text-green-100 {
+  color: $green-100;
+}
+.text-green-200 {
+  color: $green-200;
+}
+.text-green-300 {
+  color: $green-300;
+}
+.text-green-400 {
+  color: $green-400;
+}
+.text-green-500 {
+  color: $green-500;
+}
+.text-green-600 {
+  color: $green-600;
+}
+.text-green-700 {
+  color: $green-700;
+}
+.text-green-800 {
+  color: $green-800;
+}
+.text-green-900 {
+  color: $green-900;
+}
+
+.text-teal-100 {
+  color: $teal-100;
+}
+.text-teal-200 {
+  color: $teal-200;
+}
+.text-teal-300 {
+  color: $teal-300;
+}
+.text-teal-400 {
+  color: $teal-400;
+}
+.text-teal-500 {
+  color: $teal-500;
+}
+.text-teal-600 {
+  color: $teal-600;
+}
+.text-teal-700 {
+  color: $teal-700;
+}
+.text-teal-800 {
+  color: $teal-800;
+}
+.text-teal-900 {
+  color: $teal-900;
+}
+
+.text-cyan-100 {
+  color: $cyan-100;
+}
+.text-cyan-200 {
+  color: $cyan-200;
+}
+.text-cyan-300 {
+  color: $cyan-300;
+}
+.text-cyan-400 {
+  color: $cyan-400;
+}
+.text-cyan-500 {
+  color: $cyan-500;
+}
+.text-cyan-600 {
+  color: $cyan-600;
+}
+.text-cyan-700 {
+  color: $cyan-700;
+}
+.text-cyan-800 {
+  color: $cyan-800;
+}
+.text-cyan-900 {
+  color: $cyan-900;
+}

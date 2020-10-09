@@ -33,7 +33,6 @@ ISBL Editor style light color schemec (c) Dmitriy Tarasov <dimatar@gmail.com>
   font-weight: bold;
 }
 
-
 /* User color: hue: 0 */
 
 .hljs-string {
@@ -55,7 +54,7 @@ ISBL Editor style light color schemec (c) Dmitriy Tarasov <dimatar@gmail.com>
   color: #fb2c00;
 }
 
-.hljs-title>.hljs-built_in {
+.hljs-title > .hljs-built_in {
   color: #008080;
   font-weight: normal;
 }
@@ -84,8 +83,8 @@ ISBL Editor style light color schemec (c) Dmitriy Tarasov <dimatar@gmail.com>
   color: #397300;
 }
 
-.hljs-class  {
-  color: #6f1C00;
+.hljs-class {
+  color: #6f1c00;
   font-weight: bold;
 }
 
@@ -98,7 +97,6 @@ ISBL Editor style light color schemec (c) Dmitriy Tarasov <dimatar@gmail.com>
 .hljs-meta-string {
   color: #4d99bf;
 }
-
 
 /* Misc effects */
 
