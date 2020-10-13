@@ -1,4 +1,3 @@
-
 ## Contributing Guidelines
 
 First off, thanks for taking the time to contribute! 😄
@@ -6,6 +5,7 @@ First off, thanks for taking the time to contribute! 😄
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
 Contributions are handled in the form of Pull Requests. You fork this repository, create a new branch, make relevant changes, and submit a Pull Request – once that's done we'll be able to review your PRs and merge them to the master branch.
+
 
 ### Steps to add Code block:
 - Fork the repo
@@ -39,15 +39,14 @@ Format your PR titles likewise:
 
 Tag can be:
 
-- Feat (new feature)
-- Fix (bug fix)
-- Refactor (refactoring code)
-- Style (formatting, no code change)
-- Doc (changes to documentation)
-- Test (adding or refactoring tests; no production code change)
+-   Feat (new feature)
+-   Fix (bug fix)
+-   Refactor (refactoring code)
+-   Style (formatting, no code change)
+-   Doc (changes to documentation)
+-   Test (adding or refactoring tests; no production code change)
 
 Remember to:
 
-- Capitalize the subject line
-- Use the imperative mood in the subject line
-
+-   Capitalize the subject line
+-   Use the imperative mood in the subject line
