@@ -1,3 +1,4 @@
+
 ## Contributing Guidelines
 
 First off, thanks for taking the time to contribute! 😄
@@ -7,7 +8,6 @@ When contributing to this repository, please first discuss the change you wish t
 Contributions are handled in the form of Pull Requests. You fork this repository, create a new branch, make relevant changes, and submit a Pull Request – once that's done we'll be able to review your PRs and merge them to the master branch.
 
 ### Steps to add Code block:
-
 - Fork the repo
 - Clone it to your local system
 - Fire up a terminal in the repo's directory
@@ -19,8 +19,8 @@ Contributions are handled in the form of Pull Requests. You fork this repository
 - Use class `btn-primary`, `bg-primary`, `text-primary` for buttons, backgrounds and text color respectively. The advanced color theme will be applied automatically upon choosing by the user
 - After you are done, commit the changes to your branch and open a Pull Request as per the formatting described below
 
-### Steps to add SVG thumbnail:
 
+### Steps to add SVG thumbnail:
 - Fork the repo
 - Clone it to your local system
 - Fire up a terminal in the repo's directory
@@ -29,6 +29,7 @@ Contributions are handled in the form of Pull Requests. You fork this repository
 - Develop the required thumbnails using any designing / prototyping tool of your choice (For eg. Figma, Adobe XD)
 - Export it in SVG format and put the file under `assets/thumbs/` folder. For each file, the filename should correspond to the code block name. For eg. for code block: `blog_3.html`, thumbnail filename: `blog_3_thumb.svg`.
 - After you are done, commit the changes to your branch and open a Pull Request as per the formatting described below
+
 
 ### Formatting
 
@@ -49,3 +50,4 @@ Remember to:
 
 - Capitalize the subject line
 - Use the imperative mood in the subject line
+
