@@ -8,7 +8,7 @@
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #f0f0f0;
+  background: #F0F0F0;
 }
 
 /* Base color: saturation 0; */
@@ -31,15 +31,15 @@
 }
 
 .hljs-attribute {
-  color: #0e9a00;
-}
+  color: #0E9A00;
+}    
 
 .hljs-function {
-  color: #99069a;
+  color: #99069A;
 }
 
 .hljs-builtin-name {
-  color: #99069a;
+  color: #99069A;
 }
 
 /* User color: hue: 0 */
@@ -68,21 +68,23 @@
 .hljs-link,
 .hljs-selector-attr,
 .hljs-selector-pseudo {
-  color: #bc6060;
+  color: #BC6060;
 }
+
 
 /* Language color: hue: 90; */
 
 .hljs-literal {
-  color: #78a960;
+  color: #78A960;
 }
 
 .hljs-built_in,
 .hljs-bullet,
 .hljs-code,
 .hljs-addition {
-  color: #0c9a9a;
+  color: #0C9A9A;
 }
+
 
 /* Meta color: hue: 200 */
 
@@ -93,6 +95,7 @@
 .hljs-meta-string {
   color: #4d99bf;
 }
+
 
 /* Misc effects */
 
