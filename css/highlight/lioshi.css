@@ -29,8 +29,7 @@
 .hljs-builtin-name,
 .hljs-literal,
 .hljs-type,
-.hljs-subst
-.hljs-link {
+.hljs-subst .hljs-link {
   color: #de935f;
 }
 
@@ -82,7 +81,3 @@
 .hljs-strong {
   font-weight: bold;
 }
-
-
-
-
