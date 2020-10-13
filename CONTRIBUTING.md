@@ -1,9 +1,9 @@
 ## Contributing Guidelines
-
 First off, thanks for taking the time to contribute! 😄
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
 Contributions are handled in the form of Pull Requests. You fork this repository, create a new branch, make relevant changes, and submit a Pull Request – once that's done we'll be able to review your PRs and merge them to the master branch.
+
 
 ### Steps to add Code block:
 
@@ -21,6 +21,7 @@ Contributions are handled in the form of Pull Requests. You fork this repository
 -   After you are done creating the template block, create a SVG thumbnail and add it in the `assets/thumbs`, and then make a pull request. We will handle it from there to include it in the main page
 -   After you are done, commit the changes to your branch and open a Pull Request as per the formatting described below
 
+
 ### Steps to add SVG thumbnail:
 
 -   Fork the repo
@@ -32,19 +33,18 @@ Contributions are handled in the form of Pull Requests. You fork this repository
 -   Export it in SVG format and put the file under `assets/thumbs/` folder. For each file, the filename should correspond to the code block name. For eg. for code block: `blog_3.html`, thumbnail filename: `blog_3_thumb.svg`.
 -   After you are done, commit the changes to your branch and open a Pull Request as per the formatting described below
 
+
 ### Formatting
 
 Format your PR titles likewise:
-
 > [Tag]: Describe change in present tense
-> Tag can be:
-
+Tag can be:
 -   Feat (new feature)
 -   Fix (bug fix)
 -   Refactor (refactoring code)
 -   Style (formatting, no code change)
 -   Doc (changes to documentation)
 -   Test (adding or refactoring tests; no production code change)
-    Remember to:
+Remember to:
 -   Capitalize the subject line
 -   Use the imperative mood in the subject line
