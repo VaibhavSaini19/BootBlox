@@ -1,5 +1,4 @@
 ## Contributing Guidelines
-
 First off, thanks for taking the time to contribute! 😄
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
@@ -35,16 +34,14 @@ Contributions are handled in the form of Pull Requests. You fork this repository
 ### Formatting
 
 Format your PR titles likewise:
-
 > [Tag]: Describe change in present tense
-> Tag can be:
-
+Tag can be:
 -   Feat (new feature)
 -   Fix (bug fix)
 -   Refactor (refactoring code)
 -   Style (formatting, no code change)
 -   Doc (changes to documentation)
 -   Test (adding or refactoring tests; no production code change)
-    Remember to:
+Remember to:
 -   Capitalize the subject line
 -   Use the imperative mood in the subject line
