@@ -1,0 +1,11 @@
+
+# dependencies
+/node_modules
+
+
+/assets/**
+/css/**
+/extras/**
+/js/highlight/**
+
+*.svg
