@@ -1,11 +1,16 @@
 
 # dependencies
 /node_modules
+/node_modules/**
 
 
 /assets
+/assets/**
 /css
+/css/**
 /extras
+/extras/**
 /js/highlight
+/js/highlight/**
 
 *.svg
