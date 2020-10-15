@@ -18,7 +18,7 @@ $(() => {
             'thumb_temp.PNG',
         ],
         header: [
-            'thumb_temp.PNG',
+            'header.svg',
         ],
         hero: [
             'thumb_temp.PNG', 'thumb_temp.PNG',
