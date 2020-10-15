@@ -1,14 +1,42 @@
 $(() => {
     // ----------------------------------     Create Sidebar links     -----------------------------------------
+
+    let images = {
+        blog: [
+            'thumb_temp.PNG', 'thumb_temp.PNG', 'thumb_temp.PNG',
+        ],
+        contact: [
+            'thumb_temp.PNG', 'thumb_temp.PNG',
+        ],
+        feature: [
+            'thumb_temp.PNG',
+        ],
+        footer: [
+            'thumb_temp.PNG',
+        ],
+        gallery: [
+            'thumb_temp.PNG',
+        ],
+        header: [
+            'thumb_temp.PNG',
+        ],
+        hero: [
+            'thumb_temp.PNG', 'thumb_temp.PNG',
+        ],
+        pricing: [
+            'pricing_color.svg', 'pricing_blue.svg',
+        ],
+    }
+
     let blocks = {
-        Blog: 3,
-        Contact: 2,
-        Feature: 1,
-        Footer: 1,
-        Gallery: 1,
-        Header: 1,
-        Hero: 2,
-        pricing: 2,
+        Blog: images.blog.length,
+        Contact: images.contact.length,
+        Feature: images.feature.length,
+        Footer: images.footer.length,
+        Gallery: images.gallery.length,
+        Header: images.header.length,
+        Hero: images.hero.length,
+        pricing: images.pricing.length,
     };
 
     let navContent = "";
@@ -22,7 +50,7 @@ $(() => {
                 !index && num == 1 ? "active" : ""
             }" id="blocks-${block.toLowerCase()}-${num}-link" data-block-type="${block.toLowerCase()}" data-block-num="${num}" data-toggle="pill" role="tab">
 				<li class="block-thumb">
-					<img src="./assets/thumbs/thumb_temp.PNG" alt="">
+					<img src="./assets/thumbs/${images[block.toLowerCase()][num - 1]}" alt="">
 				</li>
 			</a>
 			`;
