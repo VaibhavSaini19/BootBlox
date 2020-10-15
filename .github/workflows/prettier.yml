@@ -2,6 +2,8 @@ name: Format
 on:
     pull_request:
         branches: [master]
+    pull_request_target:
+        branches: [master]
 jobs:
     format:
         runs-on: ubuntu-latest
@@ -21,5 +23,3 @@ jobs:
               with:
                   commit_message: Apply formatting changes
                   branch: ${{ github.head_ref }}
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
