@@ -19,8 +19,8 @@
     },
     "homepage": "https://github.com/VaibhavSaini19/BootBlox#readme",
     "dependencies": {
-        "bootstrap": "^5.0.0-alpha1",
-        "bootstrap-icons": "^1.0.0-alpha5",
-        "prettier": "^2.1.2"
+        "bootstrap": "5.0.0-alpha1",
+        "bootstrap-icons": "1.0.0-alpha5",
+        "prettier": "2.1.2"
     }
 }

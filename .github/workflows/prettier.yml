@@ -1,14 +1,13 @@
 name: Format
 on:
-    pull_request:
-        branches: [master]
+    pull_request_target:
+        branches:
+            - master
 jobs:
     format:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-              with:
-                  ref: ${{ github.head_ref }}
             - uses: actions/setup-node@v1
               with:
                   node-version: "12.x"
@@ -17,7 +16,6 @@ jobs:
                   yarn install --frozen-lockfile
                   yarn run format
             - name: Commit changes
-              uses: stefanzweifel/git-auto-commit-action@v4.1.2
+              uses: stefanzweifel/git-auto-commit-action@v4
               with:
                   commit_message: Apply formatting changes
-                  branch: ${{ github.head_ref }}
