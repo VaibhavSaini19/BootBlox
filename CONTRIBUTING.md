@@ -5,6 +5,10 @@ When contributing to this repository, please first discuss the change you wish t
 
 Contributions are handled in the form of Pull Requests. You fork this repository, create a new branch, make relevant changes, and submit a Pull Request – once that's done we'll be able to review your PRs and merge them to the master branch.
 
+### Note:
+
+Please make sure to enable GitHub Actions under the `actions` tab in your fork, to pass all the CI test after making a PR
+
 ### Steps to add Code block:
 
 -   Fork the repo
