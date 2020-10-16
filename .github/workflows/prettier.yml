@@ -1,7 +1,8 @@
 name: Format
 on:
     pull_request_target:
-        branches: [master]
+        branches:
+            - master
 jobs:
     format:
         runs-on: ubuntu-latest
