@@ -27,7 +27,7 @@ It is assumed that your project is up and running Bootstrap v5. If not, [Get it 
 2. Click the `View Code` button
 3. Click the `Copy source code` to copy the content
 4. Paste it in your project
-5. Start building great stuff 🎉
+5. Build great stuff 🎉
 
 **Note:** To use the advanced color palette, you need to include the code in `extras/bs_v5_compiled_colors.scss` in your main scss file,
 or just download the `extras/b5_v5_compiled_colors.css` file and link it in your project
