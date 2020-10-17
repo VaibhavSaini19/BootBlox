@@ -1,0 +1,27 @@
+<svg id="Group_11" data-name="Group 11" xmlns="http://www.w3.org/2000/svg" width="827" height="459" viewBox="0 0 827 459">
+  <rect id="Rectangle_52" data-name="Rectangle 52" width="827" height="459" fill="#fff"/>
+  <rect id="Rectangle_72" data-name="Rectangle 72" width="370" height="216" transform="translate(422 211)" fill="#ccc"/>
+  <rect id="Rectangle_73" data-name="Rectangle 73" width="177" height="96" transform="translate(34 331)" fill="#efefef"/>
+  <rect id="Rectangle_74" data-name="Rectangle 74" width="177" height="96" transform="translate(227 331)" fill="#efefef"/>
+  <rect id="Rectangle_75" data-name="Rectangle 75" width="370" height="216" transform="translate(34 98)" fill="#ccc"/>
+  <rect id="Rectangle_76" data-name="Rectangle 76" width="177" height="96" transform="translate(422 98)" fill="#efefef"/>
+  <rect id="Rectangle_77" data-name="Rectangle 77" width="177" height="96" transform="translate(615 98)" fill="#efefef"/>
+  <g id="Group_7" data-name="Group 7" transform="translate(0 -4)">
+    <line id="Line_51" data-name="Line 51" x1="10.921" y1="8" transform="translate(54.5 210.302)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_52" data-name="Line 52" y1="8" x2="10.921" transform="translate(54.5 202.302)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="4"/>
+  </g>
+  <g id="Group_8" data-name="Group 8" transform="translate(438.921 416.603) rotate(180)">
+    <line id="Line_51-2" data-name="Line 51" x1="10.921" y1="8" transform="translate(54.5 210.302)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_52-2" data-name="Line 52" y1="8" x2="10.921" transform="translate(54.5 202.302)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="4"/>
+  </g>
+  <g id="Group_9" data-name="Group 9" transform="translate(388 109)">
+    <line id="Line_51-3" data-name="Line 51" x1="10.921" y1="8" transform="translate(54.5 210.302)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_52-3" data-name="Line 52" y1="8" x2="10.921" transform="translate(54.5 202.302)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="4"/>
+  </g>
+  <g id="Group_10" data-name="Group 10" transform="translate(826.921 529.603) rotate(180)">
+    <line id="Line_51-4" data-name="Line 51" x1="10.921" y1="8" transform="translate(54.5 210.302)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_52-4" data-name="Line 52" y1="8" x2="10.921" transform="translate(54.5 202.302)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="4"/>
+  </g>
+  <line id="Line_53" data-name="Line 53" x2="224" transform="translate(296.5 32.5)" fill="none" stroke="#0d6efd" stroke-linecap="round" stroke-width="8"/>
+  <line id="Line_54" data-name="Line 54" x2="457" transform="translate(184.5 65.5)" fill="none" stroke="#707070" stroke-width="3"/>
+</svg>
