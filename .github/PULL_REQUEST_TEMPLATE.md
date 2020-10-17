@@ -15,6 +15,8 @@ Happy contributing!
 
 ## Screenshots (if applicable)
 
+(Add screenshots of the visual changes in the project)
+
 ## Test Plan
 
 (Write your test plan here. If you changed any code, please provide us with clear instructions on how you verified your changes work.)
