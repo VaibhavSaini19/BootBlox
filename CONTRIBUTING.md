@@ -7,7 +7,7 @@ Contributions are handled in the form of Pull Requests. You fork this repository
 
 ### Note:
 
--   Please ask for an assignment under the issue you would like to solve before making a PR. If an issue doesn't exists, feel free to make one first
+-   Please ask for an assignment under the issue you would like to solve before making a PR. If an issue doesn't exists, feel free to make a new one first
 -   Please make sure to enable GitHub Actions under the `actions` tab in your fork, to pass all the CI test after making a PR
 
 ### Steps to add Code block:
