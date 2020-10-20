@@ -22,7 +22,7 @@ $(() => {
                 !index && num == 1 ? "active" : ""
             }" id="blocks-${block.toLowerCase()}-${num}-link" data-block-type="${block.toLowerCase()}" data-block-num="${num}" data-toggle="pill" role="tab">
 				<li class="block-thumb">
-					<img src="./assets/thumbs/thumb_temp.PNG" alt="">
+					<img src="./assets/thumbs/${block.toLowerCase()}_${num}_thumb.svg" alt="thumbnail_image" onerror="this.src='./assets/thumbs/thumb_temp.PNG';">
 				</li>
 			</a>
 			`;
