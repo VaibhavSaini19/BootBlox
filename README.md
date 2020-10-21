@@ -12,6 +12,7 @@
 
 ## Features
 
+-   Easy to use - just copy and paste
 -   Uses Bootstrap v5
 -   Fully responsive
 -   90+ color schemes
