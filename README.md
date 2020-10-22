@@ -2,10 +2,15 @@
 <p align="center">Ready-to-use Bootstrap CSS blocks</p>
 
 <p align="center">
-    <img src="https://img.shields.io/github/issues/VaibhavSaini19/BootBlox?style=flat-square&logo=appveyor&color=teal">
-    <img src="https://img.shields.io/github/forks/VaibhavSaini19/BootBlox?style=flat-square&logo=appveyor&color=teal">
-    <img src="https://img.shields.io/github/stars/VaibhavSaini19/BootBlox?style=flat-square&logo=appveyor&color=teal">
-    <img src="https://img.shields.io/github/license/VaibhavSaini19/BootBlox?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/issues/VaibhavSaini19/BootBlox?logo=appveyor">
+    <img src="https://img.shields.io/github/forks/VaibhavSaini19/BootBlox?logo=appveyor">
+    <img src="https://img.shields.io/github/stars/VaibhavSaini19/BootBlox?logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/VaibhavSaini19/BootBlox?logo=appveyor">
+</p>
+
+<p align="center">
+    <img src="https://github.com/VaibhavSaini19/BootBlox/workflows/Format/badge.svg">
+    <img src="https://github.com/VaibhavSaini19/BootBlox/workflows/ESLint/badge.svg">
 </p>
 
 <p align="center">Head over to https://vaibhavsaini19.github.io/BootBlox/ now.</p>
