@@ -1,18 +1,24 @@
-<svg id="Group_21" data-name="Group 21" xmlns="http://www.w3.org/2000/svg" width="827" height="459" viewBox="0 0 827 459">
-  <rect id="Rectangle_52" data-name="Rectangle 52" width="827" height="459" fill="#fff"/>
-  <line id="Line_54" data-name="Line 54" x2="261" transform="translate(282.5 225.5)" fill="none" stroke="#ccc" stroke-width="5"/>
-  <line id="Line_75" data-name="Line 75" x2="433" transform="translate(196.5 205.5)" fill="none" stroke="#ccc" stroke-width="5"/>
-  <line id="Line_76" data-name="Line 76" x2="303" transform="translate(261.5 81.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
-  <line id="Line_77" data-name="Line 77" x2="120" transform="translate(353.5 108.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
-  <g id="Group_20" data-name="Group 20" transform="translate(-25 -6)">
-    <g id="Group_17" data-name="Group 17" transform="translate(549 349.231)">
-      <rect id="Rectangle_64" data-name="Rectangle 64" width="105" height="28" rx="14" transform="translate(0 -0.231)" fill="#0d6efd"/>
-      <line id="Line_3" data-name="Line 3" x2="34.5" transform="translate(35.561 13.884)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
-    </g>
-    <line id="Line_78" data-name="Line 78" x2="127" transform="translate(221.5 332.5)" fill="none" stroke="#707070" stroke-width="3"/>
-    <g id="Rectangle_80" data-name="Rectangle 80" transform="translate(222 349)" fill="#f8f8f8" stroke="#ccc" stroke-width="1">
-      <rect width="310" height="28" rx="2" stroke="none"/>
-      <rect x="0.5" y="0.5" width="309" height="27" rx="1.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="458" viewBox="0 0 826 458">
+  <defs>
+    <clipPath id="clip-Hero_-_2">
+      <rect width="826" height="458"/>
+    </clipPath>
+  </defs>
+  <g id="Hero_-_2" data-name="Hero - 2" clip-path="url(#clip-Hero_-_2)">
+    <rect width="826" height="458" fill="#fff"/>
+    <g id="Group_19" data-name="Group 19">
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="827" height="459" fill="#fff"/>
+      <line id="Line_54" data-name="Line 54" x2="261" transform="translate(282.5 225.5)" fill="none" stroke="#ccc" stroke-width="5"/>
+      <line id="Line_75" data-name="Line 75" x2="433" transform="translate(196.5 205.5)" fill="none" stroke="#ccc" stroke-width="5"/>
+      <line id="Line_76" data-name="Line 76" x2="303" transform="translate(261.5 81.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+      <line id="Line_77" data-name="Line 77" x2="120" transform="translate(353.5 108.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+      <rect id="Rectangle_64" data-name="Rectangle 64" width="105" height="28" rx="2" transform="translate(524 343)" fill="#0d6efd"/>
+      <line id="Line_3" data-name="Line 3" x2="34.5" transform="translate(559.562 357.116)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_78" data-name="Line 78" x2="127" transform="translate(196.5 326.5)" fill="none" stroke="#707070" stroke-width="3"/>
+      <g id="Rectangle_80" data-name="Rectangle 80" transform="translate(197 343)" fill="#f8f8f8" stroke="#ccc" stroke-width="1">
+        <rect width="310" height="28" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="309" height="27" rx="1.5" fill="none"/>
+      </g>
     </g>
   </g>
 </svg>
