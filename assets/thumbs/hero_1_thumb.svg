@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768"><defs><style>.cls-1,.cls-5{fill:#fff;}.cls-2{fill:none;}.cls-3{fill:#e6e6e6;}.cls-4{fill:#5f7fff;}.cls-5{stroke:#5f7fff;stroke-miterlimit:10;}</style></defs><g id="Layer_3" data-name="Layer 3"><rect class="cls-1" width="1366" height="768"/></g><g id="Layer_2" data-name="Layer 2"><rect class="cls-2" width="1366" height="768"/><rect class="cls-3" x="922" y="205" width="280" height="298" rx="30"/><path d="M989.49,379.2l19.9-52.22a8.7,8.7,0,0,1,16.11-.36l13,30a8.69,8.69,0,0,0,13.39,3.35l22.84-18.15a8.7,8.7,0,0,1,12.57,1.86l23.28,33.7a8.7,8.7,0,0,1-7.16,13.65H997.62A8.7,8.7,0,0,1,989.49,379.2Z"/><circle cx="1097" cy="318" r="15"/></g><g id="Layer_1" data-name="Layer 1"><rect class="cls-3" x="154" y="205" width="214" height="30" rx="15"/><rect x="153" y="278" width="557" height="40" rx="20"/><rect x="153" y="334" width="269" height="40" rx="20"/><rect class="cls-3" x="153" y="427" width="530" height="30" rx="15"/><rect class="cls-3" x="154" y="473" width="386" height="30" rx="15"/><rect class="cls-4" x="153" y="556" width="125" height="43" rx="11"/><rect class="cls-5" x="305.5" y="556.5" width="125" height="43" rx="11"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="458" viewBox="0 0 826 458">
+  <defs>
+    <clipPath id="clip-Hero_-_1">
+      <rect width="826" height="458"/>
+    </clipPath>
+  </defs>
+  <g id="Hero_-_1" data-name="Hero - 1" clip-path="url(#clip-Hero_-_1)">
+    <rect width="826" height="458" fill="#fff"/>
+    <g id="Group_20" data-name="Group 20">
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="827" height="459" fill="#fff"/>
+      <rect id="Rectangle_64" data-name="Rectangle 64" width="80" height="28" rx="2" transform="translate(90 342)" fill="#0d6efd"/>
+      <line id="Line_3" data-name="Line 3" x2="34.5" transform="translate(113.019 356.116)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <g id="Rectangle_78" data-name="Rectangle 78" transform="translate(183 342)" fill="#fff" stroke="#0d6efd" stroke-width="3">
+        <rect width="74" height="28" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="72" height="26" rx="1" fill="none"/>
+      </g>
+      <line id="Line_74" data-name="Line 74" x2="34.5" transform="translate(203.396 356.116)" fill="none" stroke="#0d6efd" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_54" data-name="Line 54" x2="212" transform="translate(90.5 274.5)" fill="none" stroke="#ccc" stroke-width="3"/>
+      <line id="Line_75" data-name="Line 75" x2="266.598" transform="translate(90.5 256.5)" fill="none" stroke="#ccc" stroke-width="3"/>
+      <line id="Line_76" data-name="Line 76" x2="275" transform="translate(90.5 155.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="8"/>
+      <line id="Line_77" data-name="Line 77" x2="161" transform="translate(90.5 179.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="8"/>
+      <line id="Line_78" data-name="Line 78" x2="212" transform="translate(90.5 88.5)" fill="none" stroke="#707070" stroke-width="3"/>
+      <g id="Group_18" data-name="Group 18">
+        <g id="Rectangle_79" data-name="Rectangle 79" transform="translate(518 116)" fill="#efefef" stroke="#fff" stroke-width="1">
+          <rect width="209" height="226" rx="10" stroke="none"/>
+          <rect x="0.5" y="0.5" width="208" height="225" rx="9.5" fill="none"/>
+        </g>
+        <path id="Path_1" data-name="Path 1" d="M989.3,359.941l13.271-34.825a5.8,5.8,0,0,1,10.744-.24l8.67,20.007a5.8,5.8,0,0,0,8.93,2.234l15.232-12.1a5.8,5.8,0,0,1,8.383,1.24l15.525,22.474a5.8,5.8,0,0,1-4.775,9.1H994.718a5.8,5.8,0,0,1-5.422-7.889Z" transform="translate(-407 -110.8)"/>
+        <circle id="Ellipse_11" data-name="Ellipse 11" cx="10" cy="10" r="10" transform="translate(644 198)"/>
+      </g>
+    </g>
+  </g>
+</svg>
