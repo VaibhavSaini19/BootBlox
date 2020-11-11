@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="458" viewBox="0 0 826 458">
+  <defs>
+    <clipPath id="clip-Contact_-_1">
+      <rect width="826" height="458"/>
+    </clipPath>
+  </defs>
+  <g id="Contact_-_1" data-name="Contact - 1" clip-path="url(#clip-Contact_-_1)">
+    <rect width="826" height="458" fill="#fff"/>
+    <g id="Group_20" data-name="Group 20">
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="827" height="459" fill="#efefef"/>
+      <line id="Line_85" data-name="Line 85" y1="240" x2="240" transform="translate(74.5 219.5)" fill="none" stroke="#f8f8f8" stroke-width="4"/>
+      <line id="Line_86" data-name="Line 86" x2="449" y2="458" transform="translate(101.5 0.5)" fill="none" stroke="#f8f8f8" stroke-width="8"/>
+      <line id="Line_87" data-name="Line 87" y1="39" x2="826" transform="translate(0.5 83.5)" fill="none" stroke="#f8f8f8" stroke-width="6"/>
+      <rect id="Rectangle_83" data-name="Rectangle 83" width="285" height="326" transform="translate(450 66)" fill="#fff"/>
+      <line id="Line_35" data-name="Line 35" x2="58" transform="translate(563.5 97.5)" fill="none" stroke="#0d6efd" stroke-linecap="round" stroke-width="5"/>
+      <line id="Line_36" data-name="Line 36" x2="134" transform="translate(525.5 122.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_78" data-name="Line 78" x2="30.024" transform="translate(466.5 146.5)" fill="none" stroke="#707070" stroke-width="3"/>
+      <g id="Rectangle_80" data-name="Rectangle 80" transform="translate(467 159)" fill="#fff" stroke="#ccc" stroke-width="1">
+        <rect width="251" height="24" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="250" height="23" rx="1.5" fill="none"/>
+      </g>
+      <line id="Line_83" data-name="Line 83" x2="30.024" transform="translate(467.358 201.4)" fill="none" stroke="#707070" stroke-width="3"/>
+      <g id="Rectangle_84" data-name="Rectangle 84" transform="translate(468 214)" fill="#fff" stroke="#ccc" stroke-width="1">
+        <rect width="250" height="24" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="249" height="23" rx="1.5" fill="none"/>
+      </g>
+      <line id="Line_84" data-name="Line 84" x2="47" transform="translate(468.5 256.874)" fill="none" stroke="#707070" stroke-width="3"/>
+      <g id="Rectangle_85" data-name="Rectangle 85" transform="translate(469 269)" fill="#fff" stroke="#ccc" stroke-width="1">
+        <rect width="249" height="72" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="248" height="71" rx="1.5" fill="none"/>
+      </g>
+      <rect id="Rectangle_64" data-name="Rectangle 64" width="250" height="24" rx="2" transform="translate(468 351)" fill="#0d6efd"/>
+      <line id="Line_3" data-name="Line 3" x2="29.595" transform="translate(578.338 362.876)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

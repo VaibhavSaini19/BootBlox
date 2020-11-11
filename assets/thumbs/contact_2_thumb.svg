@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="458" viewBox="0 0 826 458">
+  <defs>
+    <filter id="Rectangle_83" x="58" y="52" width="371" height="356" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Contact_-_2">
+      <rect width="826" height="458"/>
+    </clipPath>
+  </defs>
+  <g id="Contact_-_2" data-name="Contact - 2" clip-path="url(#clip-Contact_-_2)">
+    <rect width="826" height="458" fill="#fff"/>
+    <rect id="Rectangle_52" data-name="Rectangle 52" width="827" height="459" fill="#fff"/>
+    <g id="Group_21" data-name="Group 21">
+      <g id="Group_19" data-name="Group 19" transform="translate(17.249)">
+        <g transform="matrix(1, 0, 0, 1, -17.25, 0)" filter="url(#Rectangle_83)">
+          <g id="Rectangle_83-2" data-name="Rectangle 83" transform="translate(72 66)" fill="#fff" stroke="#ccc" stroke-width="1">
+            <rect width="341" height="326" stroke="none"/>
+            <rect x="0.5" y="0.5" width="340" height="325" fill="none"/>
+          </g>
+        </g>
+        <line id="Line_35" data-name="Line 35" x2="58" transform="translate(196.376 97.5)" fill="none" stroke="#0d6efd" stroke-linecap="round" stroke-width="5"/>
+        <line id="Line_36" data-name="Line 36" x2="134" transform="translate(158.376 122.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_78" data-name="Line 78" x2="30.024" transform="translate(71.5 146.5)" fill="none" stroke="#707070" stroke-width="3"/>
+        <g id="Rectangle_80" data-name="Rectangle 80" transform="translate(71.751 159)" fill="#fff" stroke="#ccc" stroke-width="1">
+          <rect width="307" height="24" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="306" height="23" rx="1.5" fill="none"/>
+        </g>
+        <line id="Line_83" data-name="Line 83" x2="30.024" transform="translate(72.358 201.4)" fill="none" stroke="#707070" stroke-width="3"/>
+        <g id="Rectangle_84" data-name="Rectangle 84" transform="translate(72.751 214)" fill="#fff" stroke="#ccc" stroke-width="1">
+          <rect width="306" height="24" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="305" height="23" rx="1.5" fill="none"/>
+        </g>
+        <line id="Line_84" data-name="Line 84" x2="47" transform="translate(73.5 256.874)" fill="none" stroke="#707070" stroke-width="3"/>
+        <g id="Rectangle_85" data-name="Rectangle 85" transform="translate(73.751 269)" fill="#fff" stroke="#ccc" stroke-width="1">
+          <rect width="305" height="72" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="304" height="71" rx="1.5" fill="none"/>
+        </g>
+        <rect id="Rectangle_64" data-name="Rectangle 64" width="306" height="24" rx="2" transform="translate(72.751 351)" fill="#0d6efd"/>
+        <line id="Line_3" data-name="Line 3" x2="29.595" transform="translate(211.352 362.876)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      </g>
+      <g id="Group_18" data-name="Group 18" transform="translate(-23 -9)">
+        <g id="Rectangle_79" data-name="Rectangle 79" transform="translate(518 116)" fill="#efefef" stroke="#fff" stroke-width="1">
+          <rect width="209" height="226" rx="10" stroke="none"/>
+          <rect x="0.5" y="0.5" width="208" height="225" rx="9.5" fill="none"/>
+        </g>
+        <path id="Path_1" data-name="Path 1" d="M989.3,359.941l13.271-34.825a5.8,5.8,0,0,1,10.744-.24l8.67,20.007a5.8,5.8,0,0,0,8.93,2.234l15.232-12.1a5.8,5.8,0,0,1,8.383,1.24l15.525,22.474a5.8,5.8,0,0,1-4.775,9.1H994.718a5.8,5.8,0,0,1-5.422-7.889Z" transform="translate(-407 -110.8)"/>
+        <circle id="Ellipse_11" data-name="Ellipse 11" cx="10" cy="10" r="10" transform="translate(644 198)"/>
+      </g>
+    </g>
+  </g>
+</svg>
