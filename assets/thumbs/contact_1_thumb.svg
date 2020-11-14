@@ -1,11 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="826" height="458" viewBox="0 0 826 458">
-  <defs>
-    <clipPath id="clip-Contact_-_1">
-      <rect width="826" height="458"/>
-    </clipPath>
-  </defs>
-  <g id="Contact_-_1" data-name="Contact - 1" clip-path="url(#clip-Contact_-_1)">
-    <rect width="826" height="458" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="827" height="463.6" viewBox="0 0 827 463.6">
+  <g id="Group_23" data-name="Group 23" transform="translate(0 2.3)">
     <g id="Group_20" data-name="Group 20">
       <rect id="Rectangle_52" data-name="Rectangle 52" width="827" height="459" fill="#efefef"/>
       <line id="Line_85" data-name="Line 85" y1="240" x2="240" transform="translate(74.5 219.5)" fill="none" stroke="#f8f8f8" stroke-width="4"/>
@@ -31,6 +25,11 @@
       </g>
       <rect id="Rectangle_64" data-name="Rectangle 64" width="250" height="24" rx="2" transform="translate(468 351)" fill="#0d6efd"/>
       <line id="Line_3" data-name="Line 3" x2="29.595" transform="translate(578.338 362.876)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <g id="Group_22" data-name="Group 22" transform="translate(48 15)">
+      <path id="Polygon_6" data-name="Polygon 6" d="M30.5,0,61,49H0Z" transform="translate(172 298) rotate(180)" fill="#ccc"/>
+      <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="35.5" cy="37.5" rx="35.5" ry="37.5" transform="translate(106 192)" fill="#ccc"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="15.5" cy="15.5" r="15.5" transform="translate(126 212)" fill="#fff"/>
     </g>
   </g>
 </svg>
