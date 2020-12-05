@@ -6,6 +6,7 @@
     <img src="https://img.shields.io/github/forks/VaibhavSaini19/BootBlox?logo=appveyor">
     <img src="https://img.shields.io/github/stars/VaibhavSaini19/BootBlox?logo=appveyor&color=teal">
     <img src="https://img.shields.io/github/license/VaibhavSaini19/BootBlox?logo=appveyor">
+    <img src="https://img.shields.io/github/contributors/VaibhavSaini19/BootBlox?logo=appveyor&color=pink">
 </p>
 
 <p align="center">
