@@ -18,7 +18,6 @@
   <a href="#"><img src="https://badges.pufler.dev/visits/VaibhavSaini19/BootBlox"></a>
 </p>
 
-
 <p align="center">Head over to https://vaibhavsaini19.github.io/BootBlox/ now.</p>
 
 ## Features
